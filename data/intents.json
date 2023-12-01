@@ -1,0 +1,809 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "questions": [
+              "Hello",
+              "Hi",
+              "Good morning",
+              "Greetings"
+          ],
+          "answers": [
+              "Hello! Welcome to [Your Restaurant Name]. How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "menu",
+          "questions": [
+              "What's on the menu?",
+              "Can you show me the menu?",
+              "Tell me about your dishes"
+          ],
+          "answers": [
+              "Sure! Our menu features a variety of delicious dishes, including starters, mains, and desserts. What type of cuisine are you interested in?"
+          ]
+      },
+      {
+          "tag": "reservation",
+          "questions": [
+              "How can I make a reservation?",
+              "Do you take reservations?",
+              "Book a table"
+          ],
+          "answers": [
+              "Certainly! You can make a reservation by calling us at [Your Phone Number] or using our online reservation system on our website."
+          ]
+      },
+      {
+          "tag": "hours",
+          "questions": [
+              "What are your opening hours?",
+              "When do you open?",
+              "Closing time"
+          ],
+          "answers": [
+              "We are open from [Opening Time] to [Closing Time] every day. Come visit us during our business hours!"
+          ]
+      },
+      {
+          "tag": "greeting",
+          "questions": [
+              "Hello",
+              "Hi",
+              "Good morning",
+              "Greetings"
+          ],
+          "answers": [
+              "Hello! Welcome to [Your Restaurant Name]. How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "menu",
+          "questions": [
+              "What's on the menu?",
+              "Can you show me the menu?",
+              "Tell me about your dishes"
+          ],
+          "answers": [
+              "Sure! Our menu features a variety of delicious dishes, including starters, mains, and desserts. What type of cuisine are you interested in?"
+          ]
+      },
+      {
+          "tag": "reservation",
+          "questions": [
+              "How can I make a reservation?",
+              "Do you take reservations?",
+              "Book a table"
+          ],
+          "answers": [
+              "Certainly! You can make a reservation by calling us at [Your Phone Number] or using our online reservation system on our website."
+          ]
+      },
+      {
+          "tag": "hours",
+          "questions": [
+              "What are your opening hours?",
+              "When do you open?",
+              "Closing time"
+          ],
+          "answers": [
+              "We are open from [Opening Time] to [Closing Time] every day. Come visit us during our business hours!"
+          ]
+      },
+      {
+          "tag": "specials",
+          "questions": [
+              "Do you have any specials?",
+              "Tell me about your daily specials",
+              "Special offers"
+          ],
+          "answers": [
+              "Yes, we have daily specials that change regularly. Check our specials board when you visit, or ask me for the current specials!"
+          ]
+      },
+      {
+          "tag": "payment",
+          "questions": [
+              "What forms of payment do you accept?",
+              "Can I pay with a credit card?",
+              "Payment options"
+          ],
+          "answers": [
+              "We accept cash, credit cards (Visa, MasterCard, American Express), and mobile payments. Choose the option that's most convenient for you!"
+          ]
+      },
+      {
+          "tag": "location",
+          "questions": [
+              "Where are you located?",
+              "Give me directions to your restaurant",
+              "Address"
+          ],
+          "answers": [
+              "Our restaurant is located at [Your Address]. If you need directions, feel free to use a map app or let me know your starting point, and I can guide you."
+          ]
+      },
+      {
+          "tag": "vegetarian",
+          "questions": [
+              "Do you have vegetarian options?",
+              "Vegetarian dishes",
+              "Meatless options"
+          ],
+          "answers": [
+              "Absolutely! We have a variety of delicious vegetarian options on our menu. Whether you're a vegetarian or just in the mood for something plant-based, we've got you covered."
+          ]
+      },
+      {
+          "tag": "gluten-free",
+          "questions": [
+              "Are there gluten-free options?",
+              "Gluten-free dishes",
+              "Celiac-friendly menu"
+          ],
+          "answers": [
+              "Yes, we offer gluten-free options to accommodate our guests with dietary restrictions. Please let your server know about any specific dietary needs when you order."
+          ]
+      },
+      {
+          "tag": "kids-menu",
+          "questions": [
+              "Is there a kids' menu?",
+              "Children's meals",
+              "Kid-friendly options"
+          ],
+          "answers": [
+              "Certainly! We have a special kids' menu with tasty and kid-friendly options. Check it out, and make sure to ask about any special activities we have for young diners."
+          ]
+      },
+      {
+          "tag": "events",
+          "questions": [
+              "Do you host events?",
+              "Upcoming events",
+              "Special occasions"
+          ],
+          "answers": [
+              "Yes, we host events and special occasions. Keep an eye on our website or social media pages for updates on upcoming events, live music nights, and other special gatherings."
+          ]
+      },
+      {
+          "tag": "reviews",
+          "questions": [
+              "What do customers say about you?",
+              "Customer reviews",
+              "Testimonials"
+          ],
+          "answers": [
+              "Our customers love our food and service! Check out the reviews on our website or popular review platforms like Yelp to hear what people are saying about their experiences at [Your Restaurant Name]."
+          ]
+      },
+      {
+          "tag": "takeout",
+          "questions": [
+              "Do you offer takeout?",
+              "Takeout options",
+              "Order to go"
+          ],
+          "answers": [
+              "Absolutely! You can place a takeout order by calling us at [Your Phone Number] or using our online ordering system on our website. Enjoy our delicious dishes from the comfort of your home."
+          ]
+      },
+      {
+          "tag": "wifi",
+          "questions": [
+              "Is there free Wi-Fi?",
+              "Wi-Fi availability",
+              "Internet access"
+          ],
+          "answers": [
+              "Yes, we offer free Wi-Fi for our guests. Feel free to ask your server for the password, and enjoy staying connected while you dine."
+          ]
+      },
+      {
+          "tag": "chef-specials",
+          "questions": [
+              "What are the chef's specials?",
+              "Recommendations from the chef",
+              "Signature dishes"
+          ],
+          "answers": [
+              "Our chef's specials showcase the culinary expertise of our chefs. These dishes often feature seasonal ingredients and unique flavors. Ask your server about the current chef's specials."
+          ]
+      },
+      {
+          "tag": "happy-hour",
+          "questions": [
+              "Do you have a happy hour?",
+              "Happy hour specials",
+              "Drink discounts"
+          ],
+          "answers": [
+              "Yes, we have a happy hour! Join us during specific hours to enjoy discounted prices on select drinks and appetizers. It's a great way to unwind and socialize."
+          ]
+      },
+      {
+          "tag": "allergies",
+          "questions": [
+              "How do you handle food allergies?",
+              "Allergen information",
+              "Safe for allergies"
+          ],
+          "answers": [
+              "The safety of our guests is a top priority. Please inform your server about any food allergies, and they will provide you with information on allergens present in our dishes."
+          ]
+      },
+      {
+          "tag": "loyalty-program",
+          "questions": [
+              "Do you have a loyalty program?",
+              "Rewards for frequent customers",
+              "Membership benefits"
+          ],
+          "answers": [
+              "Yes, we have a loyalty program! Joining is free, and members enjoy exclusive benefits, such as discounts, special offers, and priority reservations. Ask your server about joining."
+          ]
+      },
+      {
+          "tag": "private-events",
+          "questions": [
+              "Can I book for private events?",
+              "Private dining options",
+              "Event space"
+          ],
+          "answers": [
+              "Absolutely! We offer private dining options for special events, celebrations, and gatherings. Contact our events team for more information and to discuss how we can make your event memorable."
+          ]
+      },
+      {
+          "tag": "wine-list",
+          "questions": [
+              "Tell me about your wine selection",
+              "Wine list",
+              "Recommended wine pairings"
+          ],
+          "answers": [
+              "We have a curated wine list featuring a variety of reds, whites, and sparkling wines. Our staff can recommend the perfect wine pairing to complement your meal."
+          ]
+      },
+      {
+          "tag": "desserts",
+          "questions": [
+              "What desserts do you offer?",
+              "Sweet treats",
+              "Dessert menu"
+          ],
+          "answers": [
+              "Save room for dessert! Our menu includes a tempting array of sweet treats, from decadent cakes to refreshing sorbets. Check out our dessert menu for a delightful finish to your meal."
+          ]
+      },
+      {
+          "tag": "catering",
+          "questions": [
+              "Do you provide catering services?",
+              "Catering for events",
+              "Event catering"
+          ],
+          "answers": [
+              "Yes, we offer catering services for a variety of events, from weddings to corporate functions. Contact our catering team to discuss menu options and customize a catering package for your event."
+          ]
+      },
+      {
+          "tag": "music",
+          "questions": [
+              "Is there live music?",
+              "Live entertainment",
+              "Musical performances"
+          ],
+          "answers": [
+              "We occasionally have live music performances to enhance your dining experience. Check our events calendar or ask your server about upcoming musical events."
+          ]
+      },
+      {
+          "tag": "sustainability",
+          "questions": [
+              "Are you environmentally friendly?",
+              "Sustainable practices",
+              "Green initiatives"
+          ],
+          "answers": [
+              "We are committed to sustainability! We source local, organic ingredients whenever possible, and our restaurant is equipped with eco-friendly practices to minimize our environmental impact."
+          ]
+      },
+      {
+          "tag": "vegan",
+          "questions": [
+              "Do you have vegan options?",
+              "Vegan dishes",
+              "Plant-based menu"
+          ],
+          "answers": [
+              "Absolutely! Our menu includes a variety of delicious vegan options, from appetizers to main courses. We believe in providing diverse and satisfying choices for all our guests."
+          ]
+      },
+      {
+          "tag": "chef-profile",
+          "questions": [
+              "Tell me about the head chef",
+              "Chef's background",
+              "Meet the chef"
+          ],
+          "answers": [
+              "Our head chef brings years of culinary expertise to our kitchen. Trained in [Chef's Background], they are passionate about creating unique and flavorful dishes that showcase the best of local and international cuisine."
+          ]
+      },
+      {
+          "tag": "wifi-password",
+          "questions": [
+              "What's the Wi-Fi password?",
+              "Wi-Fi access code",
+              "Password for internet"
+          ],
+          "answers": [
+              "Our Wi-Fi password is [YourWiFiPassword]. Feel free to connect and enjoy internet access while you dine with us."
+          ]
+      },
+      {
+          "tag": "community",
+          "questions": [
+              "Are you involved in the community?",
+              "Community engagement",
+              "Local partnerships"
+          ],
+          "answers": [
+              "Yes, we are actively involved in the community. We collaborate with local businesses and participate in community events to contribute to the vibrant local culture."
+          ]
+      },
+      {
+          "tag": "loyalty-rewards",
+          "questions": [
+              "How do I earn loyalty rewards?",
+              "Earning points",
+              "Loyalty program details"
+          ],
+          "answers": [
+              "You can earn loyalty points with every visit. Simply provide your membership details when you dine with us, and you'll accumulate points that can be redeemed for discounts, freebies, and special offers."
+          ]
+      },
+      {
+          "tag": "dietary-requirements",
+          "questions": [
+              "How do you accommodate dietary requirements?",
+              "Special dietary needs",
+              "Allergies and preferences"
+          ],
+          "answers": [
+              "We take dietary requirements seriously. Inform your server about any allergies or preferences, and our chefs will do their best to customize your meal to meet your specific needs."
+          ]
+      },
+      {
+          "tag": "gift-cards",
+          "questions": [
+              "Do you offer gift cards?",
+              "Gift vouchers",
+              "Present cards"
+          ],
+          "answers": [
+              "Yes, we have gift cards available for purchase. Treat your loved ones to a dining experience at [Your Restaurant Name]. Gift cards can be bought at the restaurant or online on our website."
+          ]
+      },
+      {
+          "tag": "dress-code",
+          "questions": [
+              "Is there a dress code?",
+              "What should I wear?",
+              "Dress attire"
+          ],
+          "answers": [
+              "While we don't have a strict dress code, we recommend smart casual attire for a comfortable dining experience. Feel free to dress up for a special occasion or keep it casual for a relaxed meal."
+          ]
+      },
+      {
+          "tag": "wifi-support",
+          "questions": [
+              "I'm having trouble with the Wi-Fi",
+              "Wi-Fi connection issues",
+              "Technical support"
+          ],
+          "answers": [
+              "I apologize for the inconvenience. Please ask your server for assistance, and they'll be happy to help you with any Wi-Fi connection issues you're experiencing."
+          ]
+      },
+      {
+          "tag": "loyalty-redemption",
+          "questions": [
+              "How can I redeem my loyalty points?",
+              "Using loyalty rewards",
+              "Redeem points"
+          ],
+          "answers": [
+              "To redeem your loyalty points, simply let your server know that you'd like to use your rewards when placing your order. They will adjust the total amount accordingly."
+          ]
+      },
+      {
+          "tag": "seasonal-offers",
+          "questions": [
+              "Are there any seasonal offers?",
+              "Seasonal promotions",
+              "Limited-time specials"
+          ],
+          "answers": [
+              "Yes, we regularly introduce seasonal offers and promotions. Keep an eye on our website or subscribe to our newsletter to stay informed about the latest discounts and special dishes available during specific seasons."
+          ]
+      },
+      {
+          "tag": "pet-friendly",
+          "questions": [
+              "Is your restaurant pet-friendly?",
+              "Bringing pets",
+              "Dining with pets"
+          ],
+          "answers": [
+              "We love furry friends! Our outdoor seating area is pet-friendly, so feel free to bring your well-behaved pets. We even have a special menu for them!"
+          ]
+      },
+      {
+          "tag": "ordering-app",
+          "questions": [
+              "Do you have a mobile ordering app?",
+              "Ordering from my phone",
+              "Mobile app availability"
+          ],
+          "answers": [
+              "Yes, we have a convenient mobile ordering app. You can download it from the App Store or Google Play to place orders, view the menu, and enjoy exclusive app-only promotions."
+          ]
+      },
+      {
+          "tag": "chef-recommendations",
+          "questions": [
+              "What does the chef recommend?",
+              "Chef's favorites",
+              "Top picks"
+          ],
+          "answers": [
+              "Our chef recommends trying the [Signature Dish] – it's a customer favorite! If you're feeling adventurous, ask about our daily specials for a unique culinary experience."
+          ]
+      },
+      {
+          "tag": "drink-pairing",
+          "questions": [
+              "Can you suggest a drink pairing?",
+              "Recommended wine pairings",
+              "Beverage suggestions"
+          ],
+          "answers": [
+              "Certainly! For [Type of Cuisine], we recommend pairing your meal with a [Wine Type] or [Craft Beer]. If you prefer non-alcoholic options, our [Signature Mocktail] is a refreshing choice."
+          ]
+      },
+      {
+          "tag": "food-sourcing",
+          "questions": [
+              "Where do you source your ingredients?",
+              "Locally-sourced food",
+              "Farm-to-table"
+          ],
+          "answers": [
+              "We take pride in sourcing fresh ingredients locally whenever possible. Our commitment to quality ensures that you enjoy the best flavors while supporting local farmers and producers."
+          ]
+      },
+      {
+          "tag": "loyalty-tiers",
+          "questions": [
+              "Tell me about your loyalty program tiers",
+              "Membership levels",
+              "Loyalty benefits"
+          ],
+          "answers": [
+              "Our loyalty program has different tiers, each offering increased benefits. As you accumulate points, you'll move up the tiers and unlock perks such as exclusive events, birthday rewards, and more."
+          ]
+      },
+      {
+          "tag": "holiday-specials",
+          "questions": [
+              "Do you have special menus for holidays?",
+              "Holiday offerings",
+              "Festive dining"
+          ],
+          "answers": [
+              "Absolutely! During holidays, we offer special menus featuring seasonal delights. It's a great time to gather with loved ones and savor unique dishes crafted for the occasion."
+          ]
+      },
+      {
+          "tag": "pre-order",
+          "questions": [
+              "Can I pre-order for a special occasion?",
+              "Ordering in advance",
+              "Pre-book meals"
+          ],
+          "answers": [
+              "Certainly! For special occasions, you can pre-order meals to ensure a seamless dining experience. Contact us in advance, and we'll customize a menu to suit your preferences."
+          ]
+      },
+      {
+          "tag": "community-events",
+          "questions": [
+              "Tell me about your involvement in community events",
+              "Community partnerships",
+              "Local engagement"
+          ],
+          "answers": [
+              "We actively participate in community events, supporting local causes and organizations. Keep an eye on our social media for updates on our community involvement and ways you can join us."
+          ]
+      },
+      {
+          "tag": "group-reservations",
+          "questions": [
+              "Can I make reservations for a large group?",
+              "Group dining",
+              "Reserving for parties"
+          ],
+          "answers": [
+              "Certainly! For large groups, we recommend making reservations in advance to ensure we can accommodate everyone comfortably. Contact our reservation team to discuss the details."
+          ]
+      },
+      {
+          "tag": "culinary-influences",
+          "questions": [
+              "What influences your culinary style?",
+              "Inspiration behind the menu",
+              "Culinary influences"
+          ],
+          "answers": [
+              "Our culinary style is influenced by [Cuisine Type] with a modern twist. We draw inspiration from [Specific Region] flavors and ingredients, creating a unique and memorable dining experience."
+          ]
+      },
+      {
+          "tag": "dietary-tips",
+          "questions": [
+              "Can you provide dietary tips?",
+              "Healthy eating recommendations",
+              "Nutritional advice"
+          ],
+          "answers": [
+              "Certainly! Our menu includes nutritious options, such as [Healthy Dish], packed with [Key Nutrient]. If you have specific dietary goals, our staff can guide you to make healthy and delicious choices."
+          ]
+      },
+      {
+          "tag": "online-reviews",
+          "questions": [
+              "How do I leave an online review?",
+              "Reviewing the restaurant online",
+              "Feedback on platforms"
+          ],
+          "answers": [
+              "We appreciate your feedback! You can leave a review on platforms like Yelp, TripAdvisor, or Google. Your reviews help us improve and provide valuable insights to other diners."
+          ]
+      },
+      {
+          "tag": "culinary-events",
+          "questions": [
+              "Do you host culinary events?",
+              "Food-themed events",
+              "Culinary experiences"
+          ],
+          "answers": [
+              "Yes, we host culinary events, including cooking classes, tasting menus, and chef's table experiences. Stay tuned for announcements on our website or social media for upcoming events."
+          ]
+      },
+      {
+          "tag": "sustainable-seafood",
+          "questions": [
+              "Is your seafood sustainably sourced?",
+              "Sustainable seafood practices",
+              "Eco-friendly seafood"
+          ],
+          "answers": [
+              "Absolutely! We prioritize sustainability in our seafood sourcing. Our commitment is to provide delicious seafood while supporting responsible fishing practices and protecting marine ecosystems."
+          ]
+      },
+      {
+          "tag": "loyalty-referrals",
+          "questions": [
+              "Do you have a referral program?",
+              "Referring friends for rewards",
+              "Earn rewards by referring"
+          ],
+          "answers": [
+              "Yes, we have a referral program! Refer friends, and when they dine with us, both you and your friend earn bonus loyalty points. It's our way of thanking you for spreading the word."
+          ]
+      },
+      {
+          "tag": "cooking-philosophy",
+          "questions": [
+              "What is your cooking philosophy?",
+              "Approach to culinary creation",
+              "Philosophy behind the dishes"
+          ],
+          "answers": [
+              "Our cooking philosophy revolves around [Key Principle], emphasizing fresh, high-quality ingredients and a dedication to creating dishes that evoke a sense of [Emotion or Experience] for our guests."
+          ]
+      },
+      {
+          "tag": "sommelier-recommendations",
+          "questions": [
+              "Can the sommelier recommend wines?",
+              "Sommelier's picks",
+              "Wine recommendations"
+          ],
+          "answers": [
+              "Absolutely! Our sommelier curates a diverse wine selection. Feel free to ask for recommendations based on your preferences or the dishes you've chosen. They'll guide you to the perfect pairing."
+          ]
+      },
+      {
+          "tag": "culinary-awards",
+          "questions": [
+              "Have you won any culinary awards?",
+              "Awards and recognitions",
+              "Culinary achievements"
+          ],
+          "answers": [
+              "Yes, we're proud recipients of [Award Name], recognizing our commitment to culinary excellence. It's an honor to be acknowledged for our dedication to providing exceptional dining experiences."
+          ]
+      },
+      {
+          "tag": "chef-special-techniques",
+          "questions": [
+              "What special techniques does your chef use?",
+              "Chef's cooking methods",
+              "Unique culinary techniques"
+          ],
+          "answers": [
+              "Our chef employs a variety of techniques, such as [Specific Technique], to create distinctive flavors and textures in our dishes. These methods contribute to the unique culinary experience at [Your Restaurant Name]."
+          ]
+      },
+      {
+          "tag": "customized-orders",
+          "questions": [
+              "Can I customize my order?",
+              "Personalized menu options",
+              "Modifying dishes"
+          ],
+          "answers": [
+              "Absolutely! We understand that everyone has unique preferences. Feel free to customize your order by requesting adjustments or substitutions. Our goal is to ensure your dining experience is tailored to your taste."
+          ]
+      },
+      {
+          "tag": "loyalty-benefits",
+          "questions": [
+              "What are the benefits of your loyalty program?",
+              "Advantages of joining loyalty",
+              "Loyalty perks"
+          ],
+          "answers": [
+              "Our loyalty program offers a range of benefits, including discounts, early access to special events, and birthday rewards. The more you dine with us, the more perks you unlock!"
+          ]
+      },
+      {
+          "tag": "signature-desserts",
+          "questions": [
+              "Tell me about your signature desserts",
+              "Must-try desserts",
+              "Desserts unique to your restaurant"
+          ],
+          "answers": [
+              "Indulge in our signature desserts like [Key Dessert]. Crafted with care, these desserts showcase the artistry of our pastry chefs and provide a sweet conclusion to your dining experience."
+          ]
+      },
+      {
+          "tag": "holiday-hours",
+          "questions": [
+              "Do you have special hours during holidays?",
+              "Holiday opening times",
+              "Operating hours on holidays"
+          ],
+          "answers": [
+              "During holidays, we may have special hours to accommodate celebrations. Check our website or contact us to confirm our operating hours during festive seasons."
+          ]
+      },
+      {
+          "tag": "charitable-initiatives",
+          "questions": [
+              "Are you involved in charitable initiatives?",
+              "Charity partnerships",
+              "Giving back to the community"
+          ],
+          "answers": [
+              "Yes, we actively participate in charitable initiatives, supporting local causes and organizations. Dining with us contributes to our ongoing efforts to give back to the community."
+          ]
+      },
+      {
+          "tag": "reservation-advice",
+          "questions": [
+              "Any advice for making a reservation?",
+              "Tips for reserving a table",
+              "Reservation recommendations"
+          ],
+          "answers": [
+              "To secure the best experience, we recommend making reservations, especially during peak hours. You can easily reserve a table through our website, mobile app, or by calling us."
+          ]
+      },
+      {
+          "tag": "culinary-events",
+          "questions": [
+              "Are there upcoming culinary events?",
+              "Food-themed gatherings",
+              "Special culinary occasions"
+          ],
+          "answers": [
+              "Stay tuned for our upcoming culinary events! We host themed nights, tastings, and exclusive dinners. Follow us on social media or check our website for announcements."
+          ]
+      },
+      {
+          "tag": "dietary-options",
+          "questions": [
+              "What are your options for specific diets?",
+              "Dietary accommodations",
+              "Specialized menu for diets"
+          ],
+          "answers": [
+              "We cater to various diets, including vegetarian, vegan, and gluten-free. Our menu is designed to provide diverse options for all guests, ensuring an inclusive dining experience."
+          ]
+      },
+      {
+          "tag": "loyalty-perks",
+          "questions": [
+              "Tell me more about loyalty program perks",
+              "Exclusive rewards for members",
+              "Additional benefits for loyal customers"
+          ],
+          "answers": [
+              "Our loyalty program offers perks such as priority reservations, members-only events, and personalized offers. Joining is free, and the rewards get better with each visit!"
+          ]
+      },
+      {
+          "tag": "dessert-pairing",
+          "questions": [
+              "Can you suggest a dessert and drink pairing?",
+              "Pairing desserts with beverages",
+              "Sweet treats with recommended drinks"
+          ],
+          "answers": [
+              "For a delightful experience, pair our [Signature Dessert] with a [Recommended Beverage]. The combination of flavors will elevate your dessert experience to new heights."
+          ]
+      },
+      {
+          "tag": "local-partnerships",
+          "questions": [
+              "Do you have partnerships with local businesses?",
+              "Collaborations with local vendors",
+              "Support for local enterprises"
+          ],
+          "answers": [
+              "Yes, we proudly collaborate with local farmers and artisans. Supporting local businesses allows us to showcase the best of our community in every dish."
+          ]
+      },
+      {
+          "tag": "digital-menu",
+          "questions": [
+              "Is there a digital version of your menu?",
+              "Accessing the menu online",
+              "Digital menu options"
+          ],
+          "answers": [
+              "Absolutely! You can view our digital menu on our website or through our mobile app. It's a convenient way to explore our offerings and make informed choices."
+          ]
+      },
+      {
+          "tag": "cooking-classes",
+          "questions": [
+              "Do you offer cooking classes?",
+              "Culinary workshops",
+              "Learn to cook at the restaurant"
+          ],
+          "answers": [
+              "Yes, we host cooking classes! Join us for hands-on experiences where our chefs share their expertise. It's a fun way to learn new culinary skills and techniques."
+          ]
+      },
+      {
+          "tag": "outdoor-seating",
+          "questions": [
+              "Do you have outdoor seating?",
+              "Al fresco dining options",
+              "Eating outdoors"
+          ],
+          "answers": [
+              "Enjoy the beautiful weather in our outdoor seating area. Whether it's a sunny day or a starry night, our outdoor space provides a delightful ambiance for your dining experience."
+          ]
+      }
+  ]
+}
