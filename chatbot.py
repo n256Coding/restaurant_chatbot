@@ -11,10 +11,10 @@ intents = json.loads(open("data/intents.json").read())
 
 words = pickle.load(open("data/words.pkl", "rb"))
 classes = pickle.load(open("data/classes.pkl", "rb"))
-model = load_model("data/chatbot_model.keras")
+model = load_model("data/chatbot_model.keras", compile=False)
 
-weights = pickle.load(open("data/weights.pkl", "rb"))
-model.set_weights(weights)
+# weights = pickle.load(open("data/weights.pkl", "rb"))
+# model.set_weights(weights)
 
 
 # Clean up the sentences
