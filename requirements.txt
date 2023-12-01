@@ -5,8 +5,6 @@ blinker==1.7.0
 cachetools==5.3.2
 certifi==2023.7.22
 charset-normalizer==3.3.2
-ChatterBot==1.0.4
-chatterbot-corpus==1.2.0
 click==8.1.7
 colorama==0.4.6
 comm==0.2.0
