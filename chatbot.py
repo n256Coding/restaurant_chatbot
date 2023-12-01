@@ -13,6 +13,9 @@ words = pickle.load(open("data/words.pkl", "rb"))
 classes = pickle.load(open("data/classes.pkl", "rb"))
 model = load_model("data/chatbot_model.keras")
 
+weights = pickle.load(open("data/weights.pkl", "rb"))
+model.set_weights(weights)
+
 
 # Clean up the sentences
 def clean_up_sentence(sentence):
