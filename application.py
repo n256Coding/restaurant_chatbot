@@ -1,6 +1,10 @@
 import streamlit as st
 import time
 import chatbot
+import training
+
+# Run the training first
+training.initialize()
 
 st.title("Restaurent Assistant")
 

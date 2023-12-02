@@ -9,9 +9,9 @@ from tensorflow.keras.models import load_model
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open("data/intents.json").read())
 
-words = pickle.load(open("data/words.pkl", "rb"))
-classes = pickle.load(open("data/classes.pkl", "rb"))
-model = load_model("data/chatbot_model.keras", compile=False)
+words = pickle.load(open("words.pkl", "rb"))
+classes = pickle.load(open("classes.pkl", "rb"))
+model = load_model("chatbot_model.keras", compile=False)
 
 # weights = pickle.load(open("data/weights.pkl", "rb"))
 # model.set_weights(weights)
