@@ -77,6 +77,8 @@ def initialize():
         np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1
     )
     model.save("chatbot_model.keras", hist)
+
+    return model, words, classes
 # print('Done')
 
 if __name__ == '__main__':

@@ -2,12 +2,14 @@ import streamlit as st
 import time
 import chatbot
 import training
-from os import path
 
 # Run the training first
-if not path.exists('chatbot_model.keras'):
-    training.initialize()
-    chatbot.load()
+@st.cache_data
+def init_training():
+    return training.initialize()
+
+model, words, classes = init_training()
+chatbt = chatbot.ChatBot(model, words, classes)
 
 st.title("Restaurent Assistant")
 
@@ -27,8 +29,8 @@ if prompt := st.chat_input("How can I help you?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    ints = chatbot.predict_class(prompt)
-    response = chatbot.get_response(ints, chatbot.intents)
+    ints = chatbt.predict_class(prompt)
+    response = chatbt.get_response(ints, chatbt.intents)
 
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
