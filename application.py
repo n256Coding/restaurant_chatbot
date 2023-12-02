@@ -5,6 +5,7 @@ import training
 
 # Run the training first
 training.initialize()
+chatbot.load()
 
 st.title("Restaurent Assistant")
 
