@@ -11,7 +11,8 @@ def init_training():
 model, words, classes = init_training()
 chatbt = chatbot.ChatBot(model, words, classes)
 
-st.title("Restaurent Assistant")
+st.title("🦞 Caribbean Seafood Restaurent")
+st.subheader('Support Assistant', divider=True)
 
 # Initialize chat history
 if "messages" not in st.session_state:
