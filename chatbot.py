@@ -50,7 +50,7 @@ class ChatBot:
         return return_list
 
 
-    def get_response(intents_list, intents_json):
+    def get_response(self, intents_list, intents_json):
         tag = intents_list[0]["intent"]
         list_of_intents = intents_json["intents"]
 
