@@ -2,10 +2,12 @@ import streamlit as st
 import time
 import chatbot
 import training
+from os import path
 
 # Run the training first
-training.initialize()
-chatbot.load()
+if not path.exists('chatbot_model.keras'):
+    training.initialize()
+    chatbot.load()
 
 st.title("Restaurent Assistant")
 
