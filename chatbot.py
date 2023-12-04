@@ -51,6 +51,10 @@ class ChatBot:
 
 
     def get_response(self, intents_list, intents_json):
+
+        if len(intents_list) == 0:
+            return "Sorry! I didn't catch that."
+
         tag = intents_list[0]["intent"]
         list_of_intents = intents_json["intents"]
 
