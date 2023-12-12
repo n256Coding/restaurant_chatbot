@@ -34,6 +34,9 @@ if prompt := st.chat_input("How can I help you?"):
     ints = chatbt.predict_class(prompt)
     response = chatbt.get_response(ints, chatbt.intents)
 
+    if response == "Sorry! I didn't catch that.":
+        print(f'FAILURE QUESTION: {prompt}')
+
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
         full_response = ""
