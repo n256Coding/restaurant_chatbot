@@ -1,0 +1,1313 @@
+{
+    "intents": [
+        {
+            "tag": "culinary-philanthropy",
+            "questions": [
+                "How does your restaurant engage in culinary philanthropy?",
+                "Philanthropic initiatives through food",
+                "Giving back through culinary endeavors"
+            ],
+            "answers": [
+                "Culinary philanthropy is at the heart of our mission. We initiate projects that use food as a vehicle for positive change, contributing to causes that address hunger, sustainability, and community well-being."
+            ]
+        },
+        {
+            "tag": "culinary-festive-traditions",
+            "questions": [
+                "How do you incorporate festive traditions into your menu?",
+                "Celebrating holidays with culinary traditions",
+                "Festive dishes and cultural heritage"
+            ],
+            "answers": [
+                "Our menu is a celebration of festive traditions. During holidays, we infuse the spirit of the season into our dishes, incorporating time-honored culinary traditions to create a festive and memorable dining experience."
+            ]
+        },
+        {
+            "tag": "culinary-storytelling",
+            "questions": [
+                "Can you share the story behind a signature dish?",
+                "Storytelling in your culinary creations",
+                "Narrative behind specific dishes"
+            ],
+            "answers": [
+                "Each dish on our menu tells a unique story. For instance, our signature dish, [Dish Name], was inspired by [Inspiration], creating a culinary journey that resonates with the flavors of [Cuisine or Region]."
+            ]
+        },
+        {
+            "tag": "culinary-technology",
+            "questions": [
+                "How do you leverage technology in the kitchen?",
+                "Innovative culinary technologies",
+                "Tech-driven culinary practices"
+            ],
+            "answers": [
+                "Embracing the future of dining, we leverage advanced culinary technologies like [Specific Technology] to enhance precision, efficiency, and creativity in our kitchen, resulting in a truly modern culinary experience."
+            ]
+        },
+        {
+            "tag": "culinary-film-recommendations",
+            "questions": [
+                "Can you recommend culinary-themed films?",
+                "Movies for food enthusiasts",
+                "Cinematic delights for food lovers"
+            ],
+            "answers": [
+                "Explore the world of gastronomy through our curated list of culinary-themed films. From documentaries to feature films, these movies offer a cinematic feast for food enthusiasts."
+            ]
+        },
+        {
+            "tag": "culinary-experimentation",
+            "questions": [
+                "How do you encourage culinary experimentation?",
+                "Innovative approaches in the kitchen",
+                "Encouraging creativity among chefs"
+            ],
+            "answers": [
+                "We foster a culture of culinary experimentation, encouraging our chefs to push boundaries and explore new flavor combinations. This commitment to innovation results in dishes that continually surprise and delight."
+            ]
+        },
+        {
+            "tag": "culinary-arts-collaboration",
+            "questions": [
+                "Have you collaborated with other culinary artists?",
+                "Partnerships with chefs and artists",
+                "Collaborative culinary creations"
+            ],
+            "answers": [
+                "Collaboration is key to our culinary journey. We've joined forces with renowned chefs and artists to create unique dining experiences, bringing together diverse talents to craft memorable and artistic dishes."
+            ]
+        },
+        {
+            "tag": "culinary-wellness",
+            "questions": [
+                "How does your menu incorporate wellness?",
+                "Wellness-focused culinary offerings",
+                "Balanced and nutritious menu items"
+            ],
+            "answers": [
+                "Prioritizing wellness, our menu features a selection of balanced and nutritious dishes, such as [Specific Dish], designed to nourish both body and soul. We believe in providing a holistic dining experience."
+            ]
+        },
+        {
+            "tag": "culinary-cultural-immersion",
+            "questions": [
+                "Do you offer culinary cultural immersion experiences?",
+                "Cultural exploration through food",
+                "Immersive culinary journeys"
+            ],
+            "answers": [
+                "Embark on a culinary cultural immersion with us. Our menu is a passport to diverse cultures, allowing you to explore the rich tapestry of global flavors without leaving your table."
+            ]
+        },
+        {
+            "tag": "culinary-gastronomy-events",
+            "questions": [
+                "Do you host culinary gastronomy events?",
+                "Gastronomic experiences and events",
+                "Celebrating gastronomy"
+            ],
+            "answers": [
+                "Celebrate the art of gastronomy with us. Throughout the year, we host culinary events that showcase the pinnacle of flavor, technique, and creativity, providing an extraordinary experience for gastronomy enthusiasts."
+            ]
+        },
+        {
+            "tag": "culinary-guest-chef-series",
+            "questions": [
+                "Do you have a guest chef series?",
+                "Collaborations with guest chefs",
+                "Special events with renowned chefs"
+            ],
+            "answers": [
+                "Absolutely! Our guest chef series brings culinary maestros from around the world to our kitchen. Join us for exclusive events where you can savor unique dishes crafted by these renowned chefs."
+            ]
+        },
+        {
+            "tag": "culinary-science",
+            "questions": [
+                "How does culinary science influence your menu?",
+                "Incorporating scientific principles in cooking",
+                "The art and science of your dishes"
+            ],
+            "answers": [
+                "Our menu is a blend of art and science. We incorporate culinary science principles, such as [Specific Technique], to create dishes that not only taste incredible but also showcase the fascinating science behind cooking."
+            ]
+        },
+        {
+            "tag": "culinary-hospitality",
+            "questions": [
+                "How do you prioritize hospitality in your restaurant?",
+                "Commitment to exceptional service",
+                "Creating a welcoming dining atmosphere"
+            ],
+            "answers": [
+                "Hospitality is at the core of our restaurant. From the moment you step through our doors, our team is dedicated to providing a warm and inviting atmosphere, ensuring your dining experience is memorable."
+            ]
+        },
+        {
+            "tag": "culinary-dessert-innovations",
+            "questions": [
+                "Tell me about your innovative dessert creations",
+                "Cutting-edge desserts on your menu",
+                "Sweet treats with a modern twist"
+            ],
+            "answers": [
+                "Indulge in our innovative dessert creations that push the boundaries of sweet delights. From [Signature Dessert 1] to [Signature Dessert 2], our pastry chefs continuously innovate to bring you unique and delightful sweets."
+            ]
+        },
+        {
+            "tag": "culinary-wine-pairing",
+            "questions": [
+                "Can you recommend wine pairings for specific dishes?",
+                "Expert wine pairings with your menu",
+                "Enhancing flavors with curated wine selections"
+            ],
+            "answers": [
+                "Elevate your dining experience with expertly curated wine pairings. Our sommelier recommends wines that complement the flavors of dishes like [Specific Dish], enhancing the overall enjoyment of your meal."
+            ]
+        },
+        {
+            "tag": "culinary-sensory-experience",
+            "questions": [
+                "How do you create a sensory dining experience?",
+                "Engaging all senses in your dishes",
+                "Immersive culinary sensations"
+            ],
+            "answers": [
+                "We believe in providing a complete sensory dining experience. From the visual presentation of each dish to the enticing aromas and exquisite flavors, every element is crafted to engage and delight all your senses."
+            ]
+        },
+        {
+            "tag": "culinary-ingredient-sourcing",
+            "questions": [
+                "Where do you source your ingredients?",
+                "Sustainable and local ingredient practices",
+                "Ensuring quality in ingredient selection"
+            ],
+            "answers": [
+                "We prioritize quality and sustainability in our ingredient sourcing. Many of our ingredients come from local farmers and artisans, ensuring freshness and supporting the community."
+            ]
+        },
+        {
+            "tag": "culinary-cultural-harmony",
+            "questions": [
+                "How do you achieve cultural harmony in your menu?",
+                "Balancing diverse culinary influences",
+                "Harmonizing global flavors"
+            ],
+            "answers": [
+                "Our menu is a celebration of cultural harmony. By carefully balancing diverse culinary influences, we create a harmonious dining experience that allows you to savor the best of global flavors in each bite."
+            ]
+        },
+        {
+            "tag": "southampton-local-partnerships",
+            "questions": [
+                "Do you have partnerships with local Southampton businesses?",
+                "Collaborations with Southampton vendors",
+                "Support for local enterprises in Southampton"
+            ],
+            "answers": [
+                "Absolutely! We proudly collaborate with local businesses in Southampton. From sourcing fresh produce to featuring local artisans, our commitment is to support and showcase the best of the Southampton community."
+            ]
+        },
+        {
+            "tag": "southampton-seafood-specialties",
+            "questions": [
+                "Tell me about your Southampton seafood specialties",
+                "Local seafood dishes in Southampton",
+                "Signature seafood items with a Southampton touch"
+            ],
+            "answers": [
+                "Indulge in our Southampton seafood specialties, featuring the finest catches from the local waters. Our menu highlights dishes like [Signature Seafood Dish], providing a taste of the coastal flavors unique to Southampton."
+            ]
+        },
+        {
+            "tag": "southampton-historic-location",
+            "questions": [
+                "Is your restaurant located in a historic area of Southampton?",
+                "History of your restaurant's location",
+                "Historical significance of your Southampton venue"
+            ],
+            "answers": [
+                "Yes, our restaurant is nestled in a historic area of Southampton, adding to the charm of your dining experience. The venue has [Specific Historical Details], creating a unique atmosphere that blends history with modern culinary delights."
+            ]
+        },
+        {
+            "tag": "southampton-local-events",
+            "questions": [
+                "Are you involved in local Southampton events?",
+                "Participation in Southampton community events",
+                "Engagement with Southampton festivals"
+            ],
+            "answers": [
+                "We actively participate in local Southampton events and community festivals. Look out for our presence in [Specific Southampton Events], where we bring our culinary expertise to the heart of Southampton's vibrant community."
+            ]
+        },
+        {
+            "tag": "southampton-parkside-dining",
+            "questions": [
+                "Do you offer parkside dining in Southampton?",
+                "Al fresco dining with a view in Southampton",
+                "Outdoor seating with Southampton park views"
+            ],
+            "answers": [
+                "Experience the beauty of Southampton with our parkside dining option. Our outdoor seating area provides a picturesque view of [Specific Southampton Park], creating a delightful ambiance for your dining experience."
+            ]
+        },
+        {
+            "tag": "southampton-cocktail-scene",
+            "questions": [
+                "Tell me about Southampton's cocktail scene at your restaurant",
+                "Crafted cocktails inspired by Southampton",
+                "Signature drinks capturing Southampton's spirit"
+            ],
+            "answers": [
+                "Immerse yourself in Southampton's cocktail scene with our crafted drinks. Try our signature cocktail, [Signature Southampton Sip], designed to capture the essence of Southampton's vibrant and lively atmosphere."
+            ]
+        },
+        {
+            "tag": "southampton-culinary-history",
+            "questions": [
+                "Share some Southampton culinary history in your menu",
+                "Incorporating Southampton's culinary heritage",
+                "Historical dishes with Southampton roots"
+            ],
+            "answers": [
+                "Our menu is a tribute to Southampton's culinary history. Explore dishes inspired by [Specific Historical Southampton Cuisine], offering a taste of the rich culinary heritage that defines Southampton's gastronomic identity."
+            ]
+        },
+        {
+            "tag": "southampton-local-wine-pairing",
+            "questions": [
+                "Can you recommend local wine pairings in Southampton?",
+                "Wine selections showcasing Southampton vineyards",
+                "Enhancing Southampton flavors with local wines"
+            ],
+            "answers": [
+                "Enhance your Southampton dining experience with local wine pairings. Our curated selection includes wines from nearby Southampton vineyards, perfectly complementing the flavors of our dishes."
+            ]
+        },
+        {
+            "tag": "southampton-live-music-nights",
+            "questions": [
+                "Do you host live music nights in Southampton?",
+                "Live music events at your Southampton restaurant",
+                "Entertainment and dining in Southampton"
+            ],
+            "answers": [
+                "Join us for lively evenings with our live music nights in Southampton. The sounds of local musicians fill the air, creating a vibrant atmosphere that enhances your dining experience."
+            ]
+        },
+        {
+            "tag": "southampton-seasonal-menu",
+            "questions": [
+                "How does your menu change with the seasons in Southampton?",
+                "Seasonal culinary delights in Southampton",
+                "Fresh and seasonal dishes inspired by Southampton's seasons"
+            ],
+            "answers": [
+                "Our menu evolves with the seasons in Southampton, showcasing the freshest ingredients each time. From spring's bounty to winter warmers, our culinary team crafts dishes that capture the essence of Southampton's changing seasons."
+            ]
+        },
+        {
+            "tag": "southampton-vegan-options",
+            "questions": [
+                "Tell me about your vegan options in Southampton",
+                "Plant-based offerings in your Southampton menu",
+                "Vegan-friendly dining in Southampton"
+            ],
+            "answers": [
+                "Explore our vegan options in Southampton, where we cater to plant-based enthusiasts. Dishes like [Signature Vegan Dish] offer a delightful combination of flavors that showcase the best of vegan dining."
+            ]
+        },
+        {
+            "tag": "southampton-coastal-inspired-cuisine",
+            "questions": [
+                "Is your cuisine inspired by Southampton's coastal location?",
+                "Coastal influences in your Southampton dishes",
+                "Sea-inspired flavors in your Southampton menu"
+            ],
+            "answers": [
+                "Absolutely! Our cuisine is inspired by Southampton's coastal location. Enjoy dishes that highlight the bounty of the sea, such as [Signature Sea-Inspired Dish], for a taste of Southampton's maritime flavors."
+            ]
+        },
+        {
+            "tag": "southampton-private-events",
+            "questions": [
+                "Do you host private events in Southampton?",
+                "Private dining and events at your Southampton venue",
+                "Celebrations and gatherings in Southampton"
+            ],
+            "answers": [
+                "Celebrate special moments with us in Southampton! Our venue is available for private events, providing an intimate setting for gatherings, celebrations, and memorable occasions."
+            ]
+        },
+        {
+            "tag": "southampton-chef-specials",
+            "questions": [
+                "Tell me about your chef's specials in Southampton",
+                "Creative and unique dishes from your Southampton chef",
+                "Limited-time offerings in Southampton"
+            ],
+            "answers": [
+                "Indulge in our chef's specials, where culinary creativity takes center stage. These limited-time offerings, like [Chef's Special Dish], showcase the talent and innovation of our chefs in Southampton."
+            ]
+        },
+        {
+            "tag": "southampton-heritage-cocktails",
+            "questions": [
+                "Share some heritage cocktails inspired by Southampton",
+                "Cocktails with a Southampton twist",
+                "Signature drinks reflecting Southampton's heritage"
+            ],
+            "answers": [
+                "Quench your thirst with our heritage cocktails, each inspired by the rich history of Southampton. Sip on [Signature Heritage Cocktail] and experience the unique flavors that pay homage to Southampton's heritage."
+            ]
+        },
+        {
+            "tag": "southampton-loyalty-program",
+            "questions": [
+                "Do you have a loyalty program for Southampton patrons?",
+                "Rewards and benefits for regulars in Southampton",
+                "Loyalty perks for diners in Southampton"
+            ],
+            "answers": [
+                "Join our loyalty program designed exclusively for our Southampton patrons. Earn rewards and enjoy exclusive benefits as a token of appreciation for choosing us as your go-to dining destination in Southampton."
+            ]
+        },
+        {
+            "tag": "no-pets-policy",
+            "questions": [
+                "Are pets allowed in the restaurant?",
+                "Pet-friendly policy",
+                "Can I bring my pet to dine with me?"
+            ],
+            "answers": [
+                "As a policy, we do not allow pets in the restaurant. We strive to maintain a comfortable dining environment for all guests, and we appreciate your understanding and cooperation."
+            ]
+        },
+        {
+            "tag": "service-animals-welcome",
+            "questions": [
+                "Are service animals allowed in the restaurant?",
+                "Policy on service animals",
+                "Can I bring my service animal with me?"
+            ],
+            "answers": [
+                "Service animals are always welcome in our restaurant. We recognize and accommodate the important role service animals play in providing assistance to individuals with disabilities."
+            ]
+        },
+        {
+            "tag": "pet-friendly-patio",
+            "questions": [
+                "Do you have a pet-friendly patio or outdoor seating?",
+                "Outdoor dining for guests with pets",
+                "Can I bring my pet if we sit outside?"
+            ],
+            "answers": [
+                "While pets are not allowed inside the restaurant, we do offer a pet-friendly patio for guests who wish to dine with their furry friends. Enjoy the fresh air and a meal together in our outdoor seating area."
+            ]
+        },
+        {
+            "tag": "pet-etiquette",
+            "questions": [
+                "Why don't you allow pets in the restaurant?",
+                "Pet etiquette policy",
+                "What is the reasoning behind the no-pets policy?"
+            ],
+            "answers": [
+                "Our no-pets policy is in place to ensure the comfort and safety of all guests. While we love animals, we want to create an atmosphere that caters to a wide range of preferences and needs."
+            ]
+        },
+        {
+            "tag": "alternative-dining-options",
+            "questions": [
+                "Are there alternative dining options for guests with pets?",
+                "Pet-friendly alternatives nearby",
+                "Where can I dine with my pet in the vicinity?"
+            ],
+            "answers": [
+                "If you're dining with a pet, we recommend exploring nearby pet-friendly establishments or parks. While we can't accommodate pets inside, there are plenty of options in the area where you can enjoy a meal with your furry companion."
+            ]
+        },
+        {
+            "tag": "health-and-safety",
+            "questions": [
+                "Is the no-pets policy related to health and safety?",
+                "Health and safety considerations for guests",
+                "How does the no-pets policy contribute to a safe dining environment?"
+            ],
+            "answers": [
+                "Yes, our no-pets policy is part of our commitment to maintaining a safe and hygienic dining environment. It helps prevent potential allergies, ensures cleanliness, and minimizes disturbances for all our valued guests."
+            ]
+        },
+        {
+            "tag": "local-pet-friendly-policies",
+            "questions": [
+                "Are there local pet-friendly policies you follow?",
+                "Community guidelines on pets in restaurants",
+                "How does your policy align with local regulations regarding pets?"
+            ],
+            "answers": [
+                "Our pet policy aligns with local regulations and community guidelines. While we love our furry friends, adhering to these policies helps us create a dining experience that is enjoyable and accommodating for everyone."
+            ]
+        },
+        {
+            "tag": "pet-friendly-neighbors",
+            "questions": [
+                "Are there nearby pet-friendly establishments?",
+                "Pet-friendly places in the neighborhood",
+                "Where can I go with my pet in the vicinity?"
+            ],
+            "answers": [
+                "For guests with pets, there are pet-friendly establishments nearby where you can enjoy a meal or a drink with your furry friend. Feel free to explore the neighborhood for options that cater to both you and your pet."
+            ]
+        },
+        {
+            "tag": "bring-own-drinks-policy",
+            "questions": [
+                "Can customers bring their own drinks to the restaurant?",
+                "Policy on bringing outside beverages",
+                "Are outside drinks allowed in the restaurant?"
+            ],
+            "answers": [
+                "As a policy, we do not allow customers to bring their own drinks to the restaurant. We have a curated selection of beverages available to complement your dining experience, and we appreciate your understanding."
+            ]
+        },
+        {
+            "tag": "corkage-fee-information",
+            "questions": [
+                "Is there a corkage fee if customers bring their own wine?",
+                "Policy on corkage fees",
+                "Do you charge a fee for bringing outside wine?"
+            ],
+            "answers": [
+                "Yes, we do have a corkage fee for customers who choose to bring their own wine. This fee helps cover the cost of providing glassware, service, and ensures an enjoyable experience for all patrons."
+            ]
+        },
+        {
+            "tag": "exceptional-circumstances",
+            "questions": [
+                "Are there exceptional circumstances where bringing own drinks is allowed?",
+                "Special considerations for bringing outside beverages",
+                "Under what conditions can customers bring their own drinks?"
+            ],
+            "answers": [
+                "In exceptional circumstances, we may consider allowing customers to bring their own drinks. Please contact us in advance to discuss your specific situation, and we'll do our best to accommodate your needs."
+            ]
+        },
+        {
+            "tag": "house-specialty-beverages",
+            "questions": [
+                "Tell me about your house specialty beverages",
+                "Unique drinks on your menu",
+                "What are your recommended beverages to try from your menu?"
+            ],
+            "answers": [
+                "We take pride in offering a diverse and unique selection of house specialty beverages. Our menu features carefully crafted drinks, such as [Specific Specialty Beverage], designed to enhance your dining experience."
+            ]
+        },
+        {
+            "tag": "non-alcoholic-options",
+            "questions": [
+                "Do you have non-alcoholic options on your menu?",
+                "Non-alcoholic beverages available",
+                "What non-alcoholic drinks do you offer?"
+            ],
+            "answers": [
+                "Absolutely! Our menu includes a variety of refreshing non-alcoholic options. From [Specific Non-Alcoholic Drink 1] to [Specific Non-Alcoholic Drink 2], we have something for every palate."
+            ]
+        },
+        {
+            "tag": "beverage-pairing-suggestions",
+            "questions": [
+                "Can you suggest beverage pairings for specific dishes?",
+                "Recommended drink pairings with your menu",
+                "Enhancing the dining experience with curated beverages"
+            ],
+            "answers": [
+                "Certainly! Our team is happy to suggest beverage pairings that complement the flavors of our dishes. For example, [Specific Dish] pairs exceptionally well with [Recommended Beverage], creating a delightful harmony of flavors."
+            ]
+        },
+        {
+            "tag": "custom-beverage-packages",
+            "questions": [
+                "Do you offer custom beverage packages for events?",
+                "Bespoke drink options for special occasions",
+                "Creating personalized drink packages"
+            ],
+            "answers": [
+                "Yes, we offer custom beverage packages for events and special occasions. Whether it's a celebration or a corporate gathering, we can tailor a beverage package to suit your preferences and ensure a memorable experience."
+            ]
+        },
+        {
+            "tag": "responsibility-consumption",
+            "questions": [
+                "What measures do you take to promote responsible alcohol consumption?",
+                "Responsible drinking policies",
+                "Ensuring a safe and enjoyable environment for patrons"
+            ],
+            "answers": [
+                "We take responsible alcohol consumption seriously. Our staff is trained to monitor and manage alcohol consumption, and we encourage patrons to enjoy beverages responsibly. We reserve the right to refuse service to anyone who appears intoxicated."
+            ]
+        },
+        {
+            "tag": "live-entertainment-nights",
+            "questions": [
+                "Do you have live entertainment nights?",
+                "Live performances at your restaurant",
+                "What nights feature live entertainment?"
+            ],
+            "answers": [
+                "Absolutely! Join us on [Specific Nights] for live entertainment. We showcase talented musicians and performers to enhance your dining experience with a touch of music and artistry."
+            ]
+        },
+        {
+            "tag": "music-genre-preference",
+            "questions": [
+                "What type of music is played in your restaurant?",
+                "Preferred music genres for your venue",
+                "Can I expect a specific music vibe while dining?"
+            ],
+            "answers": [
+                "Our music selection spans a variety of genres to create the perfect ambiance. From jazz and blues to contemporary hits, we curate playlists that complement the overall atmosphere of our restaurant."
+            ]
+        },
+        {
+            "tag": "tv-screens-for-sports",
+            "questions": [
+                "Are there TV screens for sports events?",
+                "Watching sports at your restaurant",
+                "Do you broadcast specific sports games on TV?"
+            ],
+            "answers": [
+                "Catch the excitement of sports at our restaurant! We have strategically placed TV screens where you can enjoy live broadcasts of popular sports events. Check our schedule for upcoming games and matches."
+            ]
+        },
+        {
+            "tag": "dj-themed-nights",
+            "questions": [
+                "Do you have DJ-themed nights?",
+                "DJ performances at your restaurant",
+                "When can I experience a DJ night at your venue?"
+            ],
+            "answers": [
+                "Get ready to dance! Our DJ-themed nights on [Specific Nights] bring the energy to the dance floor. Enjoy a mix of beats curated by our talented DJs, making your night at our restaurant memorable."
+            ]
+        },
+        {
+            "tag": "requesting-music",
+            "questions": [
+                "Can customers request specific songs?",
+                "Music request policy at your restaurant",
+                "How can I request a song during my visit?"
+            ],
+            "answers": [
+                "We love your musical preferences! While we curate playlists, we also welcome song requests. Let our staff know your favorite tunes, and we'll do our best to add them to the playlist."
+            ]
+        },
+        {
+            "tag": "private-event-entertainment",
+            "questions": [
+                "What entertainment options are available for private events?",
+                "Entertainment for private parties at your venue",
+                "Can I arrange specific entertainment for a private event?"
+            ],
+            "answers": [
+                "Make your private event special with tailored entertainment options! We offer customizable packages that include live performances, DJs, and more. Contact our events team to discuss your preferences."
+            ]
+        },
+        {
+            "tag": "themed-music-nights",
+            "questions": [
+                "Do you host themed music nights?",
+                "Themed music events at your restaurant",
+                "What are some upcoming themed music nights?"
+            ],
+            "answers": [
+                "Immerse yourself in themed music nights at our restaurant! From retro vibes to international beats, our themed nights offer a unique and entertaining experience. Check our calendar for upcoming themes."
+            ]
+        },
+        {
+            "tag": "karaoke-night",
+            "questions": [
+                "Do you have karaoke nights?",
+                "Karaoke events at your restaurant",
+                "Can I showcase my singing talent at your venue?"
+            ],
+            "answers": [
+                "Sing your heart out at our karaoke nights! Join us on [Specific Nights] for a fun-filled evening of music and entertainment. Bring your friends and unleash your inner rockstar."
+            ]
+        },
+        {
+            "tag": "acoustic-music-sessions",
+            "questions": [
+                "Do you host acoustic music sessions?",
+                "Intimate acoustic performances at your restaurant",
+                "When can I enjoy acoustic music at your venue?"
+            ],
+            "answers": [
+                "Experience the warmth of acoustic music at our restaurant! Join us on [Specific Days] for intimate sessions featuring talented acoustic musicians, creating a cozy and relaxed atmosphere."
+            ]
+        },
+        {
+            "tag": "themed-dance-nights",
+            "questions": [
+                "Are there themed dance nights at your venue?",
+                "Dance events with specific themes",
+                "Tell me about the upcoming themed dance nights at your restaurant."
+            ],
+            "answers": [
+                "Put on your dancing shoes for our themed dance nights! Whether it's salsa, retro, or disco, our themed dance nights on [Specific Nights] promise a lively and energetic dance floor."
+            ]
+        },
+        {
+            "tag": "big-screen-events",
+            "questions": [
+                "Do you host big-screen events?",
+                "Special events on large TV screens",
+                "What big-screen events are coming up at your restaurant?"
+            ],
+            "answers": [
+                "Catch the action on our big screens! We host special events, including live broadcasts, movie nights, and more. Stay tuned for announcements on upcoming big-screen events."
+            ]
+        },
+        {
+            "tag": "dj-request-nights",
+            "questions": [
+                "Can patrons request songs during DJ nights?",
+                "Interactive DJ nights at your restaurant",
+                "How can I request a song during the DJ performance?"
+            ],
+            "answers": [
+                "Get involved in our DJ nights by requesting your favorite tunes! Our interactive DJ nights on [Specific Nights] welcome song requests, adding a personalized touch to the music experience."
+            ]
+        },
+        {
+            "tag": "musical-brunch-events",
+            "questions": [
+                "Do you host musical brunch events?",
+                "Brunch with live music at your restaurant",
+                "When can I enjoy a musical brunch experience at your venue?"
+            ],
+            "answers": [
+                "Elevate your brunch experience with live music! Join us on [Specific Days] for musical brunch events, where you can savor delicious dishes accompanied by the soothing sounds of live performers."
+            ]
+        },
+        {
+            "tag": "sports-fan-zone",
+            "questions": [
+                "Is there a dedicated sports fan zone?",
+                "Exclusive area for sports enthusiasts",
+                "How can I enjoy a sports game in a fan-friendly environment at your restaurant?"
+            ],
+            "answers": [
+                "Cheer for your team in our dedicated sports fan zone! Immerse yourself in the game-day atmosphere with fellow enthusiasts, large screens, and a menu of fan-favorite snacks."
+            ]
+        },
+        {
+            "tag": "weekly-music-discovery",
+            "questions": [
+                "Do you have a weekly music discovery night?",
+                "Exploring new music at your restaurant",
+                "When can I discover new and emerging artists at your venue?"
+            ],
+            "answers": [
+                "Expand your musical horizons with our weekly music discovery night! Join us on [Specific Days] for a curated selection of new and emerging artists, creating a platform for music enthusiasts to explore fresh talent."
+            ]
+        },
+        {
+            "tag": "holiday-themed-events",
+            "questions": [
+                "Are there holiday-themed entertainment events?",
+                "Celebrating holidays with special entertainment",
+                "What special events do you have planned for upcoming holidays?"
+            ],
+            "answers": [
+                "Celebrate the holidays with us! We host special entertainment events during festive seasons, bringing joy and merriment to your dining experience. Stay tuned for announcements on our holiday-themed events."
+            ]
+        },
+        {
+            "tag": "comedy-night",
+            "questions": [
+                "Do you host comedy nights?",
+                "Stand-up comedy events at your restaurant",
+                "When can I enjoy a night of laughter at your venue?"
+            ],
+            "answers": [
+                "Laugh the night away at our comedy nights! Join us on [Specific Nights] for stand-up performances by talented comedians, delivering doses of humor to make your evening memorable."
+            ]
+        },
+        {
+            "tag": "piano-bar-experience",
+            "questions": [
+                "Is there a piano bar experience at your restaurant?",
+                "Live piano performances while dining",
+                "Tell me about the ambiance created by your piano bar."
+            ],
+            "answers": [
+                "Indulge in the elegance of our piano bar experience. Enjoy live piano performances while dining, creating a sophisticated and melodic backdrop for a delightful evening."
+            ]
+        },
+        {
+            "tag": "karaoke-competition",
+            "questions": [
+                "Do you host karaoke competitions?",
+                "Competitive karaoke events at your restaurant",
+                "How can I participate in a karaoke competition at your venue?"
+            ],
+            "answers": [
+                "Showcase your vocal talent in our karaoke competitions! Compete for fun prizes on [Specific Nights], where our lively crowd cheers for the best performances and the most enthusiastic singers."
+            ]
+        },
+        {
+            "tag": "family-movie-nights",
+            "questions": [
+                "Are there family movie nights at your restaurant?",
+                "Movie events suitable for families",
+                "When can families enjoy movie nights at your venue?"
+            ],
+            "answers": [
+                "Make it a family night out with our family movie nights! Join us on [Specific Nights] for screenings of family-friendly films, providing a cozy and entertaining atmosphere for all ages."
+            ]
+        },
+        {
+            "tag": "trivia-night",
+            "questions": [
+                "Do you host trivia nights?",
+                "Interactive trivia events at your restaurant",
+                "How can I participate in trivia night at your venue?"
+            ],
+            "answers": [
+                "Test your knowledge at our trivia nights! Gather your friends and join us on [Specific Nights] for interactive and fun-filled trivia events, featuring a variety of topics and exciting prizes."
+            ]
+        },
+        {
+            "tag": "multi-screen-sports-experience",
+            "questions": [
+                "Is there a multi-screen sports viewing experience?",
+                "Immersive sports watching at your restaurant",
+                "Tell me about the setup for sports enthusiasts at your venue."
+            ],
+            "answers": [
+                "Experience the thrill of sports on multiple screens! Our restaurant is equipped with a state-of-the-art multi-screen setup, providing an immersive environment for sports enthusiasts to enjoy every moment of the game."
+            ]
+        },
+        {
+            "tag": "electronic-dance-night",
+            "questions": [
+                "Do you host electronic dance nights?",
+                "EDM events at your restaurant",
+                "When can I dance to electronic beats at your venue?"
+            ],
+            "answers": [
+                "Get ready to dance the night away at our electronic dance nights! Join us on [Specific Nights] for pulsating beats, vibrant lights, and an electrifying atmosphere that will keep you moving."
+            ]
+        },
+        {
+            "tag": "culinary-music-fusion-events",
+            "questions": [
+                "Do you host culinary music fusion events?",
+                "Events combining music and culinary experiences",
+                "Tell me about the unique fusion events at your restaurant."
+            ],
+            "answers": [
+                "Experience a fusion of culinary delights and music at our special events! Join us on [Specific Nights] for a unique blend of live performances and specially crafted dishes, creating an unforgettable sensory experience."
+            ]
+        },
+        {
+            "tag": "onsite-parking-available",
+            "questions": [
+                "Is there onsite parking available?",
+                "Parking facilities at your restaurant",
+                "Can I park my vehicle at your venue?"
+            ],
+            "answers": [
+                "Yes, we provide convenient onsite parking for our guests. Enjoy the ease of parking just steps away from our entrance, making your visit hassle-free."
+            ]
+        },
+        {
+            "tag": "valet-parking-service",
+            "questions": [
+                "Do you offer valet parking service?",
+                "Valet service at your restaurant",
+                "Is there a valet option for guests?"
+            ],
+            "answers": [
+                "Experience the luxury of valet parking at our restaurant. Our professional valet service ensures a seamless arrival and departure for our valued guests."
+            ]
+        },
+        {
+            "tag": "parking-fee-details",
+            "questions": [
+                "Is there a parking fee at your restaurant?",
+                "Details on parking charges",
+                "Do I need to pay for parking at your venue?"
+            ],
+            "answers": [
+                "We offer complimentary parking for restaurant patrons. There is no additional charge for parking, allowing you to focus on enjoying your dining experience without worrying about fees."
+            ]
+        },
+        {
+            "tag": "accessible-parking-options",
+            "questions": [
+                "Are there accessible parking options?",
+                "Parking facilities for individuals with disabilities",
+                "How is parking accessibility ensured for all guests?"
+            ],
+            "answers": [
+                "We prioritize accessibility for all our guests. Accessible parking options are available, ensuring that individuals with disabilities have convenient and inclusive access to our restaurant."
+            ]
+        },
+        {
+            "tag": "park-and-dine",
+            "questions": [
+                "Is there a park-and-dine option?",
+                "Combining parking with dining experience",
+                "How does the park-and-dine option work at your restaurant?"
+            ],
+            "answers": [
+                "Opt for our park-and-dine option for added convenience. Park your vehicle, enjoy a delightful dining experience, and when you're ready to leave, simply head back to your conveniently parked car."
+            ]
+        },
+        {
+            "tag": "security-measures-parking-area",
+            "questions": [
+                "What security measures are in place for the parking area?",
+                "Ensuring safety in the parking facilities",
+                "How is the security of parked vehicles addressed at your venue?"
+            ],
+            "answers": [
+                "The safety of your vehicle is our priority. Our parking area is equipped with security measures, including [Specific Security Measures], to ensure the safety and well-being of all our guests."
+            ]
+        },
+        {
+            "tag": "bike-parking-options",
+            "questions": [
+                "Do you have bike parking options?",
+                "Parking facilities for bicycles",
+                "Can I park my bike at your restaurant?"
+            ],
+            "answers": [
+                "Bicycle enthusiasts are welcome! We provide dedicated bike parking options for guests who prefer eco-friendly transportation, making it easy for you to visit our restaurant on two wheels."
+            ]
+        },
+        {
+            "tag": "parking-reservation-details",
+            "questions": [
+                "Can I reserve parking in advance?",
+                "Parking reservation options for guests",
+                "How does parking reservation work at your restaurant?"
+            ],
+            "answers": [
+                "While we don't offer parking reservations, our ample parking space is available on a first-come, first-served basis. Arrive at your convenience, and our team will assist you in finding a suitable parking spot."
+            ]
+        },
+        {
+            "tag": "electric-vehicle-charging",
+            "questions": [
+                "Do you have electric vehicle charging stations?",
+                "Charging options for electric vehicles",
+                "Is there a facility to charge my electric car at your venue?"
+            ],
+            "answers": [
+                "Stay charged up! We offer electric vehicle charging stations for the convenience of our environmentally conscious guests. Charge your electric car while enjoying your time at our restaurant."
+            ]
+        },
+        {
+            "tag": "overnight-parking-options",
+            "questions": [
+                "Are overnight parking options available?",
+                "Parking facilities for extended stays",
+                "Can I leave my vehicle overnight at your restaurant?"
+            ],
+            "answers": [
+                "For guests planning longer stays, we do offer overnight parking options. Feel free to leave your vehicle in our secure parking area and enjoy an extended visit to our restaurant."
+            ]
+        },
+        {
+            "tag": "ride-share-drop-off",
+            "questions": [
+                "Is there a designated area for ride-share drop-offs?",
+                "Convenient drop-off points for ride-sharing",
+                "Where can I be dropped off by a ride-share service at your venue?"
+            ],
+            "answers": [
+                "Streamline your arrival with our designated ride-share drop-off points. Inform your driver to drop you off at the designated area for a seamless entrance to our restaurant."
+            ]
+        },
+        {
+            "tag": "monthly-parking-subscriptions",
+            "questions": [
+                "Do you offer monthly parking subscriptions?",
+                "Subscription options for frequent visitors",
+                "Can I subscribe to monthly parking at your restaurant?"
+            ],
+            "answers": [
+                "Simplify your parking experience with our monthly parking subscriptions. Enjoy the convenience of hassle-free parking every time you visit our restaurant by subscribing to our monthly parking plan."
+            ]
+        },
+        {
+            "tag": "security-escort-service",
+            "questions": [
+                "Is there a security escort service to the parking area?",
+                "Assistance for guests to the parking facilities",
+                "How can I request a security escort to the parking area?"
+            ],
+            "answers": [
+                "Your safety is important to us. If you ever feel the need for assistance, contact our security escort service using the hotline 33322"
+            ]
+        },
+        {
+            "tag": "electric-vehicle-charging",
+            "questions": [
+                "Do you have electric vehicle charging stations?",
+                "Charging options for electric vehicles",
+                "Is there a facility to charge my electric car at your venue?"
+            ],
+            "answers": [
+                "Stay charged up! We offer electric vehicle charging stations for the convenience of our environmentally conscious guests. Charge your electric car while enjoying your time at our restaurant."
+            ]
+        },
+        {
+            "tag": "overnight-parking-options",
+            "questions": [
+                "Are overnight parking options available?",
+                "Parking facilities for extended stays",
+                "Can I leave my vehicle overnight at your restaurant?"
+            ],
+            "answers": [
+                "For guests planning longer stays, we do offer overnight parking options. Feel free to leave your vehicle in our secure parking area and enjoy an extended visit to our restaurant."
+            ]
+        },
+        {
+            "tag": "ride-share-drop-off",
+            "questions": [
+                "Is there a designated area for ride-share drop-offs?",
+                "Convenient drop-off points for ride-sharing",
+                "Where can I be dropped off by a ride-share service at your venue?"
+            ],
+            "answers": [
+                "Streamline your arrival with our designated ride-share drop-off points. Inform your driver to drop you off at the designated area for a seamless entrance to our restaurant."
+            ]
+        },
+        {
+            "tag": "monthly-parking-subscriptions",
+            "questions": [
+                "Do you offer monthly parking subscriptions?",
+                "Subscription options for frequent visitors",
+                "Can I subscribe to monthly parking at your restaurant?"
+            ],
+            "answers": [
+                "Simplify your parking experience with our monthly parking subscriptions. Enjoy the convenience of hassle-free parking every time you visit our restaurant by subscribing to our monthly parking plan."
+            ]
+        },
+        {
+            "tag": "security-escort-service",
+            "questions": [
+                "Is there a security escort service to the parking area?",
+                "Assistance for guests to the parking facilities",
+                "How can I request a security escort to the parking area?"
+            ],
+            "answers": [
+                "Your safety is important to us. If you ever feel the need for assistance, our security escort service is available. Simply notify our staff, and we'll ensure you reach the parking area safely."
+            ]
+        },
+        {
+            "tag": "parking-loyalty-program",
+            "questions": [
+                "Do you have a parking loyalty program?",
+                "Rewards for frequent parkers",
+                "How can I benefit from your parking loyalty program?"
+            ],
+            "answers": [
+                "Maximize your parking experience with our loyalty program. Earn rewards and enjoy exclusive benefits by participating in our parking loyalty program, our way of saying thank you for choosing us."
+            ]
+        },
+        {
+            "tag": "environmentally-friendly-parking",
+            "questions": [
+                "Are your parking facilities environmentally friendly?",
+                "Green initiatives for parking areas",
+                "Tell me about the eco-friendly features of your parking facilities."
+            ],
+            "answers": [
+                "We're committed to sustainability! Our parking facilities incorporate environmentally friendly features, such as [Specific Green Initiatives], to reduce our carbon footprint and contribute to a greener environment."
+            ]
+        },
+        {
+            "tag": "smart-parking-app",
+            "questions": [
+                "Do you have a smart parking app?",
+                "Technological solutions for parking management",
+                "How can I use your smart parking app for a seamless parking experience?"
+            ],
+            "answers": [
+                "Enhance your parking experience with our smart parking app. Easily find available spaces, pay conveniently, and receive real-time updates by using our smart parking app, available for download on [App Store/Google Play]."
+            ]
+        },
+        {
+            "tag": "wheelchair-accessibility",
+            "questions": [
+                "Is your restaurant wheelchair accessible?",
+                "Accessibility for wheelchair users",
+                "Can guests with mobility challenges easily access your venue?"
+            ],
+            "answers": [
+                "Yes, we prioritize accessibility for all our guests. Our restaurant is wheelchair accessible, ensuring that individuals with mobility challenges can comfortably navigate and enjoy their dining experience."
+            ]
+        },
+        {
+            "tag": "accessible-entrances",
+            "questions": [
+                "Are there accessible entrances at your restaurant?",
+                "Entry points for guests with disabilities",
+                "How can guests with disabilities enter your venue?"
+            ],
+            "answers": [
+                "We have designated accessible entrances to accommodate guests with disabilities. Look for signage indicating accessible entry points to ensure a smooth and inclusive entrance to our restaurant."
+            ]
+        },
+        {
+            "tag": "braille-menu-options",
+            "questions": [
+                "Do you offer Braille menus?",
+                "Accessibility for visually impaired guests",
+                "How can guests with visual impairments access your menu?"
+            ],
+            "answers": [
+                "To enhance the dining experience for visually impaired guests, we provide Braille menus. Simply request a Braille menu from our staff, and we'll ensure you have all the information you need to make your dining choices."
+            ]
+        },
+        {
+            "tag": "service-animal-friendly",
+            "questions": [
+                "Are service animals welcome at your restaurant?",
+                "Policy on service animals",
+                "Can guests bring their service animals while dining?"
+            ],
+            "answers": [
+                "Service animals are always welcome at our restaurant. We recognize the important role they play in providing assistance, and our staff is trained to ensure a comfortable and accommodating experience for guests with service animals."
+            ]
+        },
+        {
+            "tag": "audio-assistance-options",
+            "questions": [
+                "Do you offer audio assistance options?",
+                "Accessibility features for guests with hearing impairments",
+                "How can guests with hearing impairments receive audio assistance at your venue?"
+            ],
+            "answers": [
+                "For guests with hearing impairments, we provide audio assistance options. Please inform our staff if you require assistance, and we'll ensure you have the necessary tools to fully enjoy your dining experience."
+            ]
+        },
+        {
+            "tag": "priority-seating-for-accessibility",
+            "questions": [
+                "Do you offer priority seating for guests with accessibility needs?",
+                "Ensuring prompt seating for guests with specific requirements",
+                "How can guests with accessibility needs access priority seating at your restaurant?"
+            ],
+            "answers": [
+                "To prioritize the comfort of guests with accessibility needs, we offer priority seating. Simply let our staff know about your requirements, and we'll ensure you are promptly seated in an area that best suits your needs."
+            ]
+        },
+        {
+            "tag": "accessible-restroom-facilities",
+            "questions": [
+                "Are your restroom facilities accessible?",
+                "Accessibility features in restroom areas",
+                "How can guests with mobility challenges access restroom facilities at your restaurant?"
+            ],
+            "answers": [
+                "Our commitment to accessibility extends to restroom facilities. We have accessible restroom options to ensure that all guests, including those with mobility challenges, can easily access and use our facilities."
+            ]
+        },
+        {
+            "tag": "accessibility-feedback-welcome",
+            "questions": [
+                "Do you welcome feedback on accessibility?",
+                "Collecting input from guests to improve accessibility",
+                "How can guests provide feedback on accessibility at your restaurant?"
+            ],
+            "answers": [
+                "We value guest feedback, especially regarding accessibility. If you have suggestions or feedback on how we can improve accessibility, please feel free to share your thoughts with our staff or through our dedicated feedback channels."
+            ]
+        },
+        {
+            "tag": "accessible-seating-options",
+            "questions": [
+                "Do you have accessible seating options?",
+                "Options for guests with specific seating needs",
+                "How can guests with seating preferences access accessible seating at your venue?"
+            ],
+            "answers": [
+                "We offer accessible seating options to accommodate guests with specific needs. If you require accessible seating, please inform our staff, and we'll make arrangements to ensure you have a comfortable and enjoyable dining experience."
+            ]
+        },
+        {
+            "tag": "visual-alarms-for-emergencies",
+            "questions": [
+                "Are visual alarms available for emergencies?",
+                "Emergency alert systems for guests with hearing impairments",
+                "How are guests with hearing impairments alerted during emergencies at your restaurant?"
+            ],
+            "answers": [
+                "To ensure the safety of all our guests, we have visual alarms in place for emergencies. Guests with hearing impairments can rely on these visual alerts to stay informed and take appropriate actions during emergency situations."
+            ]
+        },
+        {
+            "tag": "sign-language-friendly-staff",
+            "questions": [
+                "Do you have staff proficient in sign language?",
+                "Accessibility for guests who use sign language",
+                "How can guests who use sign language communicate with your staff?"
+            ],
+            "answers": [
+                "Our commitment to inclusivity includes having staff proficient in sign language. Guests who use sign language can easily communicate with our staff to make requests, ask questions, or seek assistance."
+            ]
+        },
+        {
+            "tag": "large-print-materials",
+            "questions": [
+                "Do you provide large-print materials?",
+                "Accessibility for guests with visual impairments",
+                "How can guests with visual impairments access large-print materials at your restaurant?"
+            ],
+            "answers": [
+                "To assist guests with visual impairments, we offer large-print materials. Simply request large-print menus or any other materials you may need, and our staff will be happy to provide them."
+            ]
+        },
+        {
+            "tag": "assistive-listening-devices",
+            "questions": [
+                "Are assistive listening devices available?",
+                "Accessibility features for guests with hearing impairments",
+                "How can guests with hearing impairments access assistive listening devices at your venue?"
+            ],
+            "answers": [
+                "We provide assistive listening devices for guests with hearing impairments. These devices enhance the audio experience, allowing guests to fully enjoy conversations, presentations, and other auditory elements during their visit."
+            ]
+        },
+        {
+            "tag": "step-free-access-to-all-areas",
+            "questions": [
+                "Is there step-free access to all areas of your restaurant?",
+                "Accessibility for guests with mobility challenges",
+                "How are guests with mobility challenges provided step-free access to various areas of your venue?"
+            ],
+            "answers": [
+                "We ensure step-free access to all areas of our restaurant to accommodate guests with mobility challenges. Our facility is designed to be inclusive, providing a seamless experience for all patrons."
+            ]
+        },
+        {
+            "tag": "audio-descriptive-services",
+            "questions": [
+                "Do you offer audio descriptive services?",
+                "Accessibility for guests with visual impairments",
+                "How can guests with visual impairments access audio descriptive services at your restaurant?"
+            ],
+            "answers": [
+                "For guests with visual impairments, we offer audio descriptive services. These services provide additional information about the surroundings, menu items, and other relevant details to enhance the overall dining experience."
+            ]
+        },
+        {
+            "tag": "online-accessibility-information",
+            "questions": [
+                "Is accessibility information available online?",
+                "Providing accessibility details on your website",
+                "Where can guests find information about the accessibility features of your restaurant online?"
+            ],
+            "answers": [
+                "We provide comprehensive accessibility information on our website. Guests can find details about our accessibility features, including entrance options, restroom facilities, and other relevant information, on our website's accessibility page."
+            ]
+        },
+        {
+            "tag": "fire-evacuation-plan",
+            "questions": [
+                "Do you have a fire evacuation plan?",
+                "Safety procedures in case of fire",
+                "What is the fire evacuation plan at your restaurant?"
+            ],
+            "answers": [
+                "The safety of our guests is a top priority. In the event of a fire, we have a well-defined evacuation plan in place. Emergency exit routes are clearly marked, and our staff is trained to guide you to safety."
+            ]
+        },
+        {
+            "tag": "fire-extinguisher-locations",
+            "questions": [
+                "Where are the fire extinguishers located?",
+                "Availability and accessibility of fire extinguishers",
+                "How can guests easily locate and access fire extinguishers at your venue?"
+            ],
+            "answers": [
+                "We have strategically placed fire extinguishers throughout the premises. Look for signage indicating their locations. Our staff is also trained to assist in locating and using fire extinguishers in case of an emergency."
+            ]
+        },
+        {
+            "tag": "smoke-detector-placement",
+            "questions": [
+                "Are smoke detectors installed throughout the restaurant?",
+                "Fire detection measures in place",
+                "How are guests alerted to the presence of smoke through detectors at your venue?"
+            ],
+            "answers": [
+                "To enhance fire detection, we have installed smoke detectors throughout the restaurant. These detectors are designed to promptly alert our staff and guests to the presence of smoke, allowing for swift response and evacuation if necessary."
+            ]
+        },
+        {
+            "tag": "fire-safety-staff-training",
+            "questions": [
+                "How are your staff trained for fire safety?",
+                "Employee preparedness for fire emergencies",
+                "What specific training do your staff members undergo for fire safety?"
+            ],
+            "answers": [
+                "Our staff undergoes regular training for fire safety and emergency procedures. This includes fire evacuation drills, understanding the operation of fire safety equipment, and ensuring that our team is well-prepared to handle any fire-related situation."
+            ]
+        },
+        {
+            "tag": "emergency-exit-signage",
+            "questions": [
+                "Is emergency exit signage clearly visible?",
+                "Visibility of emergency exit routes",
+                "How can guests easily identify and follow emergency exit routes at your restaurant?"
+            ],
+            "answers": [
+                "For your safety, we have installed clear and visible emergency exit signage. These signs indicate the quickest and safest routes to exit the premises in the event of a fire or other emergencies."
+            ]
+        },
+        {
+            "tag": "fire-safety-information",
+            "questions": [
+                "Where can guests find fire safety information?",
+                "Providing information to guests about fire safety measures",
+                "How is fire safety information made available to patrons at your restaurant?"
+            ],
+            "answers": [
+                "We prioritize transparency regarding fire safety. Guests can find detailed fire safety information in prominent locations within the restaurant. This includes brochures, posters, and digital displays that outline safety procedures."
+            ]
+        },
+        {
+            "tag": "fire-drill-schedule",
+            "questions": [
+                "Do you conduct regular fire drills?",
+                "Frequency of fire evacuation drills",
+                "How often do you conduct fire drills to ensure preparedness at your restaurant?"
+            ],
+            "answers": [
+                "To maintain a high level of preparedness, we conduct regular fire evacuation drills. These drills are an essential part of our commitment to ensuring the safety of our guests and staff in the event of a fire emergency."
+            ]
+        },
+        {
+            "tag": "fire-safety-equipment-maintenance",
+            "questions": [
+                "How is fire safety equipment maintained?",
+                "Ensuring the functionality of fire safety tools",
+                "What measures are in place to maintain and regularly check fire safety equipment at your restaurant?"
+            ],
+            "answers": [
+                "The functionality of our fire safety equipment is of utmost importance. We have a strict maintenance schedule in place, ensuring that all fire extinguishers, detectors, and other safety tools are regularly checked and kept in optimal working condition."
+            ]
+        }
+    ]
+}

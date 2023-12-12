@@ -1,0 +1,1302 @@
+{
+    "intents": [
+        {
+            "tag": "student-discount-feedback-programs",
+            "questions": [
+                "Do you seek feedback from students on discount programs?",
+                "Feedback initiatives for continuous improvement",
+                "Can you provide information on any feedback programs or initiatives your restaurant has in place to gather input from students and continuously improve the student discount experience?"
+            ],
+            "answers": [
+                "We value the feedback of our student customers and actively seek their input to enhance the student discount experience. Our feedback programs may include surveys, focus groups, or other initiatives to ensure that students' preferences and expectations are considered in ongoing improvements."
+            ]
+        },
+        {
+            "tag": "solent-university-student-discounts",
+            "questions": [
+                "Do you offer discounts for Solent University students?",
+                "Special discounts for Solent University students at your restaurant",
+                "Can you provide information on any exclusive discounts or special offers available for Solent University students dining at your restaurant?"
+            ],
+            "answers": [
+                "Yes, we are delighted to offer exclusive discounts for Solent University students. Our restaurant recognizes the academic efforts of Solent University students, and they can enjoy special discounts on their meals by presenting valid Solent University student identification."
+            ]
+        },
+        {
+            "tag": "solent-university-student-discount-verification",
+            "questions": [
+                "How do you verify Solent University student IDs for discounts?",
+                "Verification process for Solent University student discounts",
+                "Can you share details about the process your restaurant uses to verify Solent University student identification and ensure eligible students can avail the offered discounts?"
+            ],
+            "answers": [
+                "We have a straightforward verification process for Solent University student IDs to ensure the eligibility of students for discounts. Students can present their valid Solent University student identification at the time of payment to avail the applicable discounts on their meals."
+            ]
+        },
+        {
+            "tag": "solent-university-student-discount-days",
+            "questions": [
+                "Do you have specific days for Solent University student discounts?",
+                "Designated days for offering Solent University student discounts",
+                "Can you share details about any specific days or times during which Solent University students can avail special discounts at your restaurant?"
+            ],
+            "answers": [
+                "We have designated days during which Solent University students can enjoy additional discounts on their meals. These Solent University student discount days are designed to provide students with affordable dining options and may vary based on our schedule and promotions."
+            ]
+        },
+        {
+            "tag": "solent-university-student-membership",
+            "questions": [
+                "Do you have a membership program for Solent University students?",
+                "Membership programs for Solent University student benefits",
+                "Can you provide information on any membership programs your restaurant offers for Solent University students, providing ongoing benefits or exclusive discounts?"
+            ],
+            "answers": [
+                "Our restaurant offers a membership program for Solent University students, providing ongoing benefits such as exclusive discounts, special events, or loyalty rewards for our Solent University student members."
+            ]
+        },
+        {
+            "tag": "solent-university-student-friendly-menu-options",
+            "questions": [
+                "Do you have Solent University student-friendly menu options?",
+                "Menu items designed with Solent University students in mind",
+                "Can you share details about menu options specifically designed to cater to the preferences and budgets of Solent University students, providing them with affordable and delicious choices?"
+            ],
+            "answers": [
+                "Our menu features Solent University student-friendly options designed to cater to the preferences and budgets of Solent University students. These menu items are crafted to offer a balance of affordability and deliciousness, ensuring that students have a variety of choices that suit their taste and wallet."
+            ]
+        },
+        {
+            "tag": "solent-university-student-discount-promotions",
+            "questions": [
+                "Do you run special promotions for Solent University student discounts?",
+                "Promotional offers for Solent University students at your restaurant",
+                "Can you share details about any special promotions or limited-time offers your restaurant runs to provide Solent University students with additional discounts or benefits?"
+            ],
+            "answers": [
+                "We run special promotions to enhance the Solent University student discount experience. These promotions may include additional discounts, combo offers, or exclusive menu items available at discounted prices for Solent University students for a limited time."
+            ]
+        },
+        {
+            "tag": "solent-university-student-discount-outreach",
+            "questions": [
+                "How do you promote Solent University student discounts?",
+                "Outreach and promotion of Solent University student discount programs",
+                "Can you share details about the strategies and channels your restaurant uses to promote Solent University student discounts and reach out to the Solent University student community?"
+            ],
+            "answers": [
+                "We actively promote our Solent University student discounts through various channels. This includes social media announcements, collaboration with Solent University, and in-restaurant signage. Our goal is to ensure that Solent University students are aware of the available discounts and can easily take advantage of the offers."
+            ]
+        },
+        {
+            "tag": "solent-university-student-feedback-programs",
+            "questions": [
+                "Do you seek feedback from Solent University students on discount programs?",
+                "Feedback initiatives for continuous improvement for Solent University students",
+                "Can you provide information on any feedback programs or initiatives your restaurant has in place to gather input from Solent University students and continuously improve the student discount experience?"
+            ],
+            "answers": [
+                "We value the feedback of our Solent University student customers and actively seek their input to enhance the student discount experience. Our feedback programs may include surveys, focus groups, or other initiatives to ensure that Solent University students' preferences and expectations are considered in ongoing improvements."
+            ]
+        },
+        {
+            "tag": "restaurant-tipping-policy",
+            "questions": [
+                "What is your restaurant's tipping policy?",
+                "Tipping guidelines at your restaurant",
+                "Can you provide information on the tipping policy at your restaurant, including any guidelines or recommendations for customers?"
+            ],
+            "answers": [
+                "Our restaurant appreciates the generosity of customers who choose to tip. While tipping is optional, it is customary to tip a certain percentage of the total bill. Our standard tipping recommendation is typically around 15% to 20%, but customers are free to tip according to their satisfaction with the service."
+            ]
+        },
+        {
+            "tag": "tip-distribution-among-staff",
+            "questions": [
+                "How is the tip distribution handled among staff?",
+                "Distribution of tips to restaurant staff",
+                "Can you share details about how tips are distributed among the restaurant staff, including servers, kitchen staff, and other team members?"
+            ],
+            "answers": [
+                "Our restaurant has a fair and transparent tip distribution system. Tips are generally pooled and distributed among staff members based on their roles and contributions to the overall dining experience. This ensures that all team members, including servers, kitchen staff, and support staff, receive a share of the tips."
+            ]
+        },
+        {
+            "tag": "accepting-tips-by-card",
+            "questions": [
+                "Do you accept tips by card?",
+                "Payment options for tipping at your restaurant",
+                "Can customers leave tips using credit or debit cards, and how is the process of accepting tips by card handled at your restaurant?"
+            ],
+            "answers": [
+                "Yes, we do accept tips by card. Customers have the option to leave a tip when paying with credit or debit cards. The tip amount can be specified by the customer during the card payment process, providing a convenient and secure way to express appreciation for the service."
+            ]
+        },
+        {
+            "tag": "cash-tipping-options",
+            "questions": [
+                "Is cash tipping an option at your restaurant?",
+                "Cash tipping guidelines",
+                "Can customers leave tips in cash, and are there any specific guidelines or recommendations regarding cash tipping at your restaurant?"
+            ],
+            "answers": [
+                "Absolutely, cash tipping is a welcomed option at our restaurant. Customers can leave tips in cash directly for the server or staff members. There is no set guideline for cash tipping, and customers are free to leave an amount they feel reflects their satisfaction with the service."
+            ]
+        },
+        {
+            "tag": "tip-jar-for-counter-service",
+            "questions": [
+                "Do you have a tip jar for counter service?",
+                "Tipping options for counter service",
+                "Can you provide information on whether your restaurant has a tip jar for counter service, and how customers can participate in tipping when ordering at the counter?"
+            ],
+            "answers": [
+                "For counter service, we may have a tip jar available at the counter. Customers who appreciate the service and wish to leave a tip can do so by placing cash in the tip jar. This provides an easy and informal way for customers to express their gratitude."
+            ]
+        },
+        {
+            "tag": "tips-for-catering-services",
+            "questions": [
+                "Are tips included for catering services?",
+                "Tipping guidelines for catering events",
+                "Can you share information on whether tips are included in the pricing for catering services, and if not, any guidelines for tipping the catering staff?"
+            ],
+            "answers": [
+                "For catering services, tips may or may not be included in the pricing, depending on the specific arrangements. If tips are not included, customers are welcome to tip the catering staff separately based on their satisfaction with the service. Guidelines for catering event tipping can be discussed during the planning process."
+            ]
+        },
+        {
+            "tag": "customary-tipping-percentage",
+            "questions": [
+                "What is the customary tipping percentage at your restaurant?",
+                "Guideline for tipping percentage",
+                "Can you provide guidance on the customary tipping percentage at your restaurant, and whether it varies based on the type of service or special occasions?"
+            ],
+            "answers": [
+                "The customary tipping percentage at our restaurant is typically around 15% to 20% of the total bill. This is a general guideline, and customers are encouraged to tip according to their satisfaction with the service. On special occasions or for larger groups, some customers may choose to tip a higher percentage."
+            ]
+        },
+        {
+            "tag": "expressing-gratitude-for-tips",
+            "questions": [
+                "How does your staff express gratitude for tips?",
+                "Acknowledging customer tips",
+                "Can you share information on how your staff expresses gratitude for the tips received, whether through verbal acknowledgment, thank-you notes, or other gestures?"
+            ],
+            "answers": [
+                "Our staff genuinely appreciates the generosity of customers who choose to tip. Expressing gratitude may include verbal acknowledgment, thank-you notes, or other gestures that convey our appreciation for the support and recognition of the service provided."
+            ]
+        },
+        {
+            "tag": "tip-sharing-among-front-of-house",
+            "questions": [
+                "Do you share tips among front-of-house staff?",
+                "Tip sharing policies for front-of-house staff",
+                "Can you share details about how tips are shared among the front-of-house staff, including servers, hosts, and other customer-facing roles?"
+            ],
+            "answers": [
+                "Yes, we have a tip-sharing policy among front-of-house staff. Tips are typically pooled and distributed among customer-facing roles, ensuring that everyone involved in providing excellent service receives a fair share of the tips."
+            ]
+        },
+        {
+            "tag": "gratuity-automatic-service-charge",
+            "questions": [
+                "Is there an automatic service charge or gratuity added to bills?",
+                "Automatic gratuity policy",
+                "Can you provide information on whether your restaurant adds an automatic service charge or gratuity to bills, and if so, what percentage is typically applied?"
+            ],
+            "answers": [
+                "In certain situations, an automatic service charge or gratuity may be added to bills. This is often applied for larger groups or special events. The percentage applied can vary but is typically in the range of 15% to 20%. Customers will be informed in advance if an automatic gratuity is applicable."
+            ]
+        },
+        {
+            "tag": "tip-distribution-among-back-of-house",
+            "questions": [
+                "How are tips distributed among back-of-house staff?",
+                "Tip distribution policies for kitchen and support staff",
+                "Can you share details about how tips are distributed among back-of-house staff, including kitchen staff and other support roles that contribute to the dining experience?"
+            ],
+            "answers": [
+                "While tips are primarily distributed among front-of-house staff, some restaurants may have policies for sharing a portion of tips with back-of-house staff. This can include kitchen staff and other support roles. The distribution policies aim to recognize the collective effort of the entire team."
+            ]
+        },
+        {
+            "tag": "customer-awareness-about-tip-distribution",
+            "questions": [
+                "Do customers know about tip distribution among staff?",
+                "Transparency in tip distribution",
+                "Can you share information on how your restaurant communicates with customers about tip distribution, ensuring transparency in how tips are shared among different staff members?"
+            ],
+            "answers": [
+                "We prioritize transparency in tip distribution, and customers are informed about how tips are shared among staff members. This information may be communicated through signage, menus, or verbally by staff members, ensuring that customers are aware of how their tips contribute to supporting the entire team."
+            ]
+        },
+        {
+            "tag": "digital-tipping-options",
+            "questions": [
+                "Do you offer digital tipping options?",
+                "Digital platforms for leaving tips",
+                "Can customers leave tips digitally, and do you provide options for tipping through mobile apps or other digital platforms?"
+            ],
+            "answers": [
+                "Yes, we offer digital tipping options for the convenience of our customers. In addition to traditional methods, customers can leave tips digitally through mobile apps or other digital platforms. This provides a seamless and modern way for customers to express their appreciation."
+            ]
+        },
+        {
+            "tag": "holiday-and-special-occasion-tipping",
+            "questions": [
+                "Are tipping practices different during holidays or special occasions?",
+                "Tipping etiquette for holidays",
+                "Can you share information on whether tipping practices differ during holidays or special occasions, and if there are any specific guidelines or etiquette for tipping during these times?"
+            ],
+            "answers": [
+                "Tipping practices may vary during holidays or special occasions. While the customary tipping percentage remains a guideline, some customers choose to tip more generously during festive seasons or special events as a way of spreading joy and appreciation. Tipping etiquette during these times is flexible and based on individual preferences."
+            ]
+        },
+        {
+            "tag": "customary-tipping-in-other-cultures",
+            "questions": [
+                "Do you accommodate customary tipping practices from other cultures?",
+                "Cultural considerations in tipping",
+                "Can you provide information on how your restaurant accommodates and respects customary tipping practices from different cultures, ensuring a positive and inclusive dining experience for all customers?"
+            ],
+            "answers": [
+                "We value cultural diversity and strive to accommodate customary tipping practices from different cultures. Our staff is trained to be respectful and understanding of diverse tipping customs, ensuring that all customers feel welcome and comfortable when expressing their gratitude for the service."
+            ]
+        },
+        {
+            "tag": "educational-materials-on-tipping",
+            "questions": [
+                "Do you provide educational materials on tipping?",
+                "Informational resources for customers on tipping",
+                "Can you share details about any educational materials or resources your restaurant provides to customers, offering guidance on tipping practices and etiquette?"
+            ],
+            "answers": [
+                "To assist customers in understanding tipping practices, we may provide educational materials or resources. This can include printed guides, digital content, or information on our website that offers guidance on tipping practices and etiquette, ensuring clarity for our valued patrons."
+            ]
+        },
+        {
+            "tag": "chef",
+            "questions": [
+                "Tell me about the chef at your restaurant?",
+                "Chef's specialties and background",
+                "Can you provide information about the chef at your restaurant, including their specialties, background, and culinary expertise?"
+            ],
+            "answers": [
+                "Our chef is a skilled culinary professional with a passion for creating exceptional dining experiences. Trained in [culinary school/region], they bring a diverse range of flavors to our menu. Specialties include [signature dishes], and their dedication to quality is reflected in every dish they craft."
+            ]
+        },
+        {
+            "tag": "waiter",
+            "questions": [
+                "Tell me about the waitstaff at your restaurant?",
+                "Waiter responsibilities and service style",
+                "Can you provide information about the waitstaff at your restaurant, including their responsibilities and the service style they uphold?"
+            ],
+            "answers": [
+                "Our waitstaff is committed to providing attentive and friendly service to enhance your dining experience. They are well-versed in our menu, ready to assist with recommendations, and dedicated to ensuring that every guest feels welcome and well taken care of during their visit."
+            ]
+        },
+        {
+            "tag": "management-staff",
+            "questions": [
+                "What role does the management staff play at your restaurant?",
+                "Responsibilities of management staff",
+                "Can you share details about the role and responsibilities of the management staff at your restaurant, including how they contribute to the overall operation and customer experience?"
+            ],
+            "answers": [
+                "Our management staff plays a crucial role in overseeing the day-to-day operations of the restaurant. From ensuring a smooth workflow to addressing customer needs and managing the team, they are committed to maintaining high standards of service. They work collaboratively to create a positive and welcoming atmosphere for both guests and staff."
+            ]
+        },
+        {
+            "tag": "restaurant-owner",
+            "questions": [
+                "Who is the owner of the restaurant?",
+                "Ownership background and vision",
+                "Can you provide information about the owner of the restaurant, including their background, vision for the establishment, and any unique aspects of their involvement in the business?"
+            ],
+            "answers": [
+                "Our restaurant is proudly owned by [Owner's Name]. With a passion for [cuisine/style], they envisioned a place where guests could enjoy exceptional food, warm hospitality, and a vibrant atmosphere. Their hands-on involvement reflects a commitment to creating a memorable dining experience for every guest."
+            ]
+        },
+        {
+            "tag": "staff-training-and-development",
+            "questions": [
+                "How do you train and develop your staff?",
+                "Staff training programs",
+                "Can you share information on the training and development programs you have in place for your staff, ensuring they deliver excellent service and stay updated on industry standards?"
+            ],
+            "answers": [
+                "We prioritize staff training and development to ensure our team is well-equipped to provide exceptional service. Our programs cover menu knowledge, customer service skills, and industry best practices. Ongoing training sessions and workshops are conducted to foster continuous growth and improvement among our staff."
+            ]
+        },
+        {
+            "tag": "staff-culture-and-team-dynamics",
+            "questions": [
+                "What is the culture like among your staff?",
+                "Team dynamics and collaboration",
+                "Can you share insights into the culture among your staff, highlighting how they collaborate and work together to create a positive environment for both guests and team members?"
+            ],
+            "answers": [
+                "Our staff culture is built on collaboration, respect, and a shared commitment to excellence. Team members work together seamlessly to ensure the smooth operation of the restaurant. This positive environment translates into a better experience for our guests, as our staff takes pride in delivering top-notch service."
+            ]
+        },
+        {
+            "tag": "staff-appreciation-initiatives",
+            "questions": [
+                "Do you have staff appreciation initiatives?",
+                "Initiatives to recognize and appreciate staff",
+                "Can you provide information on any initiatives or programs in place to appreciate and recognize the hard work and dedication of your staff members?"
+            ],
+            "answers": [
+                "We value the contributions of our staff and have various appreciation initiatives in place. This may include employee recognition programs, staff events, and periodic expressions of gratitude to show our appreciation for the dedication and hard work of our exceptional team."
+            ]
+        },
+        {
+            "tag": "staff-diversity-and-inclusion",
+            "questions": [
+                "How do you promote diversity and inclusion among your staff?",
+                "Initiatives for a diverse and inclusive staff",
+                "Can you share details about the initiatives and practices your restaurant has in place to promote diversity and inclusion among your staff?"
+            ],
+            "answers": [
+                "Diversity and inclusion are integral to our values. We actively promote a diverse and inclusive staff environment through hiring practices that embrace diversity, ongoing training on inclusivity, and creating a workplace where everyone feels welcome, respected, and valued for their unique contributions."
+            ]
+        },
+        {
+            "tag": "staff-motivation-initiatives",
+            "questions": [
+                "How do you motivate your staff?",
+                "Motivational initiatives for staff",
+                "Can you share information on the motivational initiatives or programs your restaurant has in place to inspire and motivate your staff, fostering a positive and enthusiastic work environment?"
+            ],
+            "answers": [
+                "Staff motivation is a priority for us, and we have various initiatives in place to keep our team motivated. This may include recognition programs, team-building activities, and opportunities for professional development to ensure that our staff feels supported and inspired in their roles."
+            ]
+        },
+        {
+            "tag": "staff-wellness-programs",
+            "questions": [
+                "Do you have wellness programs for your staff?",
+                "Wellness initiatives to support staff health",
+                "Can you provide details about any wellness programs or initiatives your restaurant offers to support the health and well-being of your staff, both physically and mentally?"
+            ],
+            "answers": [
+                "The well-being of our staff is important, and we have wellness programs to support their health. This may include access to fitness programs, mental health resources, and initiatives that promote a healthy work-life balance, ensuring our staff feels supported in all aspects of their lives."
+            ]
+        },
+        {
+            "tag": "staff-communication-channels",
+            "questions": [
+                "How do you facilitate communication among your staff?",
+                "Communication channels for staff members",
+                "Can you share information on the communication channels and practices your restaurant employs to ensure effective and transparent communication among staff members at all levels?"
+            ],
+            "answers": [
+                "Effective communication is crucial, and we employ various channels to facilitate it among our staff. This may include regular team meetings, digital communication platforms, and an open-door policy that encourages staff members to share feedback, ideas, and concerns openly."
+            ]
+        },
+        {
+            "tag": "staff-training-on-customer-service",
+            "questions": [
+                "How do you train your staff on customer service?",
+                "Customer service training programs",
+                "Can you provide insights into the training programs your restaurant implements to ensure that staff members are well-equipped to deliver exceptional customer service?"
+            ],
+            "answers": [
+                "Customer service training is a key focus for us. Our staff undergoes comprehensive training programs that cover customer interaction, problem-solving, and exceeding guest expectations. Continuous training sessions and workshops are conducted to enhance their skills and provide the best service possible."
+            ]
+        },
+        {
+            "tag": "staff-roles-and-responsibilities",
+            "questions": [
+                "Can you outline the roles and responsibilities of your staff?",
+                "Staff job descriptions and responsibilities",
+                "Can you provide an overview of the roles and responsibilities of various staff members, including chefs, waiters, management, and other key positions within your restaurant?"
+            ],
+            "answers": [
+                "Certainly! Each staff member plays a unique role in ensuring the success of our restaurant. Chefs are responsible for creating culinary masterpieces, waiters for delivering outstanding service, and management for overseeing operations. Each position has specific duties that contribute to the overall dining experience for our guests."
+            ]
+        },
+        {
+            "tag": "staff-recruitment-process",
+            "questions": [
+                "How do you recruit new staff members?",
+                "Recruitment process for new hires",
+                "Can you share details about your restaurant's recruitment process for bringing in new staff members, including how you identify and select individuals who align with your values and standards?"
+            ],
+            "answers": [
+                "Our recruitment process is thorough and designed to identify talented individuals who align with our values. It may include job postings, interviews, and trial shifts to assess a candidate's skills and cultural fit. We prioritize hiring individuals who are passionate about hospitality and dedicated to delivering exceptional service."
+            ]
+        },
+        {
+            "tag": "staff-empowerment-initiatives",
+            "questions": [
+                "Do you have initiatives to empower your staff?",
+                "Empowerment programs for staff members",
+                "Can you provide information on any empowerment initiatives or programs your restaurant implements to empower staff members, allowing them to contribute ideas and take ownership in their roles?"
+            ],
+            "answers": [
+                "Empowering our staff is crucial to fostering a positive work environment. We have initiatives in place that encourage staff members to contribute ideas, take ownership of their responsibilities, and actively participate in decision-making processes. This empowerment enhances job satisfaction and overall team collaboration."
+            ]
+        },
+        {
+            "tag": "staff-feedback-collection",
+            "questions": [
+                "How do you collect feedback from your staff?",
+                "Initiatives for staff feedback",
+                "Can you share details about the methods and initiatives your restaurant uses to collect feedback from staff members, ensuring their voices are heard and contributing to continuous improvement?"
+            ],
+            "answers": [
+                "We value the feedback of our staff and have established channels for collecting input. This may include regular feedback sessions, surveys, and an open-door policy that encourages staff members to share their thoughts, concerns, and suggestions. Their feedback is instrumental in shaping positive changes within our restaurant."
+            ]
+        },
+        {
+            "tag": "staff-mentoring-programs",
+            "questions": [
+                "Do you have mentoring programs for staff?",
+                "Mentoring initiatives for staff development",
+                "Can you provide details about any mentoring programs or initiatives your restaurant offers to support the professional development and growth of your staff members?"
+            ],
+            "answers": [
+                "Mentorship is integral to our staff development efforts. We have mentoring programs that pair experienced staff members with those who are newer to the team. This fosters knowledge-sharing, skill development, and a sense of camaraderie among our staff."
+            ]
+        },
+        {
+            "tag": "staff-recognition-and-awards",
+            "questions": [
+                "How do you recognize and reward exceptional staff members?",
+                "Recognition and awards for outstanding performance",
+                "Can you share information on the ways your restaurant recognizes and rewards exceptional staff members for their outstanding performance and dedication?"
+            ],
+            "answers": [
+                "We believe in acknowledging the exceptional efforts of our staff. Recognition and awards are given for outstanding performance, dedication, and going above and beyond. This may include employee of the month awards, special recognition events, and tangible rewards to show our appreciation."
+            ]
+        },
+        {
+            "tag": "staff-scheduling-and-flexibility",
+            "questions": [
+                "How do you handle staff scheduling and flexibility?",
+                "Scheduling policies and flexibility for staff members",
+                "Can you provide insights into how your restaurant handles staff scheduling, including any policies in place to offer flexibility and accommodate the diverse needs of your team?"
+            ],
+            "answers": [
+                "Staff scheduling is managed with careful consideration for the needs of our team. We aim to provide flexibility whenever possible, taking into account individual preferences and commitments. Our scheduling policies prioritize a healthy work-life balance for our staff members."
+            ]
+        },
+        {
+            "tag": "staff-health-and-safety-training",
+            "questions": [
+                "What health and safety training do you provide for your staff?",
+                "Training initiatives for staff health and safety",
+                "Can you share details about the health and safety training programs your restaurant has in place to ensure that staff members are well-prepared to maintain a safe environment for both themselves and guests?"
+            ],
+            "answers": [
+                "The health and safety of our staff and guests are paramount. We provide comprehensive training on health and safety protocols, including food handling, sanitation practices, and emergency procedures. This ensures that our staff is well-prepared to maintain a secure environment at all times."
+            ]
+        },
+        {
+            "tag": "staff-customer-service-excellence",
+            "questions": [
+                "How do you instill a culture of customer service excellence among your staff?",
+                "Initiatives for promoting customer service excellence",
+                "Can you provide information on the initiatives and practices your restaurant employs to instill a culture of customer service excellence among all staff members?"
+            ],
+            "answers": [
+                "A culture of customer service excellence is at the core of our values. We conduct ongoing training sessions, workshops, and role-playing exercises to reinforce the importance of exceptional customer service. Our staff is empowered to prioritize guest satisfaction in every interaction."
+            ]
+        },
+        {
+            "tag": "staff-diversity-and-inclusion-initiatives",
+            "questions": [
+                "What initiatives do you have to promote diversity and inclusion among your staff?",
+                "Diversity and inclusion programs for staff",
+                "Can you share details about the specific initiatives and programs your restaurant has in place to promote diversity and inclusion among your staff members?"
+            ],
+            "answers": [
+                "Diversity and inclusion are fundamental to our workplace culture. We actively promote diversity through targeted recruitment efforts, inclusivity training, and creating an environment where individuals of all backgrounds feel valued and respected."
+            ]
+        },
+        {
+            "tag": "staff-retention-strategies",
+            "questions": [
+                "How do you retain your staff?",
+                "Retention strategies and employee satisfaction",
+                "Can you share insights into the strategies your restaurant employs to retain staff members, ensuring high levels of job satisfaction and a positive work environment?"
+            ],
+            "answers": [
+                "Staff retention is a priority, and we implement various strategies to foster job satisfaction. This includes competitive compensation, opportunities for career growth, a supportive work culture, and initiatives to recognize and reward long-term dedication."
+            ]
+        },
+        {
+            "tag": "staff-innovation-and-feedback",
+            "questions": [
+                "How do you encourage staff innovation and gather feedback?",
+                "Initiatives for promoting staff innovation",
+                "Can you provide information on the initiatives your restaurant has in place to encourage staff members to contribute innovative ideas and provide feedback on processes and operations?"
+            ],
+            "answers": [
+                "We value the input of our staff in driving innovation. Initiatives may include regular brainstorming sessions, suggestion boxes, and recognition programs for innovative ideas. Our goal is to create an environment where staff members feel empowered to contribute to the continuous improvement of our operations."
+            ]
+        },
+        {
+            "tag": "job-openings",
+            "questions": [
+                "Are there currently any job openings at your restaurant?",
+                "Available positions and openings",
+                "Can you provide information on any current job openings at your restaurant, including available positions and the application process?"
+            ],
+            "answers": [
+                "Yes, we may have job openings available. Positions can vary and may include roles such as chefs, servers, kitchen staff, and management positions. Interested candidates are encouraged to check our careers page on the website or contact our human resources department for the latest opportunities."
+            ]
+        },
+        {
+            "tag": "application-process",
+            "questions": [
+                "What is the application process for job seekers?",
+                "Applying for a job at your restaurant",
+                "Can you share details about the application process for individuals interested in applying for a job at your restaurant, including any specific requirements or steps to follow?"
+            ],
+            "answers": [
+                "Our application process is designed to be straightforward. Interested candidates can visit our careers page on the website, where they will find information about available positions and an online application form. We review applications carefully and contact qualified candidates for further steps in the hiring process."
+            ]
+        },
+        {
+            "tag": "career-opportunities",
+            "questions": [
+                "What career opportunities are available at your restaurant?",
+                "Advancement and growth opportunities",
+                "Can you provide information on the career opportunities available at your restaurant, including potential for advancement, professional growth, and development within the organization?"
+            ],
+            "answers": [
+                "We offer diverse career opportunities for individuals passionate about the restaurant industry. Whether you're starting as a server or a kitchen staff member, there are avenues for growth. We believe in promoting from within and providing ongoing training and development to support the career aspirations of our team members."
+            ]
+        },
+        {
+            "tag": "employee-benefits",
+            "questions": [
+                "What employee benefits do you offer?",
+                "Benefits and perks for restaurant staff",
+                "Can you share details about the employee benefits and perks that your restaurant offers to staff members, including considerations such as health benefits, discounts, and other incentives?"
+            ],
+            "answers": [
+                "We prioritize the well-being of our staff and offer a range of employee benefits. These may include health insurance, staff discounts on meals, opportunities for professional development, and a positive work environment that values work-life balance. We believe that providing comprehensive benefits contributes to the overall satisfaction of our team."
+            ]
+        },
+        {
+            "tag": "training-and-development-programs",
+            "questions": [
+                "Do you have training and development programs for staff?",
+                "Professional growth opportunities",
+                "Can you provide information on the training and development programs your restaurant offers to support the professional growth and skills enhancement of staff members?"
+            ],
+            "answers": [
+                "Training and development are integral to our commitment to staff growth. We have structured programs that cover menu knowledge, customer service skills, leadership training, and more. Ongoing learning opportunities are provided to ensure our staff members stay engaged and continually develop their skills."
+            ]
+        },
+        {
+            "tag": "employee-culture",
+            "questions": [
+                "What is the employee culture like at your restaurant?",
+                "Workplace culture and values",
+                "Can you share insights into the employee culture at your restaurant, including the values that guide your workplace culture and the ways in which staff members contribute to a positive work environment?"
+            ],
+            "answers": [
+                "Our employee culture is built on collaboration, respect, and a shared passion for hospitality. We foster a positive work environment where staff members are encouraged to contribute ideas, support one another, and take pride in delivering exceptional service. Our values shape a workplace culture that promotes teamwork and camaraderie."
+            ]
+        },
+        {
+            "tag": "job-application-tips",
+            "questions": [
+                "Do you have any tips for job applicants?",
+                "Advice for job seekers applying to your restaurant",
+                "Can you provide tips and advice for individuals applying for a job at your restaurant, including key qualities you look for in candidates and suggestions for a successful application?"
+            ],
+            "answers": [
+                "We appreciate candidates who demonstrate a genuine passion for the hospitality industry and a commitment to delivering excellent service. When applying, highlight relevant experience, showcase your enthusiasm, and be prepared to discuss your understanding of our restaurant's values. We value candidates who align with our commitment to providing memorable dining experiences."
+            ]
+        },
+        {
+            "tag": "job-interview-process",
+            "questions": [
+                "What is the job interview process like?",
+                "Interview steps and expectations for job seekers",
+                "Can you provide information on the job interview process for candidates applying to your restaurant, including the steps involved, what to expect, and how to prepare for a successful interview?"
+            ],
+            "answers": [
+                "Our job interview process is designed to assess a candidate's skills, experience, and alignment with our values. It may involve one or more interviews, a skills assessment, and an opportunity to meet with key team members. We recommend candidates familiarize themselves with our restaurant, come prepared with questions, and showcase their enthusiasm for the position."
+            ]
+        },
+        {
+            "tag": "employee-retention-strategies",
+            "questions": [
+                "How do you retain your restaurant staff?",
+                "Strategies for retaining employees",
+                "Can you share insights into the strategies your restaurant employs to retain staff members, ensuring high levels of job satisfaction and encouraging long-term employment within the organization?"
+            ],
+            "answers": [
+                "Staff retention is a priority for us. We implement strategies such as competitive compensation, opportunities for career advancement, ongoing training, and a positive work culture that values the contributions of our team. Our goal is to create an environment where employees feel supported, appreciated, and motivated to stay and grow with us."
+            ]
+        },
+        {
+            "tag": "employee-advancement-opportunities",
+            "questions": [
+                "What advancement opportunities are available for employees?",
+                "Career growth within the organization",
+                "Can you provide information on the advancement opportunities available for employees within your organization, including career paths, promotions, and potential for growth?"
+            ],
+            "answers": [
+                "We believe in providing clear advancement paths for our employees. Opportunities for career growth may include promotions to supervisory or management roles, specialized training programs, and the chance to take on additional responsibilities. We encourage employees to set goals and work collaboratively to achieve them."
+            ]
+        },
+        {
+            "tag": "internship-programs",
+            "questions": [
+                "Do you offer internship programs for aspiring professionals?",
+                "Internship opportunities at your restaurant",
+                "Can you share details about any internship programs your restaurant offers for individuals aspiring to gain experience in the restaurant industry?"
+            ],
+            "answers": [
+                "We may offer internship programs for individuals looking to gain hands-on experience in the restaurant industry. Interns have the opportunity to work closely with our team, learn about various roles, and contribute to the overall operation of the restaurant. Internship availability and requirements can be found on our careers page."
+            ]
+        },
+        {
+            "tag": "employee-feedback-and-engagement",
+            "questions": [
+                "How do you gather feedback and engage with employees?",
+                "Employee feedback initiatives",
+                "Can you provide information on the methods and initiatives your restaurant uses to gather feedback from employees, ensuring their voices are heard and promoting overall engagement within the organization?"
+            ],
+            "answers": [
+                "Employee feedback is crucial, and we have initiatives in place to ensure open communication. This may include regular feedback sessions, employee surveys, and opportunities for staff to share their thoughts and ideas. Engaging with our employees helps us create a positive and collaborative workplace."
+            ]
+        },
+        {
+            "tag": "employee-wellness-initiatives",
+            "questions": [
+                "Do you have wellness initiatives for your employees?",
+                "Wellness programs to support employee health",
+                "Can you share details about any wellness initiatives or programs your restaurant offers to support the health and well-being of your employees, both physically and mentally?"
+            ],
+            "answers": [
+                "Employee wellness is a priority, and we offer various initiatives to support their health. This may include wellness programs, fitness classes, mental health resources, and activities that promote a healthy work-life balance. Our goal is to ensure that employees feel supported in all aspects of their well-being."
+            ]
+        },
+        {
+            "tag": "employee-education-assistance",
+            "questions": [
+                "Do you provide education assistance for employees?",
+                "Educational support programs",
+                "Can you provide information on any education assistance programs your restaurant offers to support employees in pursuing further education or professional development opportunities?"
+            ],
+            "answers": [
+                "We recognize the importance of continuous learning and may offer education assistance programs for our employees. This could include tuition reimbursement, scholarships, or other support for those looking to pursue further education or training relevant to their roles."
+            ]
+        },
+        {
+            "tag": "employee-retention-benefits",
+            "questions": [
+                "What benefits do you offer to retain employees?",
+                "Retention-focused employee benefits",
+                "Can you share details about the benefits and incentives your restaurant provides to retain employees, ensuring a positive work environment and long-term commitment to the organization?"
+            ],
+            "answers": [
+                "Employee retention is a priority, and we offer a range of benefits to create a positive work environment. This may include competitive compensation, health insurance, staff discounts, recognition programs, and other incentives that contribute to the overall satisfaction and retention of our valued team members."
+            ]
+        },
+        {
+            "tag": "employee-engagement-events",
+            "questions": [
+                "Do you organize employee engagement events?",
+                "Events to foster team collaboration",
+                "Can you provide information on the events and activities your restaurant organizes to foster employee engagement, teamwork, and a positive team culture?"
+            ],
+            "answers": [
+                "Employee engagement is important to us, and we organize events to foster a sense of community and collaboration. This may include team-building activities, social events, and celebrations that recognize the contributions of our staff. Creating a positive and enjoyable workplace is a priority."
+            ]
+        },
+        {
+            "tag": "employee-diversity-and-inclusion",
+            "questions": [
+                "How do you promote diversity and inclusion among your employees?",
+                "Initiatives for a diverse and inclusive workforce",
+                "Can you share details about the initiatives and practices your restaurant has in place to promote diversity and inclusion among your employees?"
+            ],
+            "answers": [
+                "Diversity and inclusion are fundamental to our workplace culture. We actively promote diversity through hiring practices, inclusivity training, and creating an environment where individuals of all backgrounds feel valued and respected. Our commitment to diversity enhances the richness of our workplace."
+            ]
+        },
+        {
+            "tag": "part-time-job-openings",
+            "questions": [
+                "Do you have part-time job openings at your restaurant?",
+                "Part-time positions and availability",
+                "Can you provide information on any current part-time job openings at your restaurant, including available positions and details about part-time employment opportunities?"
+            ],
+            "answers": [
+                "Yes, we often have part-time job openings available. Part-time positions may include roles such as servers, kitchen staff, and support roles. Individuals seeking part-time employment are encouraged to check our careers page or contact our human resources department for the latest opportunities."
+            ]
+        },
+        {
+            "tag": "part-time-application-process",
+            "questions": [
+                "What is the application process for part-time job seekers?",
+                "Applying for a part-time job at your restaurant",
+                "Can you share details about the application process for individuals interested in applying for a part-time job at your restaurant, including any specific requirements or steps to follow for part-time positions?"
+            ],
+            "answers": [
+                "The application process for part-time positions is similar to full-time roles. Interested candidates can visit our careers page on the website, where part-time job openings will be listed. The online application form allows candidates to indicate their preference for part-time employment. We review applications carefully and contact qualified candidates for further steps."
+            ]
+        },
+        {
+            "tag": "part-time-scheduling-flexibility",
+            "questions": [
+                "How do you handle scheduling and flexibility for part-time staff?",
+                "Scheduling policies for part-time employees",
+                "Can you provide insights into how your restaurant handles scheduling for part-time staff, including any policies in place to offer flexibility and accommodate the diverse needs of part-time employees?"
+            ],
+            "answers": [
+                "We understand the importance of flexibility for part-time staff. Our scheduling policies aim to accommodate individual preferences and commitments. Part-time employees have the opportunity to discuss and agree upon their schedules, ensuring a healthy work-life balance while contributing to the success of our restaurant."
+            ]
+        },
+        {
+            "tag": "part-time-employee-benefits",
+            "questions": [
+                "What benefits do you offer to part-time employees?",
+                "Benefits and perks for part-time staff",
+                "Can you share details about the benefits and perks that your restaurant offers to part-time employees, including considerations such as discounts, opportunities for professional development, and other incentives?"
+            ],
+            "answers": [
+                "While part-time employees may have different benefit structures than full-time staff, we still prioritize their well-being. Benefits for part-time employees may include staff discounts on meals, opportunities for professional development, and a positive work environment that values their contributions."
+            ]
+        },
+        {
+            "tag": "part-time-training-and-development",
+            "questions": [
+                "Do you provide training and development for part-time staff?",
+                "Professional growth opportunities for part-time employees",
+                "Can you provide information on the training and development opportunities your restaurant offers to support the professional growth and skills enhancement of part-time staff members?"
+            ],
+            "answers": [
+                "Training and development are essential for all staff members, including part-time employees. We offer training programs that cover menu knowledge, customer service skills, and other essential aspects of the job. Part-time staff members are encouraged to participate in ongoing learning opportunities to enhance their skills."
+            ]
+        },
+        {
+            "tag": "part-time-employee-culture",
+            "questions": [
+                "What is the employee culture like for part-time staff?",
+                "Workplace culture for part-time employees",
+                "Can you share insights into the employee culture for part-time staff at your restaurant, including the values that guide your workplace culture and how part-time employees contribute to a positive work environment?"
+            ],
+            "answers": [
+                "Our employee culture extends to part-time staff, fostering a positive and inclusive environment. Part-time employees are valued members of our team, and we encourage them to contribute ideas, support one another, and take pride in delivering exceptional service. Our values shape a workplace culture that promotes teamwork and camaraderie for all staff members."
+            ]
+        },
+        {
+            "tag": "part-time-job-application-tips",
+            "questions": [
+                "Do you have any tips for part-time job applicants?",
+                "Advice for individuals applying for part-time positions at your restaurant",
+                "Can you provide tips and advice for individuals applying for a part-time job at your restaurant, including key qualities you look for in part-time candidates and suggestions for a successful application?"
+            ],
+            "answers": [
+                "We appreciate part-time candidates who demonstrate a genuine passion for the hospitality industry and a commitment to delivering excellent service. When applying, highlight relevant experience, showcase your enthusiasm, and be prepared to discuss your understanding of our restaurant's values. We value candidates who align with our commitment to providing memorable dining experiences."
+            ]
+        },
+        {
+            "tag": "part-time-job-interview-process",
+            "questions": [
+                "What is the job interview process like for part-time positions?",
+                "Interview steps and expectations for part-time job seekers",
+                "Can you provide information on the job interview process for candidates applying to part-time positions at your restaurant, including the steps involved, what to expect, and how to prepare for a successful interview?"
+            ],
+            "answers": [
+                "The job interview process for part-time positions is similar to that for full-time roles. It may involve one or more interviews, a skills assessment, and an opportunity to discuss availability and scheduling preferences. We recommend part-time candidates familiarize themselves with our restaurant, come prepared with questions, and showcase their enthusiasm for the position."
+            ]
+        },
+        {
+            "tag": "part-time-employee-retention-strategies",
+            "questions": [
+                "How do you retain your part-time employees?",
+                "Strategies for retaining part-time staff",
+                "Can you share insights into the strategies your restaurant employs to retain part-time staff members, ensuring high levels of job satisfaction and encouraging long-term commitment to the organization?"
+            ],
+            "answers": [
+                "Retaining part-time employees is a priority, and we implement strategies such as a positive work culture, recognition programs, and opportunities for professional development. Our goal is to create an environment where part-time employees feel valued, supported, and motivated to contribute to the success of our restaurant."
+            ]
+        },
+        {
+            "tag": "sustainability-initiatives",
+            "questions": [
+                "What sustainability initiatives does your restaurant have?",
+                "Environmental efforts and sustainability practices",
+                "Can you share information on the sustainability initiatives your restaurant has in place, including efforts to reduce environmental impact, source local ingredients, and promote eco-friendly practices?"
+            ],
+            "answers": [
+                "Sustainability is a key focus for us. We actively engage in practices to reduce our environmental footprint, such as recycling programs, energy-efficient equipment, and sourcing locally when possible. We are committed to continually exploring and implementing initiatives that contribute to a more sustainable future."
+            ]
+        },
+        {
+            "tag": "community-engagement",
+            "questions": [
+                "How does your restaurant engage with the local community?",
+                "Community involvement and outreach",
+                "Can you provide details on how your restaurant actively engages with the local community, including partnerships with local organizations, charity events, or other initiatives that contribute to the community's well-being?"
+            ],
+            "answers": [
+                "Community engagement is a core value. We participate in local events, support community charities, and actively seek partnerships with local businesses. Our goal is to be a positive force in the community, contributing to its well-being and building meaningful connections with residents."
+            ]
+        },
+        {
+            "tag": "technology-innovation",
+            "questions": [
+                "What role does technology play in your restaurant operations?",
+                "Innovative technology implementations",
+                "Can you share insights into how your restaurant leverages technology to enhance operations, improve customer experiences, and stay at the forefront of innovation within the food and beverage industry?"
+            ],
+            "answers": [
+                "We embrace technology to streamline operations and enhance the dining experience. This may include online reservation systems, mobile ordering apps, and digital menus. We continually explore innovative solutions that align with industry trends and contribute to the efficiency and modernization of our restaurant."
+            ]
+        },
+        {
+            "tag": "seasonal-menu-changes",
+            "questions": [
+                "How often does your restaurant change its menu?",
+                "Seasonal menu rotations and changes",
+                "Can you provide information on how frequently your restaurant updates its menu, including considerations for seasonal ingredients, culinary trends, and the creative process behind crafting new dishes?"
+            ],
+            "answers": [
+                "Our menu changes seasonally to showcase the freshest ingredients available. We carefully curate dishes to align with seasonal flavors and culinary trends. This approach allows us to offer a dynamic and diverse dining experience, keeping our menu exciting for regular patrons and attracting new guests."
+            ]
+        },
+        {
+            "tag": "customer-feedback-utilization",
+            "questions": [
+                "How do you utilize customer feedback to improve your restaurant?",
+                "Customer input and continuous improvement",
+                "Can you share insights into how your restaurant collects and utilizes customer feedback to make improvements, enhance the dining experience, and address any areas for growth or enhancement?"
+            ],
+            "answers": [
+                "Customer feedback is invaluable to us. We collect feedback through surveys, reviews, and direct interactions. This input is carefully analyzed, and constructive suggestions are implemented to enhance our offerings and service. We are committed to continuous improvement based on the valuable insights provided by our guests."
+            ]
+        },
+        {
+            "tag": "employee-training-and-development",
+            "questions": [
+                "How do you approach employee training and development?",
+                "Staff learning programs and skill enhancement",
+                "Can you provide information on the training and development programs your restaurant offers to staff members, ensuring they have the skills and knowledge needed to deliver exceptional service and contribute to the overall success of the business?"
+            ],
+            "answers": [
+                "Employee training and development are paramount. We provide comprehensive training programs covering customer service, food safety, and job-specific skills. Ongoing learning opportunities are available to ensure our staff is well-equipped to deliver top-notch service and continually grow in their roles."
+            ]
+        },
+        {
+            "tag": "restaurant-ambiance-and-design",
+            "questions": [
+                "How would you describe the ambiance and design of your restaurant?",
+                "Interior design elements and atmosphere",
+                "Can you share insights into the ambiance and design elements of your restaurant, including considerations for creating a unique atmosphere that complements your culinary offerings and resonates with your target audience?"
+            ],
+            "answers": [
+                "Our restaurant's ambiance is carefully curated to complement our culinary concept. Design elements, lighting, and decor are selected to create a welcoming and comfortable atmosphere. We aim to provide an environment that enhances the overall dining experience, making each visit memorable for our guests."
+            ]
+        },
+        {
+            "tag": "alcohol-selection-and-pairing",
+            "questions": [
+                "How do you approach your alcohol selection and pairing?",
+                "Beverage menu curation and pairing recommendations",
+                "Can you provide information on how you curate your beverage menu, including considerations for wine, beer, and cocktail selections, as well as recommendations for pairing beverages with specific dishes on your menu?"
+            ],
+            "answers": [
+                "Our beverage selection is thoughtfully curated to complement our culinary offerings. We consider the flavors and profiles of wines, beers, and cocktails to provide a diverse and well-matched selection. Our staff is trained to offer recommendations for optimal beverage pairings, enhancing the overall dining experience for our guests."
+            ]
+        },
+        {
+            "tag": "seasonal-menu-highlights",
+            "questions": [
+                "How does your restaurant highlight seasonal ingredients on the menu?",
+                "Seasonal menu offerings and specialties",
+                "Can you provide information on how your restaurant incorporates seasonal ingredients into the menu, and what special dishes or offerings are highlighted during different seasons?"
+            ],
+            "answers": [
+                "We take pride in showcasing the best of each season through our menu. Our chefs carefully select and feature seasonal ingredients, creating special dishes that capture the essence of the current season. This ensures that our guests experience the freshest flavors and ingredients throughout the year."
+            ]
+        },
+        {
+            "tag": "seasonal-decorations",
+            "questions": [
+                "Do you change the restaurant decor to match different seasons?",
+                "Seasonal decorations and ambiance",
+                "Can you share details on how your restaurant adapts its decor to reflect different seasons, creating a visually appealing and thematic ambiance that enhances the overall dining experience?"
+            ],
+            "answers": [
+                "We believe in creating a dynamic and visually appealing atmosphere that aligns with the changing seasons. Our decor is adapted to reflect the colors, themes, and vibes of each season. This not only enhances the ambiance for our guests but also adds an element of excitement and freshness to the dining experience."
+            ]
+        },
+        {
+            "tag": "weather-dependent-menu-items",
+            "questions": [
+                "Are there menu items that are weather-dependent?",
+                "Weather-influenced dishes and offerings",
+                "Can you provide insights into whether your restaurant offers menu items that are influenced by the weather, and how certain dishes or beverages may be tailored to suit different weather conditions?"
+            ],
+            "answers": [
+                "Our menu is designed to be versatile, with some items influenced by the weather. For example, we may offer refreshing salads and chilled beverages during warmer months and hearty, comforting dishes during colder seasons. This allows us to cater to the preferences of our guests based on the current weather conditions."
+            ]
+        },
+        {
+            "tag": "seasonal-beverage-specials",
+            "questions": [
+                "Do you have seasonal beverage specials?",
+                "Specialty drinks based on seasons",
+                "Can you share details on any seasonal beverage specials your restaurant offers, including unique cocktails, mocktails, or other drink options that are crafted to complement the flavors of different seasons?"
+            ],
+            "answers": [
+                "Our beverage menu includes seasonal specials crafted by our skilled mixologists. These may include refreshing summer cocktails, warm and spiced beverages for winter, and other unique options that align with the flavors and spirits of each season. Our goal is to provide a diverse and exciting drink experience for our guests."
+            ]
+        },
+        {
+            "tag": "weather-responsive-seating",
+            "questions": [
+                "Does your restaurant have weather-responsive seating arrangements?",
+                "Outdoor seating and climate considerations",
+                "Can you provide information on how your restaurant manages outdoor seating based on weather conditions, and whether there are specific arrangements or considerations in place to enhance the comfort of guests during various weather scenarios?"
+            ],
+            "answers": [
+                "We offer outdoor seating that is designed to be weather-responsive. Whether it's providing shade during hot summer days or offering heating options during cooler seasons, we aim to create a comfortable and enjoyable outdoor dining experience. Our staff is trained to adapt seating arrangements based on weather conditions to ensure the comfort of our guests."
+            ]
+        },
+        {
+            "tag": "weather-related-promotions",
+            "questions": [
+                "Do you run promotions based on weather conditions?",
+                "Weather-influenced discounts or promotions",
+                "Can you share details on whether your restaurant runs promotions or special discounts that are influenced by weather conditions, encouraging guests to visit during specific weather scenarios or seasons?"
+            ],
+            "answers": [
+                "We may run promotions that align with the current weather or seasons. For example, offering discounts on refreshing beverages during hot summer days or promoting warm and comforting dishes during colder weather. These promotions add an element of excitement and value for our guests based on the current climate."
+            ]
+        },
+        {
+            "tag": "seasonal-events-and-festivals",
+            "questions": [
+                "Does your restaurant host seasonal events or festivals?",
+                "Seasonal celebrations and special events",
+                "Can you provide information on any seasonal events or festivals that your restaurant hosts, celebrating specific seasons and creating memorable experiences for guests during different times of the year?"
+            ],
+            "answers": [
+                "We love celebrating the seasons with our guests! Throughout the year, we host special events and festivals that align with different seasons. This may include themed parties, seasonal tastings, and other festive gatherings that add a touch of joy and celebration to the dining experience."
+            ]
+        },
+        {
+            "tag": "seasonal-ingredient-sourcing",
+            "questions": [
+                "How does your restaurant source seasonal ingredients?",
+                "Local and seasonal ingredient procurement",
+                "Can you share insights into how your restaurant procures seasonal ingredients, whether through local partnerships, farmers' markets, or other means, to ensure the freshness and quality of seasonal offerings on the menu?"
+            ],
+            "answers": [
+                "Sourcing seasonal ingredients is a priority for us. We have strong partnerships with local farmers and suppliers, allowing us to procure the freshest seasonal ingredients. This not only supports local businesses but also ensures that our guests enjoy the highest quality and flavor in every dish."
+            ]
+        },
+        {
+            "tag": "customer-experience-commitment",
+            "questions": [
+                "What is your commitment to customer experience?",
+                "Customer satisfaction goals",
+                "Can you share insights into your restaurant's commitment to providing an exceptional customer experience, including specific goals, training programs, and initiatives in place to ensure customer satisfaction?"
+            ],
+            "answers": [
+                "Customer experience is at the heart of our mission. We are committed to delivering exceptional service by prioritizing guest satisfaction. Our staff undergoes extensive training to provide personalized and attentive service, and we actively seek feedback to continually improve and meet the expectations of our valued customers."
+            ]
+        },
+        {
+            "tag": "special-occasions-celebration",
+            "questions": [
+                "How does your restaurant celebrate special occasions?",
+                "Special event offerings and celebrations",
+                "Can you provide information on how your restaurant celebrates special occasions, including offerings for birthdays, anniversaries, and other milestones, and any special arrangements or promotions in place for these celebrations?"
+            ],
+            "answers": [
+                "We love being part of our guests' special occasions! Whether it's a birthday, anniversary, or other milestone, we offer special arrangements, personalized touches, and may even have promotions or complimentary items to enhance the celebration. We strive to make every special occasion memorable for our guests."
+            ]
+        },
+        {
+            "tag": "private-events-availability",
+            "questions": [
+                "Is your restaurant available for private events?",
+                "Private event space and offerings",
+                "Can you share details on whether your restaurant has space available for private events, the types of events you can accommodate, and any special packages or offerings for private bookings?"
+            ],
+            "answers": [
+                "Yes, we offer private event spaces for various occasions. Whether it's a corporate event, birthday celebration, or other gatherings, we have flexible options to accommodate different group sizes. Our team can work with organizers to tailor packages, menus, and arrangements to suit the specific needs of the event."
+            ]
+        },
+        {
+            "tag": "loyalty-program-details",
+            "questions": [
+                "Does your restaurant have a loyalty program?",
+                "Customer loyalty rewards and benefits",
+                "Can you provide details on your restaurant's loyalty program, including the rewards and benefits offered to loyal customers, and how guests can enroll or participate in the program?"
+            ],
+            "answers": [
+                "Yes, we have a loyalty program to show appreciation for our valued customers. Members of our loyalty program enjoy exclusive rewards, discounts, and special offers. Enrollment is simple and can be done through our website or at the restaurant. We believe in rewarding our loyal patrons for their continued support."
+            ]
+        },
+        {
+            "tag": "live-music-and-entertainment",
+            "questions": [
+                "Does your restaurant offer live music or entertainment?",
+                "Live performances and entertainment offerings",
+                "Can you share information on whether your restaurant hosts live music performances or other entertainment events, and how these offerings contribute to the overall dining experience for your guests?"
+            ],
+            "answers": [
+                "We believe in enhancing the dining experience with live entertainment. Whether it's live music, themed events, or other performances, we strive to create a vibrant and enjoyable atmosphere for our guests. Check our event calendar for upcoming performances and special entertainment offerings."
+            ]
+        },
+        {
+            "tag": "unique-culinary-experiences",
+            "questions": [
+                "What unique culinary experiences does your restaurant offer?",
+                "Specialty dining events and culinary experiences",
+                "Can you provide details on any unique culinary experiences your restaurant offers, such as chef's table events, tasting menus, or other specialty dining options that set your establishment apart?"
+            ],
+            "answers": [
+                "We take pride in offering unique culinary experiences. Our chef's table events, tasting menus, and other specialty dining options are curated to provide an elevated and memorable experience for our guests. These experiences showcase the creativity and skill of our culinary team while offering a distinct dining adventure."
+            ]
+        },
+        {
+            "tag": "interactive-dining-experiences",
+            "questions": [
+                "Are there interactive dining experiences at your restaurant?",
+                "Cooking classes, tastings, and interactive events",
+                "Can you share information on any interactive dining experiences your restaurant offers, such as cooking classes, tastings, or other hands-on events that engage guests in the culinary process?"
+            ],
+            "answers": [
+                "We believe in engaging our guests through interactive dining experiences. From cooking classes to tastings and hands-on events, we provide opportunities for guests to immerse themselves in the culinary world. These experiences are designed to be fun, educational, and a unique way to enjoy the art of dining."
+            ]
+        },
+        {
+            "tag": "restaurant-awards-and-accolades",
+            "questions": [
+                "Has your restaurant received any awards or accolades?",
+                "Recognitions and achievements",
+                "Can you share information on any awards or accolades your restaurant has received, recognizing exceptional culinary achievements, outstanding service, or other notable contributions to the hospitality industry?"
+            ],
+            "answers": [
+                "We are honored to have received recognition for our commitment to excellence. Our restaurant has been awarded for outstanding culinary achievements, exceptional service, and contributions to the hospitality industry. These accolades reflect our dedication to providing a memorable dining experience for our guests."
+            ]
+        },
+        {
+            "tag": "environmental-friendly-practices",
+            "questions": [
+                "What environmental-friendly practices does your restaurant follow?",
+                "Sustainable and eco-friendly initiatives",
+                "Can you provide information on the environmental-friendly practices your restaurant follows, including efforts to reduce waste, conserve energy, and promote sustainability in various aspects of operations?"
+            ],
+            "answers": [
+                "We are committed to environmental-friendly practices. Our initiatives include reducing waste through recycling programs, using eco-friendly packaging, and incorporating energy-efficient systems. We continually explore new ways to minimize our environmental impact and contribute to a sustainable future."
+            ]
+        },
+        {
+            "tag": "restaurant-history-and-story",
+            "questions": [
+                "Can you share the history and story of your restaurant?",
+                "Restaurant origins and milestones",
+                "Could you provide insights into the history and story of your restaurant, including its origins, key milestones, and any unique aspects that have contributed to its identity and success?"
+            ],
+            "answers": [
+                "Our restaurant has a rich history that began [X years ago]. It was founded with a vision to [mission or goal], and since then, we've achieved significant milestones. Our story is shaped by [notable events or experiences], and we continue to evolve, providing a unique and memorable dining experience for our guests."
+            ]
+        },
+        {
+            "tag": "restaurant-philosophy-and-values",
+            "questions": [
+                "What is the philosophy and set of values that guide your restaurant?",
+                "Core principles and values",
+                "Can you provide insights into the philosophy and set of values that serve as the foundation for your restaurant, influencing decision-making, service standards, and the overall experience you aim to deliver?"
+            ],
+            "answers": [
+                "Our restaurant is guided by a set of core principles and values. These include [key values], which influence every aspect of our operations. From sourcing the finest ingredients to delivering exceptional service, our philosophy revolves around [core principles], creating a dining experience that aligns with our values."
+            ]
+        },
+        {
+            "tag": "restaurant-logo-and-branding",
+            "questions": [
+                "Can you explain the significance of your restaurant's logo and branding?",
+                "Logo design and brand identity",
+                "Could you share the meaning and significance behind your restaurant's logo and overall branding, including how these elements contribute to conveying the identity and essence of your establishment?"
+            ],
+            "answers": [
+                "Our restaurant's logo and branding are carefully crafted to convey our identity. The logo symbolizes [meaning or concept], and the overall branding reflects the essence of [restaurant name]. The design elements aim to create a visual representation of our values and the unique experience we offer to our guests."
+            ]
+        },
+        {
+            "tag": "restaurant-name-origin",
+            "questions": [
+                "How did your restaurant get its name?",
+                "Origin of the restaurant's name",
+                "Can you share the story behind how your restaurant got its name? Whether it's tied to a specific theme, location, or concept, understanding the origin adds an interesting layer to the overall dining experience."
+            ],
+            "answers": [
+                "The name of our restaurant has a special significance. It originated from [origin story], reflecting [meaning or theme]. We believe the name encapsulates the spirit of our establishment and contributes to the overall identity that our guests have come to recognize and appreciate."
+            ]
+        },
+        {
+            "tag": "restaurant-anniversaries-and-celebrations",
+            "questions": [
+                "How does your restaurant celebrate anniversaries and special milestones?",
+                "Anniversary events and celebrations",
+                "Can you provide information on how your restaurant celebrates anniversaries and special milestones, including any events, promotions, or unique offerings designed to mark these occasions with your guests?"
+            ],
+            "answers": [
+                "Anniversaries and milestones are moments of celebration for us. We may host special events, offer exclusive promotions, or introduce limited-time menu items to commemorate these occasions. It's our way of expressing gratitude to our guests and sharing the joy of reaching significant milestones."
+            ]
+        },
+        {
+            "tag": "restaurant-community-involvement",
+            "questions": [
+                "How is your restaurant involved in the local community?",
+                "Community engagement and partnerships",
+                "Could you share insights into how your restaurant actively participates in the local community, including any partnerships, sponsorships, or initiatives that contribute to the well-being and development of the community?"
+            ],
+            "answers": [
+                "Community involvement is a key aspect of our commitment. We actively participate in local initiatives, support community events, and collaborate with local organizations. Our goal is to contribute positively to the community that has embraced and supported our restaurant over the years."
+            ]
+        },
+        {
+            "tag": "restaurant-memorable-experiences",
+            "questions": [
+                "Can you share stories of memorable experiences at your restaurant?",
+                "Customer stories and memorable moments",
+                "Could you recount some memorable experiences that guests have had at your restaurant, whether related to special occasions, exceptional service, or unique encounters that have left a lasting impression?"
+            ],
+            "answers": [
+                "We cherish the moments that create lasting memories for our guests. Whether it's a heartwarming celebration, an extraordinary dining experience, or a unique encounter with our team, we value the stories of memorable moments shared by our guests. These experiences fuel our commitment to delivering exceptional service."
+            ]
+        },
+        {
+            "tag": "restaurant-featured-media",
+            "questions": [
+                "Has your restaurant been featured in the media?",
+                "Media coverage and recognition",
+                "Can you provide information on any media coverage or recognition your restaurant has received, including reviews, features, or interviews that highlight the unique aspects and offerings of your establishment?"
+            ],
+            "answers": [
+                "We've been fortunate to receive positive media coverage that highlights the distinct offerings and experiences at our restaurant. Whether it's reviews, features, or interviews, we appreciate the recognition and strive to continually exceed the expectations of our guests."
+            ]
+        },
+        {
+            "tag": "restaurant-loyal-fans-and-customers",
+            "questions": [
+                "Do you have loyal fans or regular customers who frequent your restaurant?",
+                "Loyal customer base and regulars",
+                "Can you share stories about your loyal fans or regular customers, including any special relationships or connections that have developed over time, contributing to the sense of community at your restaurant?"
+            ],
+            "answers": [
+                "Our restaurant is fortunate to have a dedicated group of loyal fans and regular customers. We value the relationships that have developed over time and appreciate the support of our community. These connections contribute to the welcoming and familiar atmosphere that defines the essence of our establishment."
+            ]
+        },
+        {
+            "tag": "restaurant-cultural-influence",
+            "questions": [
+                "How does the culture influence your restaurant?",
+                "Cultural inspirations and influences",
+                "Can you share insights into how cultural elements influence your restaurant, from menu choices and culinary styles to decor and overall ambiance, and how these influences contribute to a unique dining experience?"
+            ],
+            "answers": [
+                "Cultural influences play a significant role in shaping our restaurant's identity. Our menu choices, culinary techniques, and even decor are inspired by various cultural elements. We aim to create an immersive experience that allows guests to explore diverse flavors and traditions while enjoying a memorable dining experience."
+            ]
+        },
+        {
+            "tag": "restaurant-technology-adoption",
+            "questions": [
+                "How does your restaurant leverage technology?",
+                "Innovations and tech implementations",
+                "Can you provide information on how your restaurant adopts technology, whether it's for online reservations, mobile ordering, or other innovations that enhance the overall dining experience and streamline operations?"
+            ],
+            "answers": [
+                "We embrace technology to enhance both guest experiences and operational efficiency. From online reservation systems and mobile ordering apps to state-of-the-art kitchen equipment, we leverage technology to provide a seamless and modern dining experience. Our goal is to stay at the forefront of innovation within the food and beverage industry."
+            ]
+        },
+        {
+            "tag": "restaurant-ingredient-sourcing-philosophy",
+            "questions": [
+                "What is your philosophy on ingredient sourcing?",
+                "Local and sustainable sourcing",
+                "Can you share insights into your restaurant's philosophy on ingredient sourcing, including the importance of using local and sustainable ingredients, and how this commitment influences the quality and flavors of the dishes on your menu?"
+            ],
+            "answers": [
+                "Ingredient sourcing is a crucial aspect of our culinary philosophy. We prioritize using local and sustainable ingredients to ensure the highest quality and freshness in our dishes. This commitment not only supports local farmers and producers but also contributes to a more responsible and environmentally-friendly approach to dining."
+            ]
+        },
+        {
+            "tag": "restaurant-wine-program",
+            "questions": [
+                "Tell us about your restaurant's wine program.",
+                "Wine selection and expertise",
+                "Can you provide information on your restaurant's wine program, including the selection process, expertise of staff in recommending wine pairings, and any special events or promotions related to your wine offerings?"
+            ],
+            "answers": [
+                "Our wine program is curated with care and expertise. Our team is knowledgeable about our extensive wine selection, and they can recommend pairings to enhance the dining experience. We also host special events and promotions, such as wine tastings and featured wineries, to celebrate the world of fine wines."
+            ]
+        },
+        {
+            "tag": "restaurant-outdoor-dining-experience",
+            "questions": [
+                "What can guests expect from your outdoor dining experience?",
+                "Outdoor seating arrangements and ambiance",
+                "Can you share details on what guests can expect from your outdoor dining experience, including seating arrangements, ambiance, and any special considerations in place to make outdoor dining comfortable and enjoyable?"
+            ],
+            "answers": [
+                "Our outdoor dining experience is designed to be both comfortable and enjoyable. Guests can expect thoughtfully arranged seating, whether it's shaded areas during sunny days or heating options for cooler evenings. The ambiance is tailored to create a pleasant atmosphere, allowing guests to savor their meals in an alfresco setting."
+            ]
+        },
+        {
+            "tag": "restaurant-menu-customization-options",
+            "questions": [
+                "Do you offer menu customization options for guests?",
+                "Customized dishes and dietary preferences",
+                "Can you provide information on whether your restaurant offers menu customization options to accommodate guests' dietary preferences or special requests, ensuring a personalized dining experience?"
+            ],
+            "answers": [
+                "We understand the importance of catering to individual preferences. Our menu is designed to be flexible, and we gladly accommodate dietary preferences or special requests whenever possible. Guests can enjoy a customized dining experience that aligns with their unique tastes and requirements."
+            ]
+        },
+        {
+            "tag": "restaurant-holiday-celebrations",
+            "questions": [
+                "How does your restaurant celebrate holidays?",
+                "Holiday-themed offerings and events",
+                "Can you share details on how your restaurant celebrates holidays, including any special menu items, themed events, or promotions designed to add a festive touch to the dining experience during holiday seasons?"
+            ],
+            "answers": [
+                "Holidays are a time of celebration at our restaurant. We introduce special menu items, host themed events, and may offer promotions to mark festive seasons. It's our way of creating a joyful and memorable atmosphere for guests looking to enjoy the holidays with family and friends."
+            ]
+        },
+        {
+            "tag": "restaurant-innovative-culinary-techniques",
+            "questions": [
+                "What innovative culinary techniques does your restaurant employ?",
+                "Creative cooking methods and presentations",
+                "Can you provide insights into the innovative culinary techniques employed in your restaurant, whether it's molecular gastronomy, unique cooking methods, or creative presentations that set your dishes apart?"
+            ],
+            "answers": [
+                "Innovation is a key element of our culinary approach. We explore creative cooking techniques, from molecular gastronomy to unique presentations, to offer guests a dining experience that goes beyond traditional boundaries. Our chefs embrace experimentation and creativity to bring exciting and inventive dishes to the table."
+            ]
+        },
+        {
+            "tag": "restaurant-team-collaboration",
+            "questions": [
+                "How does your restaurant foster team collaboration?",
+                "Collaborative work environment and team dynamics",
+                "Can you share information on how your restaurant fosters a collaborative work environment, including team-building initiatives, open communication, and the overall dynamics that contribute to a positive and cohesive team culture?"
+            ],
+            "answers": [
+                "Team collaboration is crucial to our success. We prioritize open communication, team-building initiatives, and a supportive work environment. Our staff collaborates seamlessly to deliver exceptional service and ensure a harmonious dining experience for our guests. We believe that a positive team culture translates into a positive guest experience."
+            ]
+        }
+    ]
+}

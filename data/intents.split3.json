@@ -1,0 +1,1313 @@
+{
+    "intents": [
+        {
+            "tag": "emergency-assembly-point",
+            "questions": [
+                "Where is the designated emergency assembly point?",
+                "Location for gathering in case of fire",
+                "How can guests identify and reach the emergency assembly point during a fire emergency?"
+            ],
+            "answers": [
+                "In the event of a fire, we have a designated emergency assembly point. Our staff will guide you to this location, which is strategically chosen for safety. Look for signage indicating the assembly point."
+            ]
+        },
+        {
+            "tag": "fire-safety-team-contacts",
+            "questions": [
+                "How can guests contact the fire safety team?",
+                "Communication with the fire safety team",
+                "Are there specific contact details for reaching the fire safety team at your restaurant?"
+            ],
+            "answers": [
+                "For immediate assistance regarding fire safety, please contact our fire safety team. You can find emergency contact details displayed prominently throughout the restaurant, including phone numbers and designated staff members."
+            ]
+        },
+        {
+            "tag": "fire-safety-awareness-campaigns",
+            "questions": [
+                "Do you conduct fire safety awareness campaigns?",
+                "Educating guests about fire safety measures",
+                "How do you inform and educate guests about fire safety at your restaurant?"
+            ],
+            "answers": [
+                "We believe in proactive education. Periodically, we conduct fire safety awareness campaigns to inform and educate our guests. Look out for events, workshops, and materials aimed at raising awareness about fire safety measures."
+            ]
+        },
+        {
+            "tag": "fire-safety-partnerships",
+            "questions": [
+                "Are you affiliated with any fire safety organizations?",
+                "Partnerships for enhancing fire safety measures",
+                "How does your restaurant collaborate with fire safety organizations to improve safety standards?"
+            ],
+            "answers": [
+                "To uphold the highest safety standards, we collaborate with reputable fire safety organizations. These partnerships involve regular assessments, training sessions, and the implementation of best practices to enhance overall fire safety at our restaurant."
+            ]
+        },
+        {
+            "tag": "fire-prevention-tips",
+            "questions": [
+                "What fire prevention tips do you provide to guests?",
+                "Guidance for guests to prevent fire hazards",
+                "Can guests access information on fire prevention tips at your venue?"
+            ],
+            "answers": [
+                "Your safety is a shared responsibility. We provide valuable fire prevention tips to guests, emphasizing simple practices to minimize fire hazards. Look for information on fire prevention displayed in common areas of the restaurant."
+            ]
+        },
+        {
+            "tag": "fire-safety-communication-system",
+            "questions": [
+                "How is communication handled during a fire emergency?",
+                "Communication system in place for emergencies",
+                "What measures do you have in place to ensure effective communication with guests and staff during a fire emergency?"
+            ],
+            "answers": [
+                "Effective communication is crucial during emergencies. We have a comprehensive communication system in place, including announcements, visual alerts, and trained staff members, to ensure clear and concise communication with guests and staff in case of a fire emergency."
+            ]
+        },
+        {
+            "tag": "fire-safety-inspections",
+            "questions": [
+                "How often do you conduct fire safety inspections?",
+                "Regular assessments for maintaining safety standards",
+                "What is your schedule for fire safety inspections to ensure ongoing compliance?"
+            ],
+            "answers": [
+                "We prioritize ongoing compliance with safety standards. Fire safety inspections are conducted regularly to assess and enhance our safety measures. These inspections help us identify and address any potential issues promptly."
+            ]
+        },
+        {
+            "tag": "guest-feedback-on-fire-safety",
+            "questions": [
+                "Do you welcome guest feedback on fire safety?",
+                "Collecting input to improve fire safety measures",
+                "How can guests provide feedback on fire safety at your restaurant?"
+            ],
+            "answers": [
+                "Guest feedback is valuable in our commitment to continuous improvement. If you have suggestions or feedback regarding fire safety, please share your thoughts with our staff or use our dedicated feedback channels. Your input helps us enhance safety measures."
+            ]
+        },
+        {
+            "tag": "christmas-special-menu",
+            "questions": [
+                "Do you offer a special menu for Christmas?",
+                "Christmas-themed dishes at your restaurant",
+                "What's on the special menu for Christmas at your venue?"
+            ],
+            "answers": [
+                "Celebrate the festive season with our Christmas special menu! Indulge in a delightful array of dishes crafted to capture the spirit of Christmas, featuring festive flavors and seasonal favorites."
+            ]
+        },
+        {
+            "tag": "new-year-eve-dining",
+            "questions": [
+                "Do you have special dining options for New Year's Eve?",
+                "New Year's Eve dinner at your restaurant",
+                "Tell me about the dining experience you offer on New Year's Eve."
+            ],
+            "answers": [
+                "Ring in the New Year with a memorable dining experience at our restaurant! Join us for a special New Year's Eve dinner featuring exquisite cuisine, festive ambiance, and a joyful atmosphere to welcome the upcoming year."
+            ]
+        },
+        {
+            "tag": "christmas-decorations-venue",
+            "questions": [
+                "Is your venue decorated for Christmas?",
+                "Christmas-themed decorations at your restaurant",
+                "What festive decorations can guests expect at your venue during the Christmas season?"
+            ],
+            "answers": [
+                "Experience the magic of Christmas in our beautifully decorated venue! We've adorned our space with enchanting Christmas decorations, creating a festive and cheerful ambiance for our guests to enjoy."
+            ]
+        },
+        {
+            "tag": "new-year-eve-party",
+            "questions": [
+                "Are you hosting a New Year's Eve party?",
+                "Celebratory events on New Year's Eve at your restaurant",
+                "Tell me about the New Year's Eve party and festivities at your venue."
+            ],
+            "answers": [
+                "Countdown to the New Year with our exciting New Year's Eve party! Join us for a night of celebration, live music, dancing, and a festive atmosphere as we welcome the new year together."
+            ]
+        },
+        {
+            "tag": "christmas-themed-cocktails",
+            "questions": [
+                "Do you have Christmas-themed cocktails?",
+                "Festive drink options for Christmas at your restaurant",
+                "What special cocktails are available during the Christmas season at your venue?"
+            ],
+            "answers": [
+                "Sip on the holiday spirit with our Christmas-themed cocktails! Our talented mixologists have crafted a special selection of festive drinks to complement the joyous atmosphere of the season."
+            ]
+        },
+        {
+            "tag": "new-year-special-desserts",
+            "questions": [
+                "Are there special desserts for New Year's Eve?",
+                "Decadent sweets for New Year's celebrations at your restaurant",
+                "What dessert options are available to sweeten the New Year's Eve festivities at your venue?"
+            ],
+            "answers": [
+                "End your year on a sweet note with our New Year's Eve special desserts! Indulge in decadent treats and desserts crafted to add a touch of sweetness to your celebratory moments."
+            ]
+        },
+        {
+            "tag": "christmas-group-dining",
+            "questions": [
+                "Do you offer group dining options for Christmas parties?",
+                "Planning a Christmas party at your restaurant",
+                "How can guests arrange group dining for Christmas celebrations at your venue?"
+            ],
+            "answers": [
+                "Celebrate with friends and family! We offer group dining options for Christmas parties. Contact our events team to plan a memorable gathering with special menus and personalized arrangements for your festive celebrations."
+            ]
+        },
+        {
+            "tag": "new-year-eve-reservations",
+            "questions": [
+                "Can guests make reservations for New Year's Eve?",
+                "Booking options for New Year's Eve celebrations at your restaurant",
+                "How can guests secure a reservation for New Year's Eve at your venue?"
+            ],
+            "answers": [
+                "Ensure your spot for the New Year's Eve festivities by making a reservation! We recommend securing your booking in advance to guarantee a seat for the celebratory evening at our restaurant."
+            ]
+        },
+        {
+            "tag": "christmas-gift-cards",
+            "questions": [
+                "Do you offer Christmas gift cards?",
+                "Gift options for the holiday season",
+                "Can guests purchase Christmas-themed gift cards at your restaurant?"
+            ],
+            "answers": [
+                "Spread joy with our Christmas gift cards! Surprise your loved ones with the gift of a delightful dining experience. Christmas-themed gift cards are available for purchase at our restaurant."
+            ]
+        },
+        {
+            "tag": "new-year-resolutions-menu",
+            "questions": [
+                "Is there a menu inspired by New Year's resolutions?",
+                "Healthy and wellness-focused options for the new year",
+                "Tell me about the menu items that align with New Year's resolutions at your restaurant."
+            ],
+            "answers": [
+                "Embrace a fresh start with our New Year's resolutions-inspired menu! Explore a selection of health-conscious and wellness-focused dishes crafted to support your goals for the upcoming year."
+            ]
+        },
+        {
+            "tag": "festive-entertainment-events",
+            "questions": [
+                "Do you have festive entertainment events during the holidays?",
+                "Live performances and entertainment for Christmas and New Year's Eve",
+                "What entertainment options can guests enjoy at your restaurant during the holiday season?"
+            ],
+            "answers": [
+                "Experience the magic of the holidays with our festive entertainment events! Join us for live performances, music, and entertainment throughout the Christmas and New Year's Eve season to add an extra layer of joy to your dining experience."
+            ]
+        },
+        {
+            "tag": "christmas-brunch-options",
+            "questions": [
+                "Are there special brunch options for Christmas?",
+                "Festive brunch offerings on Christmas day",
+                "Tell me about the Christmas-themed brunch options available at your restaurant."
+            ],
+            "answers": [
+                "Start your Christmas day with a festive brunch at our restaurant! Indulge in special brunch options featuring seasonal delights and holiday-inspired dishes to kick off the celebrations."
+            ]
+        },
+        {
+            "tag": "new-year-cocktail-party",
+            "questions": [
+                "Are you hosting a New Year's Eve cocktail party?",
+                "Cocktail celebrations for New Year's Eve at your restaurant",
+                "What can guests expect at your New Year's Eve cocktail party?"
+            ],
+            "answers": [
+                "Raise a toast to the New Year at our exclusive cocktail party! Join us for an evening of sophisticated cocktails, lively music, and a glamorous atmosphere as we welcome the arrival of the new year together."
+            ]
+        },
+        {
+            "tag": "christmas-and-new-year-deals",
+            "questions": [
+                "Do you have special deals for Christmas and New Year's Eve?",
+                "Promotions and discounts during the holiday season",
+                "What special offers and deals can guests enjoy at your restaurant during Christmas and New Year's Eve?"
+            ],
+            "answers": [
+                "Celebrate the season with our exclusive deals! Enjoy special promotions and discounts on selected menu items and packages during the festive period at our restaurant."
+            ]
+        },
+        {
+            "tag": "holiday-party-reservations",
+            "questions": [
+                "Can guests reserve space for holiday parties?",
+                "Booking options for holiday gatherings at your restaurant",
+                "How can guests arrange reservations for hosting holiday parties at your venue?"
+            ],
+            "answers": [
+                "Host a memorable holiday party with us! Guests can reserve space for their holiday gatherings by contacting our events team. We offer tailored packages, festive menus, and personalized arrangements to make your celebration extraordinary."
+            ]
+        },
+        {
+            "tag": "new-year-fireworks-viewing",
+            "questions": [
+                "Do you provide a view of New Year's Eve fireworks?",
+                "Fireworks viewing options at your restaurant",
+                "Can guests enjoy a view of the New Year's Eve fireworks from your venue?"
+            ],
+            "answers": [
+                "Ring in the New Year with a view! Our venue offers a prime location for enjoying the New Year's Eve fireworks. Join us for a spectacular evening with great food, drinks, and a front-row seat to the dazzling fireworks display."
+            ]
+        },
+        {
+            "tag": "christmas-dinner-special",
+            "questions": [
+                "Do you have a special offer for Christmas dinner?",
+                "Christmas dinner promotions at your restaurant",
+                "Tell me about the special discounts or packages available for Christmas dinner."
+            ],
+            "answers": [
+                "Celebrate Christmas with us and enjoy a special offer on our festive dinner! Indulge in a delectable feast with exclusive discounts and packages crafted to make your Christmas dinner memorable."
+            ]
+        },
+        {
+            "tag": "new-year-party-package",
+            "questions": [
+                "Is there a package for the New Year's Eve party?",
+                "New Year's Eve party promotions at your restaurant",
+                "What's included in the special package for the New Year's Eve celebration at your venue?"
+            ],
+            "answers": [
+                "Countdown to the New Year with our exclusive party package! Our New Year's Eve celebration package includes a night of entertainment, delightful cuisine, and festive surprises to ensure you welcome the new year in style."
+            ]
+        },
+        {
+            "tag": "christmas-brunch-discount",
+            "questions": [
+                "Do you offer discounts on Christmas brunch?",
+                "Special discounts for Christmas brunch at your restaurant",
+                "How can guests avail of discounts when enjoying the Christmas brunch at your venue?"
+            ],
+            "answers": [
+                "Enjoy the Christmas spirit with a delightful brunch and special discounts! Guests can take advantage of exclusive discounts when indulging in our Christmas brunch, making it a festive and budget-friendly celebration."
+            ]
+        },
+        {
+            "tag": "new-year-catering-offer",
+            "questions": [
+                "Do you provide catering for New Year's events?",
+                "Catering promotions for New Year's celebrations",
+                "Tell me about the special offers and discounts on catering services for New Year's events."
+            ],
+            "answers": [
+                "Elevate your New Year's celebrations with our catering services! Take advantage of special offers and discounts on catering packages designed to make your New Year's events unforgettable."
+            ]
+        },
+        {
+            "tag": "christmas-gift-voucher",
+            "questions": [
+                "Do you offer Christmas gift vouchers?",
+                "Gift voucher promotions for Christmas at your restaurant",
+                "How can guests purchase and benefit from Christmas-themed gift vouchers at your venue?"
+            ],
+            "answers": [
+                "Give the gift of an exceptional dining experience with our Christmas gift vouchers! Purchase Christmas-themed gift vouchers for your loved ones and enjoy special promotions to make the holiday season even more joyful."
+            ]
+        },
+        {
+            "tag": "new-year-early-bird-discount",
+            "questions": [
+                "Is there an early bird discount for New Year's reservations?",
+                "Special discounts for early reservations on New Year's Eve",
+                "How can guests avail the early bird discount when booking for New Year's celebrations at your restaurant?"
+            ],
+            "answers": [
+                "Plan ahead and enjoy the benefits! Guests can take advantage of our early bird discount by making reservations in advance for our New Year's Eve celebrations. Secure your spot and enjoy exclusive savings."
+            ]
+        },
+        {
+            "tag": "christmas-gala-dinner-offer",
+            "questions": [
+                "Do you have a special offer for the Christmas gala dinner?",
+                "Promotions for the Christmas gala dinner at your restaurant",
+                "Tell me about the discounts or perks available for guests attending the Christmas gala dinner."
+            ],
+            "answers": [
+                "Experience elegance at our Christmas gala dinner with a special offer! Guests attending our Christmas gala dinner can enjoy exclusive discounts and perks, adding an extra layer of sophistication to their festive celebrations."
+            ]
+        },
+        {
+            "tag": "new-year-group-booking-deal",
+            "questions": [
+                "Are there special deals for group bookings on New Year's Eve?",
+                "Group booking promotions for New Year's celebrations at your restaurant",
+                "How can groups avail special deals when booking for New Year's Eve at your venue?"
+            ],
+            "answers": [
+                "Gather your friends and celebrate together! Groups can enjoy special deals when booking for our New Year's Eve celebration. Contact our events team to explore exclusive group booking promotions."
+            ]
+        },
+        {
+            "tag": "christmas-lunch-special",
+            "questions": [
+                "Do you have a special offer for Christmas lunch?",
+                "Christmas lunch promotions at your restaurant",
+                "Tell me about the special discounts or packages available for Christmas lunch."
+            ],
+            "answers": [
+                "Make your Christmas lunch extraordinary with our special offer! Indulge in a festive feast with exclusive discounts and packages designed to make your Christmas celebration a delightful experience."
+            ]
+        },
+        {
+            "tag": "new-year-happy-hour",
+            "questions": [
+                "Are there happy hour specials for New Year's Eve?",
+                "Happy hour promotions for New Year's celebrations at your restaurant",
+                "What drink and food specials can guests enjoy during the New Year's Eve happy hour at your venue?"
+            ],
+            "answers": [
+                "Cheers to the New Year with our special happy hour! Join us for New Year's Eve and enjoy exclusive drink and food specials during our happy hour, adding extra joy to your celebration."
+            ]
+        },
+        {
+            "tag": "christmas-takeout-deals",
+            "questions": [
+                "Do you offer takeout deals for Christmas?",
+                "Takeout promotions for Christmas at your restaurant",
+                "Tell me about the special discounts or offers available for Christmas takeout orders."
+            ],
+            "answers": [
+                "Celebrate Christmas at home with our takeout deals! Enjoy special discounts and offers on Christmas takeout orders, bringing the festive flavors of our restaurant to your holiday celebrations."
+            ]
+        },
+        {
+            "tag": "new-year-live-music-offer",
+            "questions": [
+                "Is there an offer for New Year's Eve with live music?",
+                "Live music promotions for New Year's celebrations at your restaurant",
+                "What special perks or discounts are available for guests enjoying live music on New Year's Eve at your venue?"
+            ],
+            "answers": [
+                "Sway to the rhythm of the New Year with our live music offer! Guests enjoying live music on New Year's Eve can benefit from special perks and discounts, creating a harmonious celebration."
+            ]
+        },
+        {
+            "tag": "christmas-dessert-combo",
+            "questions": [
+                "Do you have a dessert combo for Christmas?",
+                "Dessert promotions for Christmas at your restaurant",
+                "Tell me about the special dessert combinations and discounts available for Christmas at your venue."
+            ],
+            "answers": [
+                "Sweeten your Christmas celebration with our dessert combo! Indulge in a delectable array of desserts with special combinations and discounts, making your holiday dessert experience even more delightful."
+            ]
+        },
+        {
+            "tag": "new-year-family-package",
+            "questions": [
+                "Is there a family package for New Year's Eve?",
+                "Family-friendly promotions for New Year's celebrations at your restaurant",
+                "What perks or discounts are available for families celebrating New Year's Eve at your venue?"
+            ],
+            "answers": [
+                "Celebrate with the whole family! Our New Year's Eve family package includes special perks and discounts for families, ensuring a joyous and family-friendly celebration to welcome the new year together."
+            ]
+        },
+        {
+            "tag": "christmas-wine-pairing",
+            "questions": [
+                "Do you offer wine pairing for Christmas dinner?",
+                "Wine pairing promotions for Christmas at your restaurant",
+                "Tell me about the special wine pairing options and discounts available for Christmas dinner at your venue."
+            ],
+            "answers": [
+                "Elevate your Christmas dinner with our wine pairing offer! Enjoy special options and discounts on wine pairings, perfectly complementing the flavors of your festive meal."
+            ]
+        },
+        {
+            "tag": "new-year-dine-and-dance",
+            "questions": [
+                "Is there a dine-and-dance offer for New Year's Eve?",
+                "Dine-and-dance promotions for New Year's celebrations at your restaurant",
+                "What perks or discounts are available for guests enjoying both dining and dancing on New Year's Eve at your venue?"
+            ],
+            "answers": [
+                "Dine and dance into the New Year with our special offer! Guests enjoying both dining and dancing on New Year's Eve can benefit from exclusive perks and discounts, creating a lively and festive atmosphere."
+            ]
+        },
+        {
+            "tag": "food-handling-procedures",
+            "questions": [
+                "What are your food handling procedures?",
+                "Ensuring safe food handling practices",
+                "Can you explain the steps your staff takes to ensure safe food handling at your restaurant?"
+            ],
+            "answers": [
+                "We prioritize food safety through stringent handling procedures. Our staff follows industry best practices, including regular handwashing, the use of gloves, and proper sanitation, to ensure the safety and hygiene of the food we serve."
+            ]
+        },
+        {
+            "tag": "ingredients-sourcing-standards",
+            "questions": [
+                "What are your standards for sourcing ingredients?",
+                "Ensuring quality and safety in ingredient sourcing",
+                "Can you provide information on the standards you maintain when sourcing ingredients for your restaurant?"
+            ],
+            "answers": [
+                "We are committed to sourcing high-quality and safe ingredients. Our standards include partnering with reputable suppliers, conducting regular quality checks, and ensuring compliance with food safety regulations to guarantee the freshness and safety of our ingredients."
+            ]
+        },
+        {
+            "tag": "allergen-information",
+            "questions": [
+                "How do you handle allergen information?",
+                "Providing allergen information to guests",
+                "What measures do you have in place to inform guests about allergens present in your dishes?"
+            ],
+            "answers": [
+                "Guest safety is a priority, especially regarding allergies. We provide detailed allergen information on our menu and train our staff to address allergy-related inquiries. If you have specific concerns, feel free to ask our staff for assistance."
+            ]
+        },
+        {
+            "tag": "temperature-control-practices",
+            "questions": [
+                "How do you ensure temperature control for food?",
+                "Maintaining safe food temperatures",
+                "Can you explain the practices and protocols in place to ensure proper temperature control for the food served at your restaurant?"
+            ],
+            "answers": [
+                "We rigorously adhere to temperature control practices to guarantee food safety. This includes regular monitoring of refrigeration and cooking temperatures, using calibrated equipment, and implementing protocols to quickly address any deviations and maintain the integrity of our food."
+            ]
+        },
+        {
+            "tag": "cleaning-and-sanitization-routines",
+            "questions": [
+                "What are your cleaning and sanitization routines?",
+                "Maintaining a clean and safe environment",
+                "How do you ensure the cleanliness and sanitation of your kitchen and dining areas to meet food safety standards?"
+            ],
+            "answers": [
+                "Maintaining a clean environment is essential for food safety. Our staff follows strict cleaning and sanitization routines, including regular deep cleaning, sanitizing surfaces, and using safe cleaning agents to uphold the highest standards of cleanliness throughout our restaurant."
+            ]
+        },
+        {
+            "tag": "staff-food-safety-training",
+            "questions": [
+                "How is your staff trained in food safety?",
+                "Ensuring staff competency in food safety",
+                "Can you provide details on the training programs and certifications your staff undergo to ensure they are well-versed in food safety practices?"
+            ],
+            "answers": [
+                "Our staff undergoes comprehensive food safety training to ensure competency and compliance with industry standards. Training programs cover topics such as proper food handling, hygiene practices, and emergency procedures to guarantee a safe and secure dining environment."
+            ]
+        },
+        {
+            "tag": "regular-food-safety-audits",
+            "questions": [
+                "Do you conduct regular food safety audits?",
+                "Ensuring ongoing compliance with food safety standards",
+                "How do you monitor and audit your food safety practices to ensure ongoing compliance with industry standards?"
+            ],
+            "answers": [
+                "We prioritize continuous improvement in food safety. Regular audits are conducted to assess our food safety practices, identify areas for improvement, and ensure ongoing compliance with industry standards, allowing us to provide a safe dining experience for our guests."
+            ]
+        },
+        {
+            "tag": "customer-feedback-on-food-safety",
+            "questions": [
+                "Do you welcome customer feedback on food safety?",
+                "Collecting input to improve food safety measures",
+                "How can guests provide feedback on food safety at your restaurant?"
+            ],
+            "answers": [
+                "Guest feedback is valuable in our commitment to continuous improvement. If you have any concerns or suggestions related to food safety, please share your thoughts with our staff or use our dedicated feedback channels. Your input helps us enhance our food safety measures."
+            ]
+        },
+        {
+            "tag": "food-safety-certifications",
+            "questions": [
+                "What food safety certifications do you hold?",
+                "Certifications ensuring food safety standards",
+                "Can you provide information on the certifications your restaurant has obtained to ensure food safety standards are met and maintained?"
+            ],
+            "answers": [
+                "We take pride in upholding the highest food safety standards and hold certifications from reputable authorities. Our certifications validate our commitment to providing safe and hygienic food to our guests."
+            ]
+        },
+        {
+            "tag": "traceability-of-ingredients",
+            "questions": [
+                "How do you ensure traceability of ingredients?",
+                "Tracking the origin and handling of ingredients",
+                "Can you explain the measures you have in place to trace the origin and handling of the ingredients used in your dishes?"
+            ],
+            "answers": [
+                "We prioritize traceability to ensure the quality and safety of our ingredients. Our systems track the origin, handling, and storage of each ingredient, allowing us to provide transparent information to our guests and regulatory authorities."
+            ]
+        },
+        {
+            "tag": "food-safety-emergency-response",
+            "questions": [
+                "What is your emergency response plan for food safety incidents?",
+                "Handling emergencies related to food safety",
+                "How do you respond to food safety incidents, and what protocols are in place to address emergencies swiftly?"
+            ],
+            "answers": [
+                "We have a comprehensive emergency response plan for food safety incidents. Our protocols include immediate containment, communication with relevant authorities, and transparent disclosure to guests to ensure a swift and effective response to any food safety emergencies."
+            ]
+        },
+        {
+            "tag": "organic-food-safety-practices",
+            "questions": [
+                "How do you ensure food safety for organic ingredients?",
+                "Maintaining safety standards for organic produce",
+                "Can you elaborate on the specific practices and procedures in place to ensure food safety for organic ingredients used in your dishes?"
+            ],
+            "answers": [
+                "We extend our commitment to food safety to organic ingredients. Our practices include rigorous testing, verification of organic certifications, and adherence to strict handling procedures to maintain the safety and integrity of organic produce."
+            ]
+        },
+        {
+            "tag": "food-safety-awareness-campaigns",
+            "questions": [
+                "Do you conduct food safety awareness campaigns?",
+                "Educating guests about food safety measures",
+                "How do you inform and educate guests about food safety at your restaurant?"
+            ],
+            "answers": [
+                "We believe in proactive education on food safety. Periodically, we conduct food safety awareness campaigns to inform and educate our guests. Look out for events, workshops, and materials aimed at raising awareness about safe food handling practices."
+            ]
+        },
+        {
+            "tag": "food-safety-inspections",
+            "questions": [
+                "How often do you conduct food safety inspections?",
+                "Regular assessments for maintaining safety standards",
+                "What is your schedule for food safety inspections to ensure ongoing compliance?"
+            ],
+            "answers": [
+                "We prioritize ongoing compliance with safety standards. Food safety inspections are conducted regularly to assess and enhance our safety measures. These inspections help us identify and address any potential issues promptly."
+            ]
+        },
+        {
+            "tag": "customer-training-on-food-safety",
+            "questions": [
+                "Do you provide training to customers on food safety?",
+                "Engaging customers in safe food practices",
+                "How do you involve and educate customers in safe food practices while dining at your restaurant?"
+            ],
+            "answers": [
+                "We encourage customer participation in food safety. Our staff is available to provide information and answer questions about safe food practices. We believe that informed customers contribute to a safer dining experience for everyone."
+            ]
+        },
+        {
+            "tag": "food-safety-technology",
+            "questions": [
+                "Do you use technology for food safety?",
+                "Incorporating technology to enhance food safety",
+                "Can you share how technology is utilized to monitor, track, and enhance food safety practices at your restaurant?"
+            ],
+            "answers": [
+                "We leverage advanced technology to monitor and enhance food safety. Our systems include temperature monitoring devices, inventory tracking software, and other technological solutions to ensure the safety and quality of the food we serve."
+            ]
+        },
+        {
+            "tag": "food-inspector-inspections",
+            "questions": [
+                "How often do you undergo food inspector inspections?",
+                "Frequency of food safety inspections by authorities",
+                "Can you provide information on the regular inspections conducted by food inspectors at your restaurant?"
+            ],
+            "answers": [
+                "We undergo regular food inspector inspections to ensure compliance with food safety regulations. Inspections are scheduled at set intervals, and our team actively cooperates with inspectors to maintain the highest standards of safety and hygiene."
+            ]
+        },
+        {
+            "tag": "audit-preparation-process",
+            "questions": [
+                "What is your preparation process for food safety audits?",
+                "Ensuring readiness for food safety audits",
+                "How do you prepare and ensure compliance before food safety audits conducted by regulatory authorities?"
+            ],
+            "answers": [
+                "We have a meticulous preparation process for food safety audits. This includes internal audits, staff training, and documentation checks to ensure that we are consistently meeting and exceeding the requirements set by regulatory authorities."
+            ]
+        },
+        {
+            "tag": "response-to-inspection-findings",
+            "questions": [
+                "How do you respond to findings from food inspector inspections?",
+                "Addressing and rectifying issues identified in inspections",
+                "Can you explain the procedures in place for responding to and rectifying any issues or findings highlighted during food inspector inspections?"
+            ],
+            "answers": [
+                "Addressing findings is a priority. When issues are identified during food inspector inspections, we take immediate action to rectify them. Our team works closely with inspectors to implement corrective measures and prevent recurrence."
+            ]
+        },
+        {
+            "tag": "communication-with-food-authorities",
+            "questions": [
+                "How do you communicate with food authorities during inspections?",
+                "Maintaining transparent communication with regulatory bodies",
+                "Can you provide insights into the communication channels and transparency maintained with food authorities during inspections?"
+            ],
+            "answers": [
+                "We prioritize transparent communication with food authorities. Our team maintains open lines of communication during inspections, providing requested information promptly and working collaboratively with authorities to ensure compliance."
+            ]
+        },
+        {
+            "tag": "staff-training-for-inspections",
+            "questions": [
+                "How do you train your staff for food inspector inspections?",
+                "Ensuring staff readiness and cooperation during inspections",
+                "Can you share details about the training programs in place to prepare your staff for food inspector inspections?"
+            ],
+            "answers": [
+                "Staff readiness is crucial for inspections. Our team undergoes regular training sessions to stay informed about food safety regulations, inspection protocols, and best practices. This ensures that our staff is well-prepared and cooperative during inspections."
+            ]
+        },
+        {
+            "tag": "documentation-compliance",
+            "questions": [
+                "How do you ensure documentation compliance for audits?",
+                "Maintaining accurate and updated records for inspections",
+                "Can you elaborate on the systems and processes in place to ensure that all required documentation is accurate, updated, and readily available for audits?"
+            ],
+            "answers": [
+                "Accurate documentation is a priority. We have robust systems in place to maintain accurate and up-to-date records. Our documentation includes food safety plans, temperature logs, staff certifications, and other necessary records to demonstrate compliance during audits."
+            ]
+        },
+        {
+            "tag": "continuous-improvement-post-audit",
+            "questions": [
+                "How do you implement continuous improvement post-audit?",
+                "Leveraging audit findings for ongoing enhancement",
+                "Can you share how you utilize audit findings to drive continuous improvement in your food safety practices and overall operations?"
+            ],
+            "answers": [
+                "We view audits as opportunities for improvement. Post-audit, we analyze findings to identify areas for enhancement. This information is used to implement corrective actions, update protocols, and strengthen our overall food safety practices for continuous improvement."
+            ]
+        },
+        {
+            "tag": "staff-accountability-for-compliance",
+            "questions": [
+                "How do you ensure staff accountability for compliance?",
+                "Encouraging a culture of responsibility for food safety",
+                "Can you explain the measures in place to foster a culture of responsibility among staff members for maintaining compliance with food safety standards?"
+            ],
+            "answers": [
+                "Staff accountability is integral to our operations. We foster a culture of responsibility through ongoing training, clear communication of expectations, and empowerment. Our staff understands the importance of individual contributions to overall compliance with food safety standards."
+            ]
+        },
+        {
+            "tag": "charity-partnerships",
+            "questions": [
+                "Do you have partnerships with charities?",
+                "Charitable collaborations at your restaurant",
+                "Can you share information about the charities your restaurant partners with and the initiatives you support?"
+            ],
+            "answers": [
+                "We are proud to partner with several charities dedicated to making a positive impact. Our collaborations include fundraising events, awareness campaigns, and direct support to charitable organizations that align with our values and mission."
+            ]
+        },
+        {
+            "tag": "charity-fundraising-events",
+            "questions": [
+                "Do you host charity fundraising events?",
+                "Fundraising initiatives at your restaurant",
+                "Tell me about the charity fundraising events you organize and how guests can participate in supporting these initiatives."
+            ],
+            "answers": [
+                "We regularly organize charity fundraising events to support meaningful causes. These events may include special dinners, auctions, or donation drives. Guests can actively participate by attending these events, making donations, or contributing in various ways to support the chosen charity."
+            ]
+        },
+        {
+            "tag": "charity-donation-programs",
+            "questions": [
+                "Do you have donation programs for customers?",
+                "Customer involvement in charitable donations",
+                "How can customers contribute to your charity donation programs, and what impact do these programs have on the supported causes?"
+            ],
+            "answers": [
+                "Our charity donation programs provide customers with the opportunity to make a positive impact. Customers can contribute by adding a donation to their bill, participating in designated menu items that contribute to charities, or directly supporting specific initiatives. The collective impact of these contributions helps make a difference in the causes we support."
+            ]
+        },
+        {
+            "tag": "community-outreach-projects",
+            "questions": [
+                "Do you engage in community outreach projects?",
+                "Local community initiatives at your restaurant",
+                "Can you provide details about the community outreach projects your restaurant is involved in and how these initiatives benefit the local community?"
+            ],
+            "answers": [
+                "We believe in giving back to the community. Our restaurant actively engages in community outreach projects, which may include supporting local schools, organizing clean-up initiatives, or collaborating with community organizations to address specific needs. These projects aim to foster a sense of community and contribute to the well-being of our local area."
+            ]
+        },
+        {
+            "tag": "charity-awareness-campaigns",
+            "questions": [
+                "Do you run awareness campaigns for charitable causes?",
+                "Raising awareness about charitable initiatives",
+                "How does your restaurant raise awareness about the charitable causes you support, and what impact do these awareness campaigns have on the community?"
+            ],
+            "answers": [
+                "Raising awareness is a key aspect of our charitable efforts. We run awareness campaigns through various channels, including social media, local partnerships, and in-restaurant promotions. These campaigns aim to inform the community about important issues and encourage active participation and support."
+            ]
+        },
+        {
+            "tag": "employee-volunteer-programs",
+            "questions": [
+                "Do your employees participate in volunteer programs?",
+                "Employee involvement in charitable activities",
+                "How are your employees encouraged to participate in volunteer programs, and what role do they play in supporting charitable initiatives?"
+            ],
+            "answers": [
+                "Our employees play a crucial role in our charitable activities. We encourage and support employee involvement in volunteer programs, whether it's dedicating time to community service, participating in charity events, or contributing their skills to support charitable causes. Their commitment strengthens our collective impact on the community."
+            ]
+        },
+        {
+            "tag": "charity-impact-reports",
+            "questions": [
+                "Do you share impact reports for your charitable initiatives?",
+                "Transparency in showcasing charitable impact",
+                "How does your restaurant communicate the impact of its charitable initiatives, and are impact reports available for public access?"
+            ],
+            "answers": [
+                "Transparency is important to us. We regularly share impact reports detailing the outcomes of our charitable initiatives. These reports highlight the funds raised, community improvements, and the positive change achieved through our collaborative efforts with charities and the community."
+            ]
+        },
+        {
+            "tag": "charity-collaborative-menu-items",
+            "questions": [
+                "Are there menu items that support charities?",
+                "Charity-focused menu options at your restaurant",
+                "Tell me about the menu items specifically designed to support charities, and how do these contributions make a difference?"
+            ],
+            "answers": [
+                "Our menu features special items designed to support charities. When guests order these designated menu items, a portion of the proceeds goes directly to the chosen charities. It's a delicious way for customers to contribute to meaningful causes while enjoying their dining experience."
+            ]
+        },
+        {
+            "tag": "food-wastage-reduction-strategies",
+            "questions": [
+                "What strategies do you use to reduce food wastage?",
+                "Minimizing food wastage at your restaurant",
+                "Can you share the initiatives and strategies your restaurant employs to minimize food wastage?"
+            ],
+            "answers": [
+                "We are committed to minimizing food wastage through various strategies. These include careful inventory management, portion control, donation programs, and creative menu planning to ensure that surplus food is minimized at every stage of our operations."
+            ]
+        },
+        {
+            "tag": "food-waste-audits",
+            "questions": [
+                "Do you conduct food waste audits?",
+                "Measuring and monitoring food wastage",
+                "How does your restaurant conduct food waste audits, and what measures are taken based on the findings to reduce overall food wastage?"
+            ],
+            "answers": [
+                "We conduct regular food waste audits to measure and monitor our wastage levels. The findings from these audits guide our efforts in identifying areas for improvement. We use the data to implement targeted strategies to reduce food wastage and promote sustainability."
+            ]
+        },
+        {
+            "tag": "donation-programs-for-surplus-food",
+            "questions": [
+                "Do you have donation programs for surplus food?",
+                "Redistributing surplus food to communities in need",
+                "Can you provide details on any donation programs your restaurant participates in to redistribute surplus food to local communities?"
+            ],
+            "answers": [
+                "We actively participate in donation programs to ensure that surplus food is redirected to communities in need. Our partnerships with local organizations and charities enable us to contribute to efforts in reducing food insecurity and food wastage simultaneously."
+            ]
+        },
+        {
+            "tag": "employee-training-on-food-wastage",
+            "questions": [
+                "How do you train employees to reduce food wastage?",
+                "Employee involvement in minimizing food wastage",
+                "Can you elaborate on the training programs in place to educate and empower your staff in reducing food wastage during daily operations?"
+            ],
+            "answers": [
+                "Employee training is key to our efforts in minimizing food wastage. Our staff undergoes training on portion control, proper storage practices, and the importance of minimizing waste. By fostering a culture of responsibility, we ensure that every team member contributes to our food wastage reduction efforts."
+            ]
+        },
+        {
+            "tag": "creative-menu-planning-for-sustainability",
+            "questions": [
+                "Do you incorporate sustainability in menu planning to reduce wastage?",
+                "Creative approaches to menu planning for sustainability",
+                "How does your restaurant incorporate sustainability in menu planning to minimize food wastage and promote responsible consumption?"
+            ],
+            "answers": [
+                "Sustainability is a priority in our menu planning. We employ creative approaches such as using seasonal ingredients, offering flexible portion sizes, and repurposing surplus ingredients to minimize food wastage. These initiatives contribute to both environmental responsibility and customer satisfaction."
+            ]
+        },
+        {
+            "tag": "customer-awareness-on-food-wastage",
+            "questions": [
+                "Do you raise customer awareness about food wastage?",
+                "Engaging customers in reducing food wastage",
+                "How does your restaurant engage and inform customers about the impact of food wastage and encourage them to participate in reducing wastage during their dining experience?"
+            ],
+            "answers": [
+                "Customer awareness is essential to our efforts. We engage customers through various channels, including menu messaging, social media, and in-restaurant communication, to raise awareness about food wastage. We encourage customers to make mindful choices, consider portion sizes, and support our sustainability initiatives."
+            ]
+        },
+        {
+            "tag": "food-waste-recycling-programs",
+            "questions": [
+                "Do you have recycling programs for food waste?",
+                "Sustainable practices in food waste management",
+                "Can you provide details on any recycling programs your restaurant has in place for managing and repurposing food waste in an environmentally friendly manner?"
+            ],
+            "answers": [
+                "We are committed to sustainable practices in food waste management. Our recycling programs focus on repurposing food waste through composting or other environmentally friendly methods. These initiatives align with our broader commitment to reducing our ecological footprint."
+            ]
+        },
+        {
+            "tag": "tracking-and-reducing-overstock",
+            "questions": [
+                "How do you track and reduce overstock to prevent wastage?",
+                "Efforts to minimize overstock and food wastage",
+                "Can you share insights into the measures your restaurant takes to track and reduce overstock, ensuring that food wastage is minimized at all times?"
+            ],
+            "answers": [
+                "Efficient inventory management is key to preventing food wastage. We track inventory levels closely, adjusting orders based on demand, seasonal variations, and consumption patterns. By minimizing overstock, we ensure that fresh ingredients are used optimally and wastage is reduced."
+            ]
+        },
+        {
+            "tag": "portion-control-practices",
+            "questions": [
+                "How do you implement portion control to reduce wastage?",
+                "Portion control strategies at your restaurant",
+                "Can you share details about the portion control practices in place to minimize food wastage during food preparation and service?"
+            ],
+            "answers": [
+                "Portion control is a crucial aspect of our wastage reduction efforts. We implement standardized portion sizes, regularly train our kitchen staff on accurate measurements, and use technology to optimize portioning. These practices contribute to both reducing wastage and ensuring consistent quality."
+            ]
+        },
+        {
+            "tag": "collaboration-with-local-farms",
+            "questions": [
+                "Do you collaborate with local farms for sustainable sourcing?",
+                "Promoting sustainability through local farm collaborations",
+                "Can you provide information on any collaborations with local farms that contribute to sustainable sourcing and minimization of food wastage at your restaurant?"
+            ],
+            "answers": [
+                "Collaborating with local farms is integral to our commitment to sustainability. By sourcing ingredients locally, we reduce transportation-related wastage and support local communities. This collaboration aligns with our broader goal of minimizing our environmental impact."
+            ]
+        },
+        {
+            "tag": "real-time-monitoring-systems",
+            "questions": [
+                "Do you use real-time monitoring systems for wastage reduction?",
+                "Utilizing technology for real-time monitoring of wastage",
+                "How does your restaurant leverage real-time monitoring systems to identify and address wastage promptly, ensuring optimal efficiency in operations?"
+            ],
+            "answers": [
+                "Real-time monitoring is a key component of our wastage reduction strategy. We use advanced technology to track inventory levels, monitor sales patterns, and identify potential areas of wastage. This proactive approach allows us to make data-driven decisions and optimize our operations in real-time."
+            ]
+        },
+        {
+            "tag": "collaborative-wastage-reduction-campaigns",
+            "questions": [
+                "Do you participate in collaborative wastage reduction campaigns?",
+                "Joining forces with other businesses for wastage reduction",
+                "Can you share details about any collaborative wastage reduction campaigns or initiatives your restaurant participates in with other businesses or the local community?"
+            ],
+            "answers": [
+                "Collaboration is key to impactful change. We actively participate in collaborative wastage reduction campaigns, partnering with other businesses and local organizations. These initiatives amplify our efforts and contribute to a collective commitment to reducing food wastage."
+            ]
+        },
+        {
+            "tag": "dynamic-menu-adjustments",
+            "questions": [
+                "How do you make dynamic menu adjustments to minimize wastage?",
+                "Flexibility in menu adjustments for wastage reduction",
+                "Can you provide insights into how your restaurant makes dynamic menu adjustments based on demand and other factors to minimize food wastage?"
+            ],
+            "answers": [
+                "Flexibility is essential in minimizing food wastage. We make dynamic menu adjustments based on factors such as seasonal availability, customer preferences, and historical data. This agile approach ensures that our menu offerings align with demand, reducing the likelihood of wastage."
+            ]
+        },
+        {
+            "tag": "educational-initiatives-for-staff",
+            "questions": [
+                "Do you have educational initiatives for staff on wastage reduction?",
+                "Staff training programs for promoting wastage reduction",
+                "How do you educate and empower your staff through training programs to actively participate in wastage reduction efforts during daily operations?"
+            ],
+            "answers": [
+                "Continuous education is key to staff involvement in wastage reduction. We conduct regular training programs to educate our staff on the importance of minimizing wastage, efficient food handling, and the role each team member plays in contributing to our overall sustainability goals."
+            ]
+        },
+        {
+            "tag": "customer-incentives-for-wastage-reduction",
+            "questions": [
+                "Do you offer incentives for customers to minimize wastage?",
+                "Encouraging customer participation in wastage reduction",
+                "How does your restaurant incentivize customers to participate in minimizing food wastage, and what impact have these initiatives had on customer behavior?"
+            ],
+            "answers": [
+                "Customer participation is crucial in wastage reduction. We offer incentives for customers who make sustainable choices, such as opting for smaller portions, participating in donation programs, or choosing menu items designed to minimize wastage. These initiatives have had a positive impact on customer behavior and awareness."
+            ]
+        },
+        {
+            "tag": "ongoing-wastage-reduction-goals",
+            "questions": [
+                "What are your ongoing wastage reduction goals?",
+                "Setting and achieving targets for wastage reduction",
+                "Can you share details about the specific goals your restaurant has set for ongoing wastage reduction and any achievements or milestones reached in this area?"
+            ],
+            "answers": [
+                "Setting goals is essential for continuous improvement. Our ongoing wastage reduction goals include specific targets for percentage reduction, waste diversion, and sustainability metrics. We regularly assess our progress, celebrate achievements, and adjust our strategies to meet our evolving goals."
+            ]
+        },
+        {
+            "tag": "military-discounts",
+            "questions": [
+                "Do you offer military discounts?",
+                "Discounts for military personnel",
+                "Can you provide information on any discounts or special offers available for military personnel dining at your restaurant?"
+            ],
+            "answers": [
+                "We proudly offer military discounts as a token of appreciation for the service and sacrifices of our military personnel. Military members can enjoy special discounts on their meals by presenting valid military identification."
+            ]
+        },
+        {
+            "tag": "veterans-appreciation-events",
+            "questions": [
+                "Do you host veterans appreciation events?",
+                "Special events for veterans at your restaurant",
+                "Can you share details about any special events or initiatives your restaurant hosts to show appreciation for veterans and military personnel?"
+            ],
+            "answers": [
+                "We actively host veterans appreciation events to honor the bravery and dedication of veterans and military personnel. These events may include special dinners, recognition ceremonies, or themed occasions to create a welcoming atmosphere for those who have served."
+            ]
+        },
+        {
+            "tag": "military-themed-menu-items",
+            "questions": [
+                "Do you have military-themed menu items?",
+                "Menu items honoring the military",
+                "Tell me about any menu items specifically designed to honor the military, and how do these items contribute to creating a supportive and patriotic atmosphere?"
+            ],
+            "answers": [
+                "We celebrate the military through special menu items designed to honor their service. These items may carry military-themed names or ingredients, creating a unique and patriotic dining experience for our guests."
+            ]
+        },
+        {
+            "tag": "military-appreciation-days",
+            "questions": [
+                "Do you have military appreciation days?",
+                "Dedicated days to honor and appreciate the military",
+                "Can you provide information on any specific days or events dedicated to showing appreciation for the military at your restaurant?"
+            ],
+            "answers": [
+                "We designate special days throughout the year as military appreciation days. On these days, we go the extra mile to express our gratitude through various initiatives, discounts, and acknowledgments for military members and veterans."
+            ]
+        },
+        {
+            "tag": "supporting-military-families",
+            "questions": [
+                "How do you support military families?",
+                "Initiatives for supporting families of military personnel",
+                "Can you share details about any initiatives or programs your restaurant has in place to support the families of military personnel?"
+            ],
+            "answers": [
+                "Supporting military families is important to us. We may offer family-oriented programs, discounts for military family members, or collaborate with organizations that provide assistance and resources to the families of those serving in the military."
+            ]
+        },
+        {
+            "tag": "military-themed-decor",
+            "questions": [
+                "Is your restaurant decorated with a military theme?",
+                "Decor elements honoring the military",
+                "How is your restaurant decorated to honor the military, and what decor elements contribute to creating a welcoming atmosphere for military personnel and veterans?"
+            ],
+            "answers": [
+                "Our restaurant features military-themed decor elements to create a warm and welcoming atmosphere for military personnel and veterans. This may include patriotic colors, symbols, or memorabilia that reflect our respect for the military community."
+            ]
+        },
+        {
+            "tag": "partnerships-with-military-organizations",
+            "questions": [
+                "Do you have partnerships with military organizations?",
+                "Collaborations with organizations supporting the military",
+                "Can you provide information on any partnerships or collaborations your restaurant has with military organizations to further support and engage with the military community?"
+            ],
+            "answers": [
+                "We are proud to collaborate with military organizations to extend our support to the military community. These partnerships may involve joint initiatives, events, or programs aimed at enhancing the well-being and recognition of military personnel and their families."
+            ]
+        },
+        {
+            "tag": "military-veteran-employee-programs",
+            "questions": [
+                "Do you have programs for hiring military veterans?",
+                "Employment initiatives for military veterans",
+                "Can you share details about any programs or initiatives your restaurant has in place to actively recruit and support the employment of military veterans?"
+            ],
+            "answers": [
+                "We actively participate in programs to hire and support military veterans in their transition to civilian life. Our restaurant values the unique skills and experiences that veterans bring to our team, and we provide opportunities for meaningful employment."
+            ]
+        },
+        {
+            "tag": "care-packages-for-deployed-soldiers",
+            "questions": [
+                "Do you send care packages to deployed soldiers?",
+                "Supporting deployed soldiers through care packages",
+                "Can you provide details about any programs or initiatives your restaurant has to send care packages to deployed soldiers and show appreciation for their service?"
+            ],
+            "answers": [
+                "We actively participate in programs to send care packages to deployed soldiers. These care packages are filled with essential items, notes of appreciation, and tokens of gratitude to support our servicemen and women serving overseas."
+            ]
+        },
+        {
+            "tag": "military-family-discounts",
+            "questions": [
+                "Do you offer discounts for military family members?",
+                "Special discounts for the families of military personnel",
+                "Can you share information about any discounts or special offers available for the family members of military personnel dining at your restaurant?"
+            ],
+            "answers": [
+                "We extend our appreciation to military families by offering special discounts. Family members of military personnel can enjoy discounts on their meals as a small token of our gratitude for the sacrifices made by their loved ones in service."
+            ]
+        },
+        {
+            "tag": "veterans-employment-support",
+            "questions": [
+                "Do you provide employment support for veterans?",
+                "Assistance programs for veterans seeking employment",
+                "Can you share details about any employment support programs or initiatives your restaurant has in place to assist veterans in finding meaningful employment?"
+            ],
+            "answers": [
+                "We are committed to supporting veterans in their transition to civilian life. Our employment support programs may include job placement assistance, resume workshops, and mentorship opportunities to help veterans build successful careers beyond their military service."
+            ]
+        },
+        {
+            "tag": "military-appreciation-menu-events",
+            "questions": [
+                "Do you host military appreciation menu events?",
+                "Special menu events to honor the military",
+                "Can you provide details about any special menu events or initiatives your restaurant hosts to express appreciation for the military through unique and themed dining experiences?"
+            ],
+            "answers": [
+                "We host special menu events to express our appreciation for the military. These events may feature themed menus, discounts, and exclusive offerings to create a memorable dining experience that honors the service of military personnel and veterans."
+            ]
+        },
+        {
+            "tag": "educational-support-for-military-personnel",
+            "questions": [
+                "Do you provide educational support for military personnel?",
+                "Assistance programs for education and skill development",
+                "Can you share details about any programs or initiatives your restaurant has to provide educational support for military personnel, such as scholarships or training programs?"
+            ],
+            "answers": [
+                "We are dedicated to supporting the education and skill development of military personnel. Our restaurant may offer scholarships, training programs, or other educational initiatives to empower servicemen and women in their pursuit of knowledge and skills."
+            ]
+        },
+        {
+            "tag": "collaborative-events-with-military-groups",
+            "questions": [
+                "Do you collaborate with military groups for events?",
+                "Partnerships with military organizations for collaborative events",
+                "Can you provide information on any collaborations or partnerships your restaurant has with military groups to organize events that benefit the military community?"
+            ],
+            "answers": [
+                "We actively collaborate with military groups to organize events that benefit the military community. These collaborations may involve joint initiatives, fundraisers, or community events aimed at fostering camaraderie and support for servicemen and women."
+            ]
+        },
+        {
+            "tag": "military-history-themed-decor",
+            "questions": [
+                "Is your restaurant decorated with military history themes?",
+                "Decor elements honoring military history",
+                "How is your restaurant decorated to honor military history, and what decor elements contribute to creating a nostalgic and respectful atmosphere for military personnel and veterans?"
+            ],
+            "answers": [
+                "Our restaurant features decor elements that pay tribute to military history. These may include memorabilia, historical photographs, or artifacts that create a nostalgic and respectful atmosphere for military personnel, veterans, and all guests."
+            ]
+        },
+        {
+            "tag": "active-duty-appreciation-events",
+            "questions": [
+                "Do you host events specifically for active-duty personnel?",
+                "Dedicated events to honor and appreciate active-duty military",
+                "Can you share details about any events or initiatives your restaurant hosts to specifically honor and appreciate active-duty military personnel?"
+            ],
+            "answers": [
+                "We host dedicated events to honor and appreciate active-duty military personnel. These events may include special promotions, recognition ceremonies, or exclusive offerings to express our gratitude for the ongoing service of active-duty men and women."
+            ]
+        },
+        {
+            "tag": "student-discounts",
+            "questions": [
+                "Do you offer student discounts?",
+                "Discounts for students at your restaurant",
+                "Can you provide information on any discounts or special offers available for students dining at your restaurant?"
+            ],
+            "answers": [
+                "Yes, we are pleased to offer student discounts as a way of supporting and appreciating the academic efforts of students. Students can enjoy special discounts on their meals by presenting valid student identification."
+            ]
+        },
+        {
+            "tag": "student-discount-days",
+            "questions": [
+                "Do you have specific days for student discounts?",
+                "Designated days for offering student discounts",
+                "Can you share details about any specific days or times during which students can avail special discounts at your restaurant?"
+            ],
+            "answers": [
+                "We have designated days during which students can enjoy additional discounts on their meals. These student discount days are designed to provide students with affordable dining options and may vary based on our schedule and promotions."
+            ]
+        },
+        {
+            "tag": "student-membership-programs",
+            "questions": [
+                "Do you have student membership programs?",
+                "Membership programs for student benefits",
+                "Can you provide information on any membership programs your restaurant offers for students, providing ongoing benefits or exclusive discounts?"
+            ],
+            "answers": [
+                "Our restaurant offers student membership programs that provide ongoing benefits to students. These programs may include exclusive discounts, special events, or loyalty rewards for our student members."
+            ]
+        },
+        {
+            "tag": "student-id-verification-process",
+            "questions": [
+                "How do you verify student IDs for discounts?",
+                "Verification process for student discounts",
+                "Can you share details about the process your restaurant uses to verify student identification and ensure that eligible students can avail the offered discounts?"
+            ],
+            "answers": [
+                "We have a straightforward verification process for student IDs to ensure the eligibility of students for discounts. Students can present their valid student identification at the time of payment to avail the applicable discounts on their meals."
+            ]
+        },
+        {
+            "tag": "collaborations-with-local-schools",
+            "questions": [
+                "Do you collaborate with local schools for student discounts?",
+                "Partnerships with educational institutions for student benefits",
+                "Can you provide information on any collaborations or partnerships your restaurant has with local schools to offer student discounts and support the student community?"
+            ],
+            "answers": [
+                "We actively collaborate with local schools to offer student discounts and support the student community. These partnerships may involve joint initiatives, events, or promotions aimed at providing students with affordable dining options."
+            ]
+        },
+        {
+            "tag": "student-discount-promotions",
+            "questions": [
+                "Do you run special promotions for student discounts?",
+                "Promotional offers for students at your restaurant",
+                "Can you share details about any special promotions or limited-time offers your restaurant runs to provide students with additional discounts or benefits?"
+            ],
+            "answers": [
+                "We run special promotions to enhance the student discount experience. These promotions may include additional discounts, combo offers, or exclusive menu items available at discounted prices for a limited time, making dining more enjoyable for students."
+            ]
+        },
+        {
+            "tag": "student-feedback-programs",
+            "questions": [
+                "Do you have feedback programs for students?",
+                "Engaging students through feedback initiatives",
+                "Can you provide information on any feedback programs or initiatives your restaurant has in place to engage with students and understand their preferences and dining experiences?"
+            ],
+            "answers": [
+                "We value the feedback of our student customers. Our restaurant may have specific feedback programs or initiatives tailored for students, encouraging them to share their thoughts, suggestions, and preferences to enhance their overall dining experience."
+            ]
+        },
+        {
+            "tag": "student-friendly-menu-options",
+            "questions": [
+                "Do you have student-friendly menu options?",
+                "Menu items designed with students in mind",
+                "Can you share details about menu options specifically designed to cater to the preferences and budgets of students, providing them with affordable and delicious choices?"
+            ],
+            "answers": [
+                "Our menu features student-friendly options designed to cater to the preferences and budgets of students. These menu items are crafted to offer a balance of affordability and deliciousness, ensuring that students have a variety of choices that suit their taste and wallet."
+            ]
+        },
+        {
+            "tag": "student-discount-applications",
+            "questions": [
+                "How can students apply for discounts?",
+                "Application process for student discounts",
+                "Can you provide information on how students can apply for and avail the offered discounts at your restaurant, including any online or in-person application processes?"
+            ],
+            "answers": [
+                "Students can easily avail discounts by presenting their valid student identification at the time of payment. In addition to in-person verification, we may also offer online application processes where students can register and receive digital confirmation of their eligibility for the discounts."
+            ]
+        },
+        {
+            "tag": "student-discount-outreach",
+            "questions": [
+                "How do you promote student discounts?",
+                "Outreach and promotion of student discount programs",
+                "Can you share details about the strategies and channels your restaurant uses to promote student discounts and reach out to the student community?"
+            ],
+            "answers": [
+                "We actively promote our student discounts through various channels. This includes social media announcements, collaboration with educational institutions, and in-restaurant signage. Our goal is to ensure that students are aware of the available discounts and can easily take advantage of the offers."
+            ]
+        },
+        {
+            "tag": "student-discount-special-events",
+            "questions": [
+                "Do you host special events for student discounts?",
+                "Events and initiatives to celebrate student customers",
+                "Can you provide information on any special events or initiatives your restaurant hosts specifically to celebrate and appreciate student customers, possibly in conjunction with discount offers?"
+            ],
+            "answers": [
+                "We host special events to celebrate and appreciate our student customers. These events may coincide with ongoing student discounts and can include themed nights, entertainment, or other activities to create a vibrant and enjoyable atmosphere for students."
+            ]
+        },
+        {
+            "tag": "student-discount-sustainability",
+            "questions": [
+                "Do you incorporate sustainability in student discounts?",
+                "Sustainable practices in offering student discounts",
+                "Can you share details about any sustainability initiatives incorporated into your student discount programs, such as promoting eco-friendly practices or supporting local and sustainable sourcing for student offerings?"
+            ],
+            "answers": [
+                "Sustainability is an integral part of our operations, including our student discount programs. We may incorporate eco-friendly practices, such as encouraging the use of reusable containers or supporting local and sustainable sourcing for menu items available at discounted prices for students."
+            ]
+        },
+        {
+            "tag": "student-discount-referral-programs",
+            "questions": [
+                "Do you have referral programs for student discounts?",
+                "Encouraging students to refer friends for discounts",
+                "Can you provide information on any referral programs or initiatives your restaurant has in place to encourage students to refer their friends and earn additional discounts?"
+            ],
+            "answers": [
+                "We encourage students to refer their friends through referral programs. These programs may offer additional discounts or special perks to students who successfully refer friends to dine at our restaurant, creating a sense of community and shared enjoyment."
+            ]
+        },
+        {
+            "tag": "student-discount-digital-applications",
+            "questions": [
+                "Do you have a mobile app for student discounts?",
+                "Digital platforms for accessing student discounts",
+                "Can you share information on any mobile apps or digital platforms your restaurant utilizes for students to easily access and redeem their discounts?"
+            ],
+            "answers": [
+                "We offer a convenient mobile app for students to access and redeem their discounts. Through our app, students can register, verify their student status, and enjoy seamless access to ongoing discounts, promotions, and exclusive offers."
+            ]
+        },
+        {
+            "tag": "student-discount-health-and-wellness",
+            "questions": [
+                "Do you consider health and wellness in student discounts?",
+                "Promoting healthy choices for student customers",
+                "Can you share details about any health and wellness initiatives incorporated into your student discount offerings, such as promoting nutritious menu options or fitness-related benefits?"
+            ],
+            "answers": [
+                "We prioritize health and wellness in our offerings, including student discounts. Our menu may feature nutritious options, and we may offer fitness-related benefits or partnerships to encourage a holistic approach to well-being among our student customers."
+            ]
+        }
+    ]
+}

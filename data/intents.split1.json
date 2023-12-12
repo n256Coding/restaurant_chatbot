@@ -1,0 +1,1320 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "questions": [
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Greetings"
+            ],
+            "answers": [
+                "Hello! Welcome to Ocean Bay Caribbean Seafood Restaurant. How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "menu",
+            "questions": [
+                "What's on the menu?",
+                "Can you show me the menu?",
+                "Tell me about your dishes"
+            ],
+            "answers": [
+                "Sure! Our menu features a variety of delicious dishes, including starters, mains, and desserts. What type of cuisine are you interested in?"
+            ]
+        },
+        {
+            "tag": "reservation",
+            "questions": [
+                "How can I make a reservation?",
+                "Do you take reservations?",
+                "Book a table"
+            ],
+            "answers": [
+                "Certainly! You can make a reservation by calling us at 023 8077 7777 or using our online reservation system on our website."
+            ]
+        },
+        {
+            "tag": "hours",
+            "questions": [
+                "What are your opening hours?",
+                "When do you open?",
+                "Closing time"
+            ],
+            "answers": [
+                "We are open from 4pm to 10pm every day. Come visit us during our business hours!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "questions": [
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Greetings"
+            ],
+            "answers": [
+                "Hello! Welcome to Ocean Bay Caribbean Seafood Restaurant . How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "menu",
+            "questions": [
+                "What's on the menu?",
+                "Can you show me the menu?",
+                "Tell me about your dishes"
+            ],
+            "answers": [
+                "Sure! Our menu features a variety of delicious dishes, including starters, mains, and desserts. What type of cuisine are you interested in?"
+            ]
+        },
+        {
+            "tag": "reservation",
+            "questions": [
+                "How can I make a reservation?",
+                "Do you take reservations?",
+                "Book a table"
+            ],
+            "answers": [
+                "Certainly! You can make a reservation by calling us at 023 8077 7777 or using our online reservation system on our website."
+            ]
+        },
+        {
+            "tag": "hours",
+            "questions": [
+                "What are your opening hours?",
+                "When do you open?",
+                "Closing time"
+            ],
+            "answers": [
+                "We are open from 4pm to 10pm every day. Come visit us during our business hours!"
+            ]
+        },
+        {
+            "tag": "specials",
+            "questions": [
+                "Do you have any specials?",
+                "Tell me about your daily specials",
+                "Special offers"
+            ],
+            "answers": [
+                "Yes, we have daily specials that change regularly. Check our specials board when you visit, or ask me for the current specials!"
+            ]
+        },
+        {
+            "tag": "payment",
+            "questions": [
+                "What forms of payment do you accept?",
+                "Can I pay with a credit card?",
+                "Payment options"
+            ],
+            "answers": [
+                "We accept cash, credit cards (Visa, MasterCard, American Express), and mobile payments. Choose the option that's most convenient for you!"
+            ]
+        },
+        {
+            "tag": "location",
+            "questions": [
+                "Where are you located?",
+                "Give me directions to your restaurant",
+                "Address"
+            ],
+            "answers": [
+                "Our restaurant is located at Ocean Village, Southampton, United Kingdom, SO15 1AQ."
+            ]
+        },
+        {
+            "tag": "vegetarian",
+            "questions": [
+                "Do you have vegetarian options?",
+                "Vegetarian dishes",
+                "Meatless options"
+            ],
+            "answers": [
+                "Absolutely! We have a variety of delicious vegetarian options on our menu. Whether you're a vegetarian or just in the mood for something plant-based, we've got you covered."
+            ]
+        },
+        {
+            "tag": "gluten-free",
+            "questions": [
+                "Are there gluten-free options?",
+                "Gluten-free dishes",
+                "Celiac-friendly menu"
+            ],
+            "answers": [
+                "Yes, we offer gluten-free options to accommodate our guests with dietary restrictions. Please let your server know about any specific dietary needs when you order."
+            ]
+        },
+        {
+            "tag": "kids-menu",
+            "questions": [
+                "Is there a kids' menu?",
+                "Children's meals",
+                "Kid-friendly options"
+            ],
+            "answers": [
+                "Certainly! We have a special kids' menu with tasty and kid-friendly options. Check it out, and make sure to ask about any special activities we have for young diners."
+            ]
+        },
+        {
+            "tag": "events",
+            "questions": [
+                "Do you host events?",
+                "Upcoming events",
+                "Special occasions"
+            ],
+            "answers": [
+                "Yes, we host events and special occasions. Keep an eye on our website or social media pages for updates on upcoming events, live music nights, and other special gatherings."
+            ]
+        },
+        {
+            "tag": "reviews",
+            "questions": [
+                "What do customers say about you?",
+                "Customer reviews",
+                "Testimonials"
+            ],
+            "answers": [
+                "Our customers love our food and service! Check out the reviews on our website or popular review platforms like Yelp to hear what people are saying about their experiences at Ocean Bay Caribbean Seafood Restaurant ."
+            ]
+        },
+        {
+            "tag": "takeout",
+            "questions": [
+                "Do you offer takeout?",
+                "Takeout options",
+                "Order to go"
+            ],
+            "answers": [
+                "Absolutely! You can place a takeout order by calling us at 023 8077 7777 or using our online ordering system on our website. Enjoy our delicious dishes from the comfort of your home."
+            ]
+        },
+        {
+            "tag": "wifi",
+            "questions": [
+                "Is there free Wi-Fi?",
+                "Wi-Fi availability",
+                "Internet access"
+            ],
+            "answers": [
+                "Yes, we offer free Wi-Fi for our guests. Feel free to ask your server for the password, and enjoy staying connected while you dine."
+            ]
+        },
+        {
+            "tag": "chef-specials",
+            "questions": [
+                "What are the chef's specials?",
+                "Recommendations from the chef",
+                "Signature dishes"
+            ],
+            "answers": [
+                "Our chef's specials showcase the culinary expertise of our chefs. These dishes often feature seasonal ingredients and unique flavors. Ask your server about the current chef's specials."
+            ]
+        },
+        {
+            "tag": "happy-hour",
+            "questions": [
+                "Do you have a happy hour?",
+                "Happy hour specials",
+                "Drink discounts"
+            ],
+            "answers": [
+                "Yes, we have a happy hour! Join us during specific hours to enjoy discounted prices on select drinks and appetizers. It's a great way to unwind and socialize."
+            ]
+        },
+        {
+            "tag": "allergies",
+            "questions": [
+                "How do you handle food allergies?",
+                "Allergen information",
+                "Safe for allergies"
+            ],
+            "answers": [
+                "The safety of our guests is a top priority. Please inform your server about any food allergies, and they will provide you with information on allergens present in our dishes."
+            ]
+        },
+        {
+            "tag": "loyalty-program",
+            "questions": [
+                "Do you have a loyalty program?",
+                "Rewards for frequent customers",
+                "Membership benefits"
+            ],
+            "answers": [
+                "Yes, we have a loyalty program! Joining is free, and members enjoy exclusive benefits, such as discounts, special offers, and priority reservations. Ask your server about joining."
+            ]
+        },
+        {
+            "tag": "private-events",
+            "questions": [
+                "Can I book for private events?",
+                "Private dining options",
+                "Event space"
+            ],
+            "answers": [
+                "Absolutely! We offer private dining options for special events, celebrations, and gatherings. Contact our events team for more information and to discuss how we can make your event memorable."
+            ]
+        },
+        {
+            "tag": "wine-list",
+            "questions": [
+                "Tell me about your wine selection",
+                "Wine list",
+                "Recommended wine pairings"
+            ],
+            "answers": [
+                "We have a curated wine list featuring a variety of reds, whites, and sparkling wines. Our staff can recommend the perfect wine pairing to complement your meal."
+            ]
+        },
+        {
+            "tag": "desserts",
+            "questions": [
+                "What desserts do you offer?",
+                "Sweet treats",
+                "Dessert menu"
+            ],
+            "answers": [
+                "Save room for dessert! Our menu includes a tempting array of sweet treats, from decadent cakes to refreshing sorbets. Check out our dessert menu for a delightful finish to your meal."
+            ]
+        },
+        {
+            "tag": "catering",
+            "questions": [
+                "Do you provide catering services?",
+                "Catering for events",
+                "Event catering"
+            ],
+            "answers": [
+                "Yes, we offer catering services for a variety of events, from weddings to corporate functions. Contact our catering team to discuss menu options and customize a catering package for your event."
+            ]
+        },
+        {
+            "tag": "music",
+            "questions": [
+                "Is there live music?",
+                "Live entertainment",
+                "Musical performances"
+            ],
+            "answers": [
+                "We occasionally have live music performances to enhance your dining experience. Check our events calendar or ask your server about upcoming musical events."
+            ]
+        },
+        {
+            "tag": "sustainability",
+            "questions": [
+                "Are you environmentally friendly?",
+                "Sustainable practices",
+                "Green initiatives"
+            ],
+            "answers": [
+                "We are committed to sustainability! We source local, organic ingredients whenever possible, and our restaurant is equipped with eco-friendly practices to minimize our environmental impact."
+            ]
+        },
+        {
+            "tag": "vegan",
+            "questions": [
+                "Do you have vegan options?",
+                "Vegan dishes",
+                "Plant-based menu"
+            ],
+            "answers": [
+                "Absolutely! Our menu includes a variety of delicious vegan options, from appetizers to main courses. We believe in providing diverse and satisfying choices for all our guests."
+            ]
+        },
+        {
+            "tag": "chef-profile",
+            "questions": [
+                "Tell me about the head chef",
+                "Chef's background",
+                "Meet the chef"
+            ],
+            "answers": [
+                "Our head chef is a culinary virtuoso with a background deeply rooted in the vibrant flavors of the Caribbean. Trained in the art of Caribbean cuisine, they have honed their skills in kitchens across the islands, mastering the use of exotic spices and fresh, tropical ingredients. With years of experience, our chef is passionate about creating unique and flavorful dishes that showcase the authentic taste of the Caribbean, delivering a culinary experience that transports you to the heart of the islands."
+            ]
+        },
+        {
+            "tag": "wifi-password",
+            "questions": [
+                "What's the Wi-Fi password?",
+                "Wi-Fi access code",
+                "Password for internet"
+            ],
+            "answers": [
+                "Our Wi-Fi password is CalypsoCuisine456. Feel free to connect and enjoy internet access while you dine with us."
+            ]
+        },
+        {
+            "tag": "community",
+            "questions": [
+                "Are you involved in the community?",
+                "Community engagement",
+                "Local partnerships"
+            ],
+            "answers": [
+                "Yes, we are actively involved in the community. We collaborate with local businesses and participate in community events to contribute to the vibrant local culture."
+            ]
+        },
+        {
+            "tag": "loyalty-rewards",
+            "questions": [
+                "How do I earn loyalty rewards?",
+                "Earning points",
+                "Loyalty program details"
+            ],
+            "answers": [
+                "You can earn loyalty points with every visit. Simply provide your membership details when you dine with us, and you'll accumulate points that can be redeemed for discounts, freebies, and special offers."
+            ]
+        },
+        {
+            "tag": "dietary-requirements",
+            "questions": [
+                "How do you accommodate dietary requirements?",
+                "Special dietary needs",
+                "Allergies and preferences"
+            ],
+            "answers": [
+                "We take dietary requirements seriously. Inform your server about any allergies or preferences, and our chefs will do their best to customize your meal to meet your specific needs."
+            ]
+        },
+        {
+            "tag": "gift-cards",
+            "questions": [
+                "Do you offer gift cards?",
+                "Gift vouchers",
+                "Present cards"
+            ],
+            "answers": [
+                "Yes, we have gift cards available for purchase. Treat your loved ones to a dining experience at Ocean Bay Caribbean Seafood Restaurant . Gift cards can be bought at the restaurant or online on our website."
+            ]
+        },
+        {
+            "tag": "dress-code",
+            "questions": [
+                "Is there a dress code?",
+                "What should I wear?",
+                "Dress attire"
+            ],
+            "answers": [
+                "While we don't have a strict dress code, we recommend smart casual attire for a comfortable dining experience. Feel free to dress up for a special occasion or keep it casual for a relaxed meal."
+            ]
+        },
+        {
+            "tag": "wifi-support",
+            "questions": [
+                "I'm having trouble with the Wi-Fi",
+                "Wi-Fi connection issues",
+                "Technical support"
+            ],
+            "answers": [
+                "I apologize for the inconvenience. Please ask your server for assistance, and they'll be happy to help you with any Wi-Fi connection issues you're experiencing."
+            ]
+        },
+        {
+            "tag": "loyalty-redemption",
+            "questions": [
+                "How can I redeem my loyalty points?",
+                "Using loyalty rewards",
+                "Redeem points"
+            ],
+            "answers": [
+                "To redeem your loyalty points, simply let your server know that you'd like to use your rewards when placing your order. They will adjust the total amount accordingly."
+            ]
+        },
+        {
+            "tag": "seasonal-offers",
+            "questions": [
+                "Are there any seasonal offers?",
+                "Seasonal promotions",
+                "Limited-time specials"
+            ],
+            "answers": [
+                "Yes, we regularly introduce seasonal offers and promotions. Keep an eye on our website or subscribe to our newsletter to stay informed about the latest discounts and special dishes available during specific seasons."
+            ]
+        },
+        {
+            "tag": "pet-friendly",
+            "questions": [
+                "Is your restaurant pet-friendly?",
+                "Bringing pets",
+                "Dining with pets"
+            ],
+            "answers": [
+                "We love furry friends! Our outdoor seating area is pet-friendly, so feel free to bring your well-behaved pets. We even have a special menu for them!"
+            ]
+        },
+        {
+            "tag": "ordering-app",
+            "questions": [
+                "Do you have a mobile ordering app?",
+                "Ordering from my phone",
+                "Mobile app availability"
+            ],
+            "answers": [
+                "Yes, we have a convenient mobile ordering app. You can download it from the App Store or Google Play to place orders, view the menu, and enjoy exclusive app-only promotions."
+            ]
+        },
+        {
+            "tag": "chef-recommendations",
+            "questions": [
+                "What does the chef recommend?",
+                "Chef's favorites",
+                "Top picks"
+            ],
+            "answers": [
+                "Our chef recommends trying the Caribbean Reef Fusion \u2013 it's a customer favorite! If you're feeling adventurous, ask about our daily specials for a unique culinary experience."
+            ]
+        },
+        {
+            "tag": "drink-pairing",
+            "questions": [
+                "Can you suggest a drink pairing?",
+                "Recommended wine pairings",
+                "Beverage suggestions"
+            ],
+            "answers": [
+                "Certainly! For Caribbean seafood delights, we recommend pairing your meal with a Tropical White Wine or Island-inspired Craft Beers. If you prefer non-alcoholic options, our Pineapple Passion Bliss Mocktail is a refreshing choice."
+            ]
+        },
+        {
+            "tag": "food-sourcing",
+            "questions": [
+                "Where do you source your ingredients?",
+                "Locally-sourced food",
+                "Farm-to-table"
+            ],
+            "answers": [
+                "We take pride in sourcing fresh ingredients locally whenever possible. Our commitment to quality ensures that you enjoy the best flavors while supporting local farmers and producers."
+            ]
+        },
+        {
+            "tag": "loyalty-tiers",
+            "questions": [
+                "Tell me about your loyalty program tiers",
+                "Membership levels",
+                "Loyalty benefits"
+            ],
+            "answers": [
+                "Our loyalty program has different tiers, each offering increased benefits. As you accumulate points, you'll move up the tiers and unlock perks such as exclusive events, birthday rewards, and more."
+            ]
+        },
+        {
+            "tag": "holiday-specials",
+            "questions": [
+                "Do you have special menus for holidays?",
+                "Holiday offerings",
+                "Festive dining"
+            ],
+            "answers": [
+                "Absolutely! During holidays, we offer special menus featuring seasonal delights. It's a great time to gather with loved ones and savor unique dishes crafted for the occasion."
+            ]
+        },
+        {
+            "tag": "pre-order",
+            "questions": [
+                "Can I pre-order for a special occasion?",
+                "Ordering in advance",
+                "Pre-book meals"
+            ],
+            "answers": [
+                "Certainly! For special occasions, you can pre-order meals to ensure a seamless dining experience. Contact us in advance, and we'll customize a menu to suit your preferences."
+            ]
+        },
+        {
+            "tag": "community-events",
+            "questions": [
+                "Tell me about your involvement in community events",
+                "Community partnerships",
+                "Local engagement"
+            ],
+            "answers": [
+                "We actively participate in community events, supporting local causes and organizations. Keep an eye on our social media for updates on our community involvement and ways you can join us."
+            ]
+        },
+        {
+            "tag": "group-reservations",
+            "questions": [
+                "Can I make reservations for a large group?",
+                "Group dining",
+                "Reserving for parties"
+            ],
+            "answers": [
+                "Certainly! For large groups, we recommend making reservations in advance to ensure we can accommodate everyone comfortably. Contact our reservation team to discuss the details."
+            ]
+        },
+        {
+            "tag": "culinary-influences",
+            "questions": [
+                "What influences your culinary style?",
+                "Inspiration behind the menu",
+                "Culinary influences"
+            ],
+            "answers": [
+                "Our culinary style is influenced by Caribbean Seafood Cuisine with a modern twist. We draw inspiration from Bahamian Cuisine flavors and ingredients, creating a unique and memorable dining experience."
+            ]
+        },
+        {
+            "tag": "dietary-tips",
+            "questions": [
+                "Can you provide dietary tips?",
+                "Healthy eating recommendations",
+                "Nutritional advice"
+            ],
+            "answers": [
+                "Certainly! Our menu includes nutritious options, such as Caribbean Catch Salad, packed with essential Omega-3 fatty acids. If you have specific dietary goals, our staff can guide you to make healthy and delicious choices."
+            ]
+        },
+        {
+            "tag": "online-reviews",
+            "questions": [
+                "How do I leave an online review?",
+                "Reviewing the restaurant online",
+                "Feedback on platforms"
+            ],
+            "answers": [
+                "We appreciate your feedback! You can leave a review on platforms like Yelp, TripAdvisor, or Google. Your reviews help us improve and provide valuable insights to other diners."
+            ]
+        },
+        {
+            "tag": "culinary-events",
+            "questions": [
+                "Do you host culinary events?",
+                "Food-themed events",
+                "Culinary experiences",
+                "Are there upcoming culinary events?",
+                "Food-themed gatherings",
+                "Special culinary occasions"
+            ],
+            "answers": [
+                "Stay tuned for our upcoming culinary events! We host themed nights, tastings, and exclusive dinners. Follow us on social media or check our website for announcements."
+            ]
+        },
+        {
+            "tag": "sustainable-seafood",
+            "questions": [
+                "Is your seafood sustainably sourced?",
+                "Sustainable seafood practices",
+                "Eco-friendly seafood"
+            ],
+            "answers": [
+                "Absolutely! We prioritize sustainability in our seafood sourcing. Our commitment is to provide delicious seafood while supporting responsible fishing practices and protecting marine ecosystems."
+            ]
+        },
+        {
+            "tag": "loyalty-referrals",
+            "questions": [
+                "Do you have a referral program?",
+                "Referring friends for rewards",
+                "Earn rewards by referring"
+            ],
+            "answers": [
+                "Yes, we have a referral program! Refer friends, and when they dine with us, both you and your friend earn bonus loyalty points. It's our way of thanking you for spreading the word."
+            ]
+        },
+        {
+            "tag": "cooking-philosophy",
+            "questions": [
+                "What is your cooking philosophy?",
+                "Approach to culinary creation",
+                "Philosophy behind the dishes"
+            ],
+            "answers": [
+                "Our cooking philosophy revolves around the essence of the Caribbean, emphasizing the use of fresh, high-quality seafood and a dedication to creating dishes that evoke a sense of island vibrancy and culinary exploration for our guests."
+            ]
+        },
+        {
+            "tag": "sommelier-recommendations",
+            "questions": [
+                "Can the sommelier recommend wines?",
+                "Sommelier's picks",
+                "Wine recommendations"
+            ],
+            "answers": [
+                "Absolutely! Our sommelier curates a diverse wine selection. Feel free to ask for recommendations based on your preferences or the dishes you've chosen. They'll guide you to the perfect pairing."
+            ]
+        },
+        {
+            "tag": "culinary-awards",
+            "questions": [
+                "Have you won any culinary awards?",
+                "Awards and recognitions",
+                "Culinary achievements"
+            ],
+            "answers": [
+                "Yes, we're proud recipients of Seafood Restaurant of the Year Award, recognizing our commitment to culinary excellence. It's an honor to be acknowledged for our dedication to providing exceptional dining experiences."
+            ]
+        },
+        {
+            "tag": "chef-special-techniques",
+            "questions": [
+                "What special techniques does your chef use?",
+                "Chef's cooking methods",
+                "Unique culinary techniques"
+            ],
+            "answers": [
+                "Our chef at Ocean Bay Caribbean Seafood Restaurant employs a variety of techniques, such as Caribbean Infusion, to create distinctive flavors and textures in our dishes. These methods contribute to the unique culinary experience that sets our seafood apart."
+            ]
+        },
+        {
+            "tag": "customized-orders",
+            "questions": [
+                "Can I customize my order?",
+                "Personalized menu options",
+                "Modifying dishes"
+            ],
+            "answers": [
+                "Absolutely! We understand that everyone has unique preferences. Feel free to customize your order by requesting adjustments or substitutions. Our goal is to ensure your dining experience is tailored to your taste."
+            ]
+        },
+        {
+            "tag": "loyalty-benefits",
+            "questions": [
+                "What are the benefits of your loyalty program?",
+                "Advantages of joining loyalty",
+                "Loyalty perks"
+            ],
+            "answers": [
+                "Our loyalty program offers a range of benefits, including discounts, early access to special events, and birthday rewards. The more you dine with us, the more perks you unlock!"
+            ]
+        },
+        {
+            "tag": "signature-desserts",
+            "questions": [
+                "Tell me about your signature desserts",
+                "Must-try desserts",
+                "Desserts unique to your restaurant"
+            ],
+            "answers": [
+                "Indulge in our signature desserts like Island Euphoria. Crafted with care, these desserts showcase the artistry of our pastry chefs and provide a sweet conclusion to your dining experience."
+            ]
+        },
+        {
+            "tag": "holiday-hours",
+            "questions": [
+                "Do you have special hours during holidays?",
+                "Holiday opening times",
+                "Operating hours on holidays"
+            ],
+            "answers": [
+                "During holidays, we may have special hours to accommodate celebrations. Check our website or contact us to confirm our operating hours during festive seasons."
+            ]
+        },
+        {
+            "tag": "charitable-initiatives",
+            "questions": [
+                "Are you involved in charitable initiatives?",
+                "Charity partnerships",
+                "Giving back to the community"
+            ],
+            "answers": [
+                "Yes, we actively participate in charitable initiatives, supporting local causes and organizations. Dining with us contributes to our ongoing efforts to give back to the community."
+            ]
+        },
+        {
+            "tag": "reservation-advice",
+            "questions": [
+                "Any advice for making a reservation?",
+                "Tips for reserving a table",
+                "Reservation recommendations"
+            ],
+            "answers": [
+                "To secure the best experience, we recommend making reservations, especially during peak hours. You can easily reserve a table through our website, mobile app, or by calling us."
+            ]
+        },
+        {
+            "tag": "culinary-events",
+            "questions": [
+                "Are there upcoming culinary events?",
+                "Food-themed gatherings",
+                "Special culinary occasions"
+            ],
+            "answers": [
+                "Stay tuned for our upcoming culinary events! We host themed nights, tastings, and exclusive dinners. Follow us on social media or check our website for announcements."
+            ]
+        },
+        {
+            "tag": "dietary-options",
+            "questions": [
+                "What are your options for specific diets?",
+                "Dietary accommodations",
+                "Specialized menu for diets"
+            ],
+            "answers": [
+                "We cater to various diets, including vegetarian, vegan, and gluten-free. Our menu is designed to provide diverse options for all guests, ensuring an inclusive dining experience."
+            ]
+        },
+        {
+            "tag": "loyalty-perks",
+            "questions": [
+                "Tell me more about loyalty program perks",
+                "Exclusive rewards for members",
+                "Additional benefits for loyal customers"
+            ],
+            "answers": [
+                "Our loyalty program offers perks such as priority reservations, members-only events, and personalized offers. Joining is free, and the rewards get better with each visit!"
+            ]
+        },
+        {
+            "tag": "dessert-pairing",
+            "questions": [
+                "Can you suggest a dessert and drink pairing?",
+                "Pairing desserts with beverages",
+                "Sweet treats with recommended drinks"
+            ],
+            "answers": [
+                "For a delightful experience, pair our Island Euphoria with a Tropical Serenity Sip. The combination of flavors will elevate your dessert experience to new heights."
+            ]
+        },
+        {
+            "tag": "local-partnerships",
+            "questions": [
+                "Do you have partnerships with local businesses?",
+                "Collaborations with local vendors",
+                "Support for local enterprises"
+            ],
+            "answers": [
+                "Yes, we proudly collaborate with local farmers and artisans. Supporting local businesses allows us to showcase the best of our community in every dish."
+            ]
+        },
+        {
+            "tag": "digital-menu",
+            "questions": [
+                "Is there a digital version of your menu?",
+                "Accessing the menu online",
+                "Digital menu options"
+            ],
+            "answers": [
+                "Absolutely! You can view our digital menu on our website, www.oceanbay.co.uk, or through our mobile app. It's a convenient way to explore our offerings and make informed choices."
+            ]
+        },
+        {
+            "tag": "cooking-classes",
+            "questions": [
+                "Do you offer cooking classes?",
+                "Culinary workshops",
+                "Learn to cook at the restaurant"
+            ],
+            "answers": [
+                "Yes, we host cooking classes! Join us for hands-on experiences where our chefs share their expertise. It's a fun way to learn new culinary skills and techniques."
+            ]
+        },
+        {
+            "tag": "outdoor-seating",
+            "questions": [
+                "Do you have outdoor seating?",
+                "Al fresco dining options",
+                "Eating outdoors"
+            ],
+            "answers": [
+                "Enjoy the beautiful weather in our outdoor seating area. Whether it's a sunny day or a starry night, our outdoor space provides a delightful ambiance for your dining experience."
+            ]
+        },
+        {
+            "tag": "food-pairing-tips",
+            "questions": [
+                "Can you provide tips for food pairings?",
+                "Guidance on pairing dishes",
+                "Perfect combinations"
+            ],
+            "answers": [
+                "Certainly! For a delightful pairing, consider matching [Specific Dish] with a [Matching Beverage]. The contrasting flavors will enhance your dining experience."
+            ]
+        },
+        {
+            "tag": "culinary-philosophy",
+            "questions": [
+                "What is the culinary philosophy of your restaurant?",
+                "Philosophy behind the menu",
+                "Approach to culinary creation"
+            ],
+            "answers": [
+                "Our culinary philosophy revolves around [Key Element], emphasizing the use of fresh, locally-sourced ingredients and innovative techniques to create dishes that tell a story of [Your Restaurant Name]."
+            ]
+        },
+        {
+            "tag": "virtual-events",
+            "questions": [
+                "Do you host virtual culinary events?",
+                "Online food experiences",
+                "Virtual tastings"
+            ],
+            "answers": [
+                "Yes, we've embraced virtual experiences! Join our online culinary events, including virtual tastings and cooking classes. It's a unique way to enjoy our cuisine from the comfort of your home."
+            ]
+        },
+        {
+            "tag": "local-art",
+            "questions": [
+                "Do you showcase local art in your restaurant?",
+                "Artistic ambiance",
+                "Supporting local artists"
+            ],
+            "answers": [
+                "Our restaurant proudly features local art, creating a vibrant and unique atmosphere. We believe in supporting local artists and integrating their work into the dining experience."
+            ]
+        },
+        {
+            "tag": "responsible-dining",
+            "questions": [
+                "How do you promote responsible dining?",
+                "Sustainable and ethical practices",
+                "Environmental initiatives"
+            ],
+            "answers": [
+                "We are committed to responsible dining. Our initiatives include [Specific Practices], ensuring that our environmental impact is minimal while providing an ethical and sustainable dining experience."
+            ]
+        },
+        {
+            "tag": "secret-menu",
+            "questions": [
+                "Is there a secret menu?",
+                "Hidden menu items",
+                "Special dishes not on the menu"
+            ],
+            "answers": [
+                "Indeed, we have a secret menu with exclusive items known to a select few. To unlock it, simply ask your server about our hidden gems, and they'll be delighted to share the secret with you."
+            ]
+        },
+        {
+            "tag": "signature-cocktails",
+            "questions": [
+                "Tell me about your signature cocktails",
+                "Must-try drinks",
+                "Unique cocktail creations"
+            ],
+            "answers": [
+                "Indulge in our signature cocktails like [Key Cocktail]. Crafted by our skilled mixologists, these drinks are a perfect complement to your dining experience, offering a delightful balance of flavors."
+            ]
+        },
+        {
+            "tag": "chef-farm-visits",
+            "questions": [
+                "Does the chef visit local farms?",
+                "Farm-to-table practices",
+                "Connection with local farmers"
+            ],
+            "answers": [
+                "Absolutely! Our chef regularly visits local farms to select the finest ingredients for our dishes. It's part of our commitment to the farm-to-table philosophy and supporting local agriculture."
+            ]
+        },
+        {
+            "tag": "food-pairing-tips",
+            "questions": [
+                "Can you provide tips for food pairings?",
+                "Guidance on pairing dishes",
+                "Perfect combinations"
+            ],
+            "answers": [
+                "Certainly! For a delightful pairing, consider matching [Specific Dish] with a [Matching Beverage]. The contrasting flavors will enhance your dining experience."
+            ]
+        },
+        {
+            "tag": "culinary-philosophy",
+            "questions": [
+                "What is the culinary philosophy of your restaurant?",
+                "Philosophy behind the menu",
+                "Approach to culinary creation"
+            ],
+            "answers": [
+                "Our culinary philosophy revolves around [Key Element], emphasizing the use of fresh, locally-sourced ingredients and innovative techniques to create dishes that tell a story of [Your Restaurant Name]."
+            ]
+        },
+        {
+            "tag": "virtual-events",
+            "questions": [
+                "Do you host virtual culinary events?",
+                "Online food experiences",
+                "Virtual tastings"
+            ],
+            "answers": [
+                "Yes, we've embraced virtual experiences! Join our online culinary events, including virtual tastings and cooking classes. It's a unique way to enjoy our cuisine from the comfort of your home."
+            ]
+        },
+        {
+            "tag": "local-art",
+            "questions": [
+                "Do you showcase local art in your restaurant?",
+                "Artistic ambiance",
+                "Supporting local artists"
+            ],
+            "answers": [
+                "Our restaurant proudly features local art, creating a vibrant and unique atmosphere. We believe in supporting local artists and integrating their work into the dining experience."
+            ]
+        },
+        {
+            "tag": "responsible-dining",
+            "questions": [
+                "How do you promote responsible dining?",
+                "Sustainable and ethical practices",
+                "Environmental initiatives"
+            ],
+            "answers": [
+                "We are committed to responsible dining. Our initiatives include [Specific Practices], ensuring that our environmental impact is minimal while providing an ethical and sustainable dining experience."
+            ]
+        },
+        {
+            "tag": "secret-menu",
+            "questions": [
+                "Is there a secret menu?",
+                "Hidden menu items",
+                "Special dishes not on the menu"
+            ],
+            "answers": [
+                "Indeed, we have a secret menu with exclusive items known to a select few. To unlock it, simply ask your server about our hidden gems, and they'll be delighted to share the secret with you."
+            ]
+        },
+        {
+            "tag": "signature-cocktails",
+            "questions": [
+                "Tell me about your signature cocktails",
+                "Must-try drinks",
+                "Unique cocktail creations"
+            ],
+            "answers": [
+                "Indulge in our signature cocktails like [Key Cocktail]. Crafted by our skilled mixologists, these drinks are a perfect complement to your dining experience, offering a delightful balance of flavors."
+            ]
+        },
+        {
+            "tag": "chef-farm-visits",
+            "questions": [
+                "Does the chef visit local farms?",
+                "Farm-to-table practices",
+                "Connection with local farmers"
+            ],
+            "answers": [
+                "Absolutely! Our chef regularly visits local farms to select the finest ingredients for our dishes. It's part of our commitment to the farm-to-table philosophy and supporting local agriculture."
+            ]
+        },
+        {
+            "tag": "culinary-inspirations",
+            "questions": [
+                "What inspires your culinary creations?",
+                "Sources of culinary inspiration",
+                "Influences on the menu"
+            ],
+            "answers": [
+                "Our culinary creations draw inspiration from [Specific Source], whether it's seasonal ingredients, cultural influences, or the innovative spirit of our chefs. Each dish tells a unique story."
+            ]
+        },
+        {
+            "tag": "specialty-coffees",
+            "questions": [
+                "Tell me about your specialty coffee offerings",
+                "Unique coffee blends",
+                "Coffee experience"
+            ],
+            "answers": [
+                "Indulge in our specialty coffees, such as [Signature Coffee Blend]. Sourced from [Coffee Origin], these unique blends offer a rich and aromatic experience for coffee enthusiasts."
+            ]
+        },
+        {
+            "tag": "culinary-workshops",
+            "questions": [
+                "Do you organize culinary workshops?",
+                "Participating in cooking classes",
+                "Interactive culinary experiences"
+            ],
+            "answers": [
+                "Absolutely! Join our culinary workshops for hands-on cooking experiences. Learn the art of [Specific Technique] and discover the secrets behind some of our most beloved dishes."
+            ]
+        },
+        {
+            "tag": "culinary-traditions",
+            "questions": [
+                "How do you incorporate culinary traditions?",
+                "Traditional influences in your menu",
+                "Respecting culinary heritage"
+            ],
+            "answers": [
+                "We honor culinary traditions by infusing [Specific Tradition] into our menu. It's a celebration of flavors that pays homage to the rich culinary heritage that inspires our chefs."
+            ]
+        },
+        {
+            "tag": "weekly-specials",
+            "questions": [
+                "Are there weekly specials?",
+                "Rotating weekly menu",
+                "Special offerings each week"
+            ],
+            "answers": [
+                "Indeed! Our weekly specials feature a rotating menu of [Key Ingredients]. Check in regularly to discover new and exciting dishes that showcase the best of the season."
+            ]
+        },
+        {
+            "tag": "mixologist-recommendations",
+            "questions": [
+                "Can the mixologist recommend unique drinks?",
+                "Mixologist's suggestions",
+                "Creative drink recommendations"
+            ],
+            "answers": [
+                "Absolutely! Our skilled mixologist can craft personalized and creative drinks based on your preferences. Whether you prefer sweet, savory, or adventurous flavors, they'll create a drink just for you."
+            ]
+        },
+        {
+            "tag": "culinary-education",
+            "questions": [
+                "Do you support culinary education?",
+                "Involvement in culinary programs",
+                "Education initiatives"
+            ],
+            "answers": [
+                "We actively support culinary education through [Specific Initiatives]. Our commitment to nurturing culinary talent extends to partnerships with local culinary schools and mentorship programs."
+            ]
+        },
+        {
+            "tag": "alcohol-pairing",
+            "questions": [
+                "Can you recommend alcohol pairings for dishes?",
+                "Pairing food with drinks",
+                "Enhancing the dining experience with alcohol"
+            ],
+            "answers": [
+                "Certainly! Our team can recommend the perfect alcohol pairings for your dishes, whether it's a wine, craft beer, or a curated cocktail. Elevate your dining experience with these carefully selected pairings."
+            ]
+        },
+        {
+            "tag": "culinary-technology",
+            "questions": [
+                "How do you incorporate technology in your kitchen?",
+                "Innovations in culinary technology",
+                "Tech-driven culinary practices",
+                "How do you leverage technology in the kitchen?",
+                "Innovative culinary technologies"
+            ],
+            "answers": [
+                "We leverage cutting-edge culinary technology, such as [Specific Technology], to enhance precision and efficiency in our kitchen. It's part of our commitment to delivering top-notch dining experiences."
+            ]
+        },
+        {
+            "tag": "culinary-history",
+            "questions": [
+                "Tell me about the culinary history of your dishes",
+                "Historical influences on your menu",
+                "Heritage-inspired dishes"
+            ],
+            "answers": [
+                "Our dishes are a journey through culinary history, featuring flavors inspired by [Specific Era or Cuisine]. Each bite is a taste of tradition, reimagined for a modern dining experience."
+            ]
+        },
+        {
+            "tag": "virtual-menu-tour",
+            "questions": [
+                "Is there a virtual tour of your menu?",
+                "Exploring the menu online",
+                "Digital menu walkthrough"
+            ],
+            "answers": [
+                "Embark on a virtual tour of our menu through our website or mobile app. It's a visually engaging experience that allows you to explore each dish with detailed descriptions and mouthwatering visuals."
+            ]
+        },
+        {
+            "tag": "zero-waste-initiatives",
+            "questions": [
+                "How do you handle food waste?",
+                "Zero-waste practices",
+                "Sustainability in food management"
+            ],
+            "answers": [
+                "We are dedicated to zero-waste initiatives, implementing practices such as [Specific Strategies] to minimize our environmental impact. It's our way of contributing to a more sustainable future."
+            ]
+        },
+        {
+            "tag": "culinary-destinations",
+            "questions": [
+                "Are your dishes inspired by specific destinations?",
+                "Global culinary influences",
+                "Travel-inspired menu"
+            ],
+            "answers": [
+                "Absolutely! Our menu is a passport to culinary destinations around the world. From the streets of [City] to the markets of [Country], each dish brings the essence of a specific destination to your table."
+            ]
+        },
+        {
+            "tag": "virtual-wine-tasting",
+            "questions": [
+                "Do you offer virtual wine tastings?",
+                "Online wine experiences",
+                "Tasting wines from home"
+            ],
+            "answers": [
+                "Join our virtual wine tastings for a delightful experience from the comfort of your home. Our sommelier will guide you through a curated selection, providing insights into each wine's unique characteristics."
+            ]
+        },
+        {
+            "tag": "culinary-awards-history",
+            "questions": [
+                "Tell me more about your culinary awards history",
+                "Recognition and accolades",
+                "Awards received by the restaurant"
+            ],
+            "answers": [
+                "Over the years, we've been honored with prestigious awards, including [Specific Awards]. It's a testament to our dedication to culinary excellence and delivering exceptional dining experiences."
+            ]
+        },
+        {
+            "tag": "cocktail-making-classes",
+            "questions": [
+                "Do you host cocktail-making classes?",
+                "Mixology workshops",
+                "Learning to craft cocktails"
+            ],
+            "answers": [
+                "Absolutely! Join our cocktail-making classes to learn the art of mixology. Our skilled bartenders will teach you how to craft your favorite cocktails and impress your friends at your next gathering."
+            ]
+        },
+        {
+            "tag": "culinary-ethics",
+            "questions": [
+                "What ethical practices guide your culinary choices?",
+                "Ethical considerations in the kitchen",
+                "Commitment to culinary ethics"
+            ],
+            "answers": [
+                "Our culinary choices are guided by a commitment to ethical practices. From sourcing ingredients responsibly to minimizing waste, we prioritize ethical considerations in every aspect of our culinary journey."
+            ]
+        },
+        {
+            "tag": "culinary-fusion",
+            "questions": [
+                "Do you offer fusion dishes?",
+                "Culinary fusion creations",
+                "Blending diverse flavors"
+            ],
+            "answers": [
+                "Experience a culinary journey with our fusion dishes, where we blend diverse flavors from [Cuisine A] and [Cuisine B]. It's a celebration of cultural diversity on your plate."
+            ]
+        },
+        {
+            "tag": "mixologist-signature-drinks",
+            "questions": [
+                "Tell me about the mixologist's signature drinks",
+                "Crafted cocktails by the mixologist",
+                "Unique drink creations"
+            ],
+            "answers": [
+                "Indulge in our mixologist's signature drinks like [Signature Drink]. These unique creations showcase the artistry and creativity of our mixology team, offering a one-of-a-kind drinking experience."
+            ]
+        },
+        {
+            "tag": "culinary-apprenticeship",
+            "questions": [
+                "Do you offer culinary apprenticeships?",
+                "Joining the kitchen as an apprentice",
+                "Learning culinary skills"
+            ],
+            "answers": [
+                "Aspiring chefs can join our culinary apprenticeship program, where they learn hands-on culinary skills, gain practical experience, and contribute to the creation of exceptional dishes."
+            ]
+        },
+        {
+            "tag": "sustainable-packaging",
+            "questions": [
+                "How do you handle packaging sustainably?",
+                "Eco-friendly packaging practices",
+                "Sustainability in takeout packaging"
+            ],
+            "answers": [
+                "We prioritize sustainability in our takeout packaging, using eco-friendly materials and practices to minimize environmental impact. Enjoy our delicious dishes with a conscience."
+            ]
+        },
+        {
+            "tag": "culinary-festivals",
+            "questions": [
+                "Participate in culinary festivals?",
+                "Involvement in food festivals",
+                "Showcasing dishes at culinary events"
+            ],
+            "answers": [
+                "Catch us at culinary festivals where we showcase our finest dishes. It's an opportunity to immerse yourself in a culinary experience beyond our restaurant, with unique offerings crafted for the event."
+            ]
+        },
+        {
+            "tag": "customer-feedback-incorporation",
+            "questions": [
+                "How do you incorporate customer feedback?",
+                "Listening to customer suggestions",
+                "Improvements based on feedback"
+            ],
+            "answers": [
+                "We value customer feedback immensely. Your suggestions shape our menu, service, and overall dining experience. It's a collaborative effort to ensure every visit exceeds your expectations."
+            ]
+        },
+        {
+            "tag": "culinary-trivia-nights",
+            "questions": [
+                "Do you host culinary trivia nights?",
+                "Trivia events with a culinary twist",
+                "Testing food knowledge in trivia"
+            ],
+            "answers": [
+                "Join us for culinary trivia nights where you can showcase your food knowledge, enjoy delicious bites, and win exciting prizes. It's a fun-filled evening for food enthusiasts."
+            ]
+        },
+        {
+            "tag": "culinary-seasonality",
+            "questions": [
+                "How does seasonality influence your menu?",
+                "Seasonal culinary offerings",
+                "Menu changes with the seasons"
+            ],
+            "answers": [
+                "Our menu is influenced by seasonality, ensuring that you experience the freshest ingredients each season has to offer. From spring's vibrant produce to winter's hearty flavors, there's always something new to discover."
+            ]
+        },
+        {
+            "tag": "culinary-reading-list",
+            "questions": [
+                "Can you recommend a culinary reading list?",
+                "Books for culinary enthusiasts",
+                "Literature for food lovers"
+            ],
+            "answers": [
+                "Explore the world of culinary delights through our recommended reading list. From classic cookbooks to food memoirs, these books provide a deeper understanding of the art and passion behind our dishes."
+            ]
+        },
+        {
+            "tag": "culinary-charity-events",
+            "questions": [
+                "Are there charity events associated with your restaurant?",
+                "Participating in culinary charity events",
+                "Contributing to charitable causes"
+            ],
+            "answers": [
+                "We actively participate in charity events, channeling our culinary expertise to support worthy causes. Dining with us becomes a way to contribute to initiatives that make a positive impact in our community."
+            ]
+        },
+        {
+            "tag": "culinary-architecture",
+            "questions": [
+                "How is culinary architecture reflected in your dishes?",
+                "Artistry in culinary presentation",
+                "Architectural influences in plating"
+            ],
+            "answers": [
+                "Our culinary creations go beyond taste\u2014they embody culinary architecture. The presentation of each dish is carefully crafted to be visually appealing, showcasing an artful balance of colors, textures, and shapes."
+            ]
+        },
+        {
+            "tag": "culinary-cultural-exchange",
+            "questions": [
+                "Do you engage in culinary cultural exchange?",
+                "Cross-cultural influences in your menu",
+                "Exploring global flavors"
+            ],
+            "answers": [
+                "Embark on a culinary cultural exchange with us. Our menu features a tapestry of flavors from around the world, celebrating the diversity of global cuisines and creating a rich, multicultural dining experience."
+            ]
+        },
+        {
+            "tag": "culinary-garden",
+            "questions": [
+                "Tell me about your culinary garden",
+                "Homegrown ingredients in your dishes",
+                "Sustainability through on-site gardening"
+            ],
+            "answers": [
+                "Experience the freshness of homegrown ingredients from our culinary garden. We cultivate a variety of herbs, vegetables, and fruits on-site, ensuring a direct and sustainable source for many of our dishes."
+            ]
+        }
+    ]
+}
