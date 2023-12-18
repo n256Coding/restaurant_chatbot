@@ -12,7 +12,7 @@ model, words, classes = init_training()
 chatbt = chatbot.ChatBot(model, words, classes)
 
 st.title("🏖️ Ocean Bay")
-st.header("Caribbean Seafood - Restaurent")
+st.header("Caribbean Seafood - Restaurant")
 st.subheader('Support Assistant', divider=True)
 
 # Initialize chat history
