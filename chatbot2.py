@@ -1,4 +1,3 @@
-import tensorflow as tf
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, GlobalMaxPooling1D, Flatten
 
@@ -9,7 +8,6 @@ import pandas as pd
 import numpy as np
 import json
 from sklearn.preprocessing import LabelEncoder
-import matplotlib.pyplot as plt
 import string
 import pickle
 import os
