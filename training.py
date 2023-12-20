@@ -7,7 +7,9 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
+from tensorflow.keras.models import load_model
 from keras.optimizers.legacy import SGD
+import os
 
 # from tensorflow.keras.optimizer import SGD
 
@@ -20,6 +22,13 @@ lemmatizer = WordNetLemmatizer()
 intents = json.loads(open("data/intents.json").read())
 
 def initialize():
+
+    if os.path.isfile('chatbot_model.keras'):
+        model = load_model("chatbot_model.keras")
+        words = pickle.load(open("words.pkl", "rb"))
+        classes = pickle.load(open("classes.pkl", "rb"))
+
+        return model, words, classes
 
     words = []
     classes = []
@@ -79,7 +88,6 @@ def initialize():
     model.save("chatbot_model.keras", hist)
 
     return model, words, classes
-# print('Done')
 
 if __name__ == '__main__':
     initialize()
