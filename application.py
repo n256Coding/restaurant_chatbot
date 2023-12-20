@@ -1,15 +1,14 @@
 import streamlit as st
 import time
-import chatbot
-import training
+import chatbot2 as chatbot
 
 # Run the training first
 @st.cache_data
 def init_training():
-    return training.initialize()
+    return chatbot.train()
 
-model, words, classes = init_training()
-chatbt = chatbot.ChatBot(model, words, classes)
+model, input_shape, tokenizer, responses = init_training()
+chatbt = chatbot.ChatBot(model, input_shape, tokenizer, responses)
 
 st.title("🏖️ Ocean Bay")
 st.header("Caribbean Seafood - Restaurant")
@@ -31,8 +30,7 @@ if prompt := st.chat_input("How can I help you?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    ints = chatbt.predict_class(prompt)
-    response = chatbt.get_response(ints, chatbt.intents)
+    response = chatbt.predict_class(prompt)
 
     if response == "Sorry! I didn't catch that.":
         print(f'FAILURE QUESTION: {prompt}')
