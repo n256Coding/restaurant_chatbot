@@ -858,7 +858,7 @@
                 "Can you provide information on soy free options?",
                 "How often do you update your allergen information to reflect menu changes?"
             ],
-            "answer": [
+            "answers": [
                 "The safety of our guests is a top priority. We take allergies seriously and have protocols in place to address your specific concerns. Our menu includes allergen information, and our staff is trained to assist with any dietary restrictions. We can customise dishes to accommodate your allergies, and our kitchen takes precautions to minimize the risk of cross contamination. For detailed allergen information, feel free to ask, or visit our website where we regularly update our allergen guide. Your well being is important to us, and we're here to ensure a safe and enjoyable dining experience."
             ]
         },
@@ -899,7 +899,7 @@
                 "Can I earn points on discounted or promotional menu items?",
                 "What is the process for redeeming rewards from the loyalty program?"
             ],
-            "answer": [
+            "answers": [
                 "Our loyalty program is designed to reward our valued customers for their continued support. By enrolling in our program, you can earn points with every purchase, and these points can be redeemed for exciting rewards and exclusive perks. There's no cost to join, and the sign up process is quick and easy, either through our website or mobile app. As a member, you'll enjoy benefits such as [list specific benefits], and you may progress through different tiers with additional privileges. You can earn points not only for dine in experiences but also for online orders and deliveries. Your points don't expire for [insert duration], and you have the flexibility to redeem them at any of our locations. We also offer a user friendly mobile app that allows you to check your points balance, track your rewards, and stay updated on exclusive promotions. Our loyalty program is our way of expressing gratitude to our loyal customers, and we frequently run special promotions and bonuses for our members. Feel free to ask us about specific details or enroll today to start enjoying the perks of being a valued member!"
             ]
         },
@@ -1714,7 +1714,7 @@
                 "Can I get pairings for specific types of cuisine, like Italian or Asian?",
                 "Are there recommendations for non traditional or experimental pairings?"
             ],
-            "answer": [
+            "answers": [
                 "Absolutely! Our goal is to elevate your dining experience by offering curated drink pairings to complement our delicious menu. Whether you're a wine enthusiast, prefer cocktails, or are looking for non alcoholic options, our knowledgeable staff is here to guide you. We have carefully selected beverages to enhance the flavors of your meal, from recommended wines for various dishes to signature cocktails crafted to perfection. If you're exploring non alcoholic choices, we also have refreshing mocktails to pair with your selected dishes. Our beer recommendations cover a range of cuisines, and we can suggest the perfect drink for any dietary preferences or restrictions. For those with a sweet tooth, we even have dessert wine and cocktail pairings. Ask our staff for seasonal recommendations, and don't hesitate to inquire about special pairings for specific occasions or dietary needs. Whether you're dining in, ordering takeout, or planning a celebration, our drink pairings are designed to make every moment enjoyable. Cheers to a fantastic dining experience with us!"
             ]
         },
