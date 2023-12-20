@@ -163,4 +163,4 @@ chatbot_model.keras
 classes.pkl
 words.pkl
 /local
-/temp/*
+/temp
