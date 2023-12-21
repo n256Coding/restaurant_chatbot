@@ -2,3 +2,4 @@ pandas
 nltk
 tensorflow
 scikit-learn
+spacy

@@ -1,9 +1,11 @@
+from tensorflow.keras import Sequential
 from tensorflow.keras.models import Model, load_model
-from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, GlobalMaxPooling1D, Flatten
+from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, GlobalMaxPooling1D, Flatten, GRU
 
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+import spacy
 import pandas as pd
 import numpy as np
 import json
@@ -11,6 +13,20 @@ from sklearn.preprocessing import LabelEncoder
 import string
 import pickle
 import os
+
+spacy_model = "en_core_web_sm"
+
+def load_spacy_model():
+    if not spacy.util.is_package(spacy_model):
+        spacy.cli.download(spacy_model)
+
+    return spacy.load(spacy_model)
+
+def get_lemmatized(model, sentence):
+    doc = model(sentence)
+
+    lemmatized = [token.lemma_ for token in doc]
+    return ' '.join(lemmatized)
 
 class ChatBot:
 
@@ -25,6 +41,10 @@ class ChatBot:
     def predict_class(self, sentence):
         texts_p = []
         prediction_input = sentence
+
+        nlp = load_spacy_model()
+
+        prediction_input = get_lemmatized(nlp, prediction_input)
 
         prediction_input = [letters.lower() for letters in prediction_input if letters not in string.punctuation]
         prediction_input = ''.join(prediction_input)
@@ -56,6 +76,7 @@ def train():
     intents = json.loads(open("data/intents.json").read())
     tokenizer = Tokenizer(num_words=2000)
     tags_encoder = LabelEncoder()
+    nlp = load_spacy_model()
 
     collection_list = []
     responses = {}
@@ -65,7 +86,7 @@ def train():
         questions = intent.get('questions')
         tag = intent.get('tag')
         for question in questions:
-            collection_list.append([question, tag]) 
+            collection_list.append([get_lemmatized(nlp, question), tag]) 
         responses[tag] = intent.get('answers')[0]
 
     main_dataframe = pd.DataFrame(collection_list, columns=['sentence', 'tag'])
@@ -89,16 +110,16 @@ def train():
     vocabulary = len(tokenizer.word_index)
     output_length = tags_encoder.classes_.shape[0]
 
-    i = Input(shape=(input_shape,))
-    x = Embedding(vocabulary+1, 10)(i)
-    x = LSTM(10, return_sequences=True)(x)
-    x = Flatten()(x)
-    x = Dense(output_length, activation='softmax')(x)
-    model = Model(i, x)
+    model = Sequential()
+    model.add(Embedding(vocabulary+1, 64, input_length=input_shape))
+    model.add(LSTM(64, return_sequences=True))
+    model.add(GRU(64, return_sequences=True))
+    model.add(Flatten())
+    model.add(Dense(output_length, activation='softmax'))
 
     model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-    train = model.fit(x_train, y_train, epochs=200)
+    train = model.fit(x_train, y_train, epochs=120)
     
     os.makedirs(os.path.dirname("temp/tags_encoder.pkl"), exist_ok=True)
     pickle.dump(tags_encoder, open("temp/tags_encoder.pkl", "wb"))
