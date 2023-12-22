@@ -1,0 +1,45 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "questions": [
+                "Hi",
+                "Hey",
+                "Hey there",
+                "Hello",
+                "Hello, what's up?",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Good day",
+                "Greetings",
+                "Is anyone there?",
+                "Hey, what's up?",
+                "Can you help me?",
+                "What's cooking?",
+                "Hi, ready to order?",
+                "Hello, any recommendations?",
+                "Hi, I'm hungry!",
+                "Any suggestions?",
+                "Hi, what's on special today?",
+                "Is anyone there?",
+                "Can you help me?",
+                "What's cooking?",
+                "Hello, any recommendations?",
+                "Any suggestions?",
+                "Hi, what's on special today?",
+                "Hey there, what's good?",
+                "Morning! What's on the menu today?",
+                "Hi, any specials for lunch?",
+                "Hello, what do you recommend?",
+                "Hi, any chef's recommendations?",
+                "Greetings! What's popular here?",
+                "Hey, any vegetarian options?",
+                "Hello, any must try dishes?"
+            ],
+            "answers": [
+                "Hello! Welcome to Ocean Bay Caribbean Seafood Restaurant. How can I assist you today?"
+            ]
+        }
+    ]
+}
