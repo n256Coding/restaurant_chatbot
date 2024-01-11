@@ -1,14 +1,20 @@
 import streamlit as st
 import time
-import chatbot2 as chatbot
+import chatbot_prod as chatbot
+import pickle
 
 # Run the training first
 @st.cache_data
-def init_training():
-    return chatbot.train()
+def init_training(_vector_model):
+    return chatbot.train(_vector_model)
 
-model, input_shape, tokenizer, responses = init_training()
-chatbt = chatbot.ChatBot(model, input_shape, tokenizer, responses)
+@st.cache_data
+def load_vector_model():
+    return pickle.load(open('data/fasttext2.pkl', 'rb'))
+
+vector_model = load_vector_model()
+model, input_shape, tokenizer, responses = init_training(vector_model)
+chatbt = chatbot.ChatBot(vector_model, model, input_shape, tokenizer, responses)
 
 st.title("🏖️ Ocean Bay")
 st.header("Caribbean Seafood - Restaurant")

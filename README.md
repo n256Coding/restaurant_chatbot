@@ -13,7 +13,8 @@ https://ocean-bay.streamlit.app
     ```
 - Install dependencies.
     ```
-    pip install streamlit pandas nltk tensorflow
+    cd restaurant_chatbot
+    pip install -r requirements.txt
     ```
 
 ### How to run locally?
@@ -24,6 +25,9 @@ https://ocean-bay.streamlit.app
     ```
     cd restaurant_chatbot
     ```
+- Download the fasttext model from following location (Skip this step if you have already done)
+    https://ssu-my.sharepoint.com/:u:/g/personal/2senan77_solent_ac_uk/EdtaClmEOeFElK4Jb_qAC00BIFrjuF1JCK5kz8n-tEnLww?e=7v738K
+    and move to the `data` folder inside the project
 - Run the application
     ```
     streamlit run application.py
