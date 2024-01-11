@@ -1,6 +1,6 @@
-from tensorflow.keras import Sequential, regularizers
-from tensorflow.keras.models import Model, load_model
-from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, GlobalMaxPooling1D, Flatten, GRU, Dropout, BatchNormalization
+from tensorflow.keras import Sequential
+from tensorflow.keras.models import load_model
+from tensorflow.keras.layers import Embedding, LSTM, Dense, Flatten, BatchNormalization
 
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
