@@ -165,20 +165,45 @@ def train(vector_model):
                       callbacks=[early_stopping]
                       )
 
-    loss, accuracy = model.evaluate(x_test, y_test)
-    print(f'Test accuracy: {accuracy * 100:.2f}%, Test loss: {loss * 100:.2f}')
+    test_loss, test_accuracy = model.evaluate(x_test, y_test)
+    print(f'Test accuracy: {test_accuracy * 100:.2f}%, Test loss: {test_loss * 100:.2f}')
 
     directory = "figure"
     if os.path.exists(directory):
         shutil.rmtree(directory)
     os.makedirs(directory)
 
-    plot_loss_graph(train)
-    plot_accuracy_graph(train)
+    plot_loss_variation_graph(train)
+    plot_accuracy_variation_graph(train)
     plot_confusion_matrix(model, tags_encoder, x_test, y_test)
+    plot_train_test_loss(train, test_loss)
+    plot_train_test_accuracy(train, test_accuracy)
+
     dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder)
 
     return model, input_shape, tokenizer, responses
+
+def plot_train_test_accuracy(train, test_accuracy):
+    # Get the average training accuracy
+    avg_train_accuracy = sum(train.history['accuracy']) / len(train.history['accuracy'])
+    bar_index = np.arange(2)
+    plt.bar(bar_index, [avg_train_accuracy, test_accuracy])
+    plt.xticks(bar_index, ['Train', 'Test'])
+    plt.ylabel('Accuracy')
+    plt.title('Train vs Test Accuracy')
+    plt.savefig('figure/train_test_accuracy_diff.png')
+    plt.close()
+
+def plot_train_test_loss(train, test_loss):
+    # Get the average training loss
+    avg_train_loss = sum(train.history['loss']) / len(train.history['loss'])
+    bar_index = np.arange(2)
+    plt.bar(bar_index, [avg_train_loss, test_loss])
+    plt.xticks(bar_index, ['Train', 'Test'])
+    plt.ylabel('Loss')
+    plt.title('Train vs Test Loss')
+    plt.savefig('figure/train_test_loss_diff.png')
+    plt.close()
 
 def prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, embedding_matrix):
     model = Sequential()
@@ -197,10 +222,10 @@ def prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, emb
                    ))
     model.add(Flatten())
     model.add(Dense(100, activation="relu"))
-    # model.add(tf.keras.layers.Dropout(0.2))
+    model.add(tf.keras.layers.Dropout(0.2))
     model.add(BatchNormalization())
     model.add(Dense(50, activation="leaky_relu"))
-    # model.add(tf.keras.layers.Dropout(0.3))
+    model.add(tf.keras.layers.Dropout(0.3))
     model.add(BatchNormalization())
     model.add(Dense(output_length, activation='softmax'))
     early_stopping = EarlyStopping(monitor='val_loss', patience=50)
@@ -226,14 +251,14 @@ def dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder):
     pickle.dump(responses, open('temp/responses.pkl', 'wb'))
     model.save('temp/model.keras')
 
-def plot_loss_graph(train):
+def plot_loss_variation_graph(train):
     plt.plot(train.history['loss'])
     plt.plot(train.history['val_loss'])
     plt.title('Loss difference')
     plt.savefig('figure/loss_plot.png')
     plt.close()
 
-def plot_accuracy_graph(train):
+def plot_accuracy_variation_graph(train):
     plt.plot(train.history['accuracy'])
     plt.plot(train.history['val_accuracy'])
     plt.title('Accuracy difference')
@@ -254,3 +279,4 @@ def plot_confusion_matrix(model, tags_encoder, x_test, y_test):
     plt.xlabel('Predicted')
     plt.ylabel('True')
     plt.savefig('figure/confusion_matrix.png')
+    plt.close()
