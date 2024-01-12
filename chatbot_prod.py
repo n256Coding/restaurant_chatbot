@@ -21,6 +21,7 @@ import string
 import pickle
 import os
 import shutil
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 spacy_model = "en_core_web_sm"
 dataset_path = 'data/intents.json'
@@ -113,6 +114,7 @@ def train(vector_model):
 
     collection_list = []
     responses = {}
+    question_list = []
 
     print('Preprocessing the dataset ..')
 
@@ -122,7 +124,8 @@ def train(vector_model):
         tag = intent.get('tag')
         for question in questions:
             qs = get_lemmatized(nlp, question)
-            collection_list.append([qs, tag]) 
+            collection_list.append([qs, tag])
+            question_list.append(question) 
         responses[tag] = intent.get('answers')
 
     main_dataframe = pd.DataFrame(collection_list, columns=['sentence', 'tag'])
@@ -159,8 +162,8 @@ def train(vector_model):
                                               output_length, embedding_dim, 
                                               embedding_matrix)
 
-    train = model.fit(x_train, y_train, epochs=550, 
-    # train = model.fit(x_train, y_train, epochs=2, 
+    # train = model.fit(x_train, y_train, epochs=550, 
+    train = model.fit(x_train, y_train, epochs=2, 
                       validation_split=0.2,
                       callbacks=[early_stopping]
                       )
@@ -178,10 +181,20 @@ def train(vector_model):
     plot_confusion_matrix(model, tags_encoder, x_test, y_test)
     plot_train_test_loss(train, test_loss)
     plot_train_test_accuracy(train, test_accuracy)
+    plot_wordcloud(question_list)
 
     dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder)
 
     return model, input_shape, tokenizer, responses
+
+def plot_wordcloud(question_list):
+    text = ' '.join(question_list)
+    wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate(text)
+    plt.figure(figsize=(10, 8))
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis("off")
+    plt.savefig('figure/wordcloud.png')
+    plt.close()
 
 def plot_train_test_accuracy(train, test_accuracy):
     # Get the average training accuracy

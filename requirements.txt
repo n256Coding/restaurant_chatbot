@@ -8,3 +8,4 @@ gensim
 streamlit
 matplotlib
 seaborn
+wordcloud
