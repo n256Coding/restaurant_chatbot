@@ -8,6 +8,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 import tensorflow as tf
 
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 import spacy
 import pandas as pd
@@ -15,13 +16,14 @@ import numpy as np
 import json
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
 import string
 import pickle
 import os
 import shutil
 
 spacy_model = "en_core_web_sm"
-dataset_path = 'data/intents2.backup-3.json'
+dataset_path = 'data/intents.json'
 
 
 def load_spacy_model():
@@ -102,10 +104,7 @@ class ChatBot:
 def train(vector_model):
 
     if os.path.isdir('temp'):
-        model = load_model('temp/model.keras')
-        tokenizer = pickle.load(open('temp/tokenizer.pkl', 'rb'))
-        input_shape = pickle.load(open('temp/input_shape.pkl', 'rb'))
-        responses = pickle.load(open('temp/responses.pkl', 'rb'))
+        model, tokenizer, input_shape, responses = load_temp_data()
 
         return model, input_shape, tokenizer, responses
 
@@ -141,7 +140,7 @@ def train(vector_model):
     tags_encoder.fit(tag_list)
     y = tags_encoder.transform(main_dataframe['tag'])
 
-    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     input_shape = x_train.shape[1]
     vocabulary = len(tokenizer.word_index)
@@ -159,7 +158,9 @@ def train(vector_model):
     print('Dataset preprocessing done')
 
     model = Sequential()
-    model.add(Embedding(vocabulary+1, embedding_dim, weights=[embedding_matrix], input_length=input_shape, trainable=False))
+    model.add(Embedding(vocabulary+1, embedding_dim, 
+                        weights=[embedding_matrix], 
+                        input_length=input_shape, trainable=False))
     
     model.add(LSTM(170, activation="leaky_relu", 
                    recurrent_activation="tanh", 
@@ -172,8 +173,10 @@ def train(vector_model):
                    ))
     model.add(Flatten())
     model.add(Dense(100, activation="relu"))
+    # model.add(tf.keras.layers.Dropout(0.2))
     model.add(BatchNormalization())
     model.add(Dense(50, activation="leaky_relu"))
+    # model.add(tf.keras.layers.Dropout(0.3))
     model.add(BatchNormalization())
     model.add(Dense(output_length, activation='softmax'))
     early_stopping = EarlyStopping(monitor='val_loss', patience=50)
@@ -183,6 +186,7 @@ def train(vector_model):
                   metrics=['accuracy'])
 
     train = model.fit(x_train, y_train, epochs=550, 
+    # train = model.fit(x_train, y_train, epochs=2, 
                       validation_split=0.2,
                       callbacks=[early_stopping]
                       )
@@ -195,17 +199,21 @@ def train(vector_model):
         shutil.rmtree(directory)
     os.makedirs(directory)
 
-    plt.plot(train.history['loss'])
-    plt.plot(train.history['val_loss'])
-    plt.title('Loss difference')
-    plt.savefig('figure/loss_plot.png')
-    plt.close()
+    plot_loss_graph(train)
+    plot_accuracy_graph(train)
+    plot_confusion_matrix(model, tags_encoder, x_test, y_test)
+    dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder)
 
-    plt.plot(train.history['accuracy'])
-    plt.plot(train.history['val_accuracy'])
-    plt.title('Accuracy difference')
-    plt.savefig('figure/acc_plot.png')
-    
+    return model, input_shape, tokenizer, responses
+
+def load_temp_data():
+    model = load_model('temp/model.keras')
+    tokenizer = pickle.load(open('temp/tokenizer.pkl', 'rb'))
+    input_shape = pickle.load(open('temp/input_shape.pkl', 'rb'))
+    responses = pickle.load(open('temp/responses.pkl', 'rb'))
+    return model,tokenizer,input_shape,responses
+
+def dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder):
     os.makedirs(os.path.dirname("temp/tags_encoder.pkl"), exist_ok=True)
     pickle.dump(tags_encoder, open("temp/tags_encoder.pkl", "wb"))
     pickle.dump(tokenizer, open('temp/tokenizer.pkl', 'wb'))
@@ -213,4 +221,31 @@ def train(vector_model):
     pickle.dump(responses, open('temp/responses.pkl', 'wb'))
     model.save('temp/model.keras')
 
-    return model, input_shape, tokenizer, responses
+def plot_loss_graph(train):
+    plt.plot(train.history['loss'])
+    plt.plot(train.history['val_loss'])
+    plt.title('Loss difference')
+    plt.savefig('figure/loss_plot.png')
+    plt.close()
+
+def plot_accuracy_graph(train):
+    plt.plot(train.history['accuracy'])
+    plt.plot(train.history['val_accuracy'])
+    plt.title('Accuracy difference')
+    plt.savefig('figure/acc_plot.png')
+    plt.close()
+
+def plot_confusion_matrix(model, tags_encoder, x_test, y_test):
+    y_pred = model.predict(x_test)
+    y_pred_classes = np.argmax(y_pred, axis=1)
+
+    # Generate the confusion matrix
+    cm = confusion_matrix(y_true=y_test, y_pred=y_pred_classes)
+
+    plt.figure(figsize=(12, 14))
+    sns.heatmap(cm, annot=True, fmt='d', 
+                xticklabels=tags_encoder.classes_, 
+                yticklabels=tags_encoder.classes_)
+    plt.xlabel('Predicted')
+    plt.ylabel('True')
+    plt.savefig('figure/confusion_matrix.png')
