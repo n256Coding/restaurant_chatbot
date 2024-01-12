@@ -104,9 +104,7 @@ class ChatBot:
 def train(vector_model):
 
     if os.path.isdir('temp'):
-        model, tokenizer, input_shape, responses = load_temp_data()
-
-        return model, input_shape, tokenizer, responses
+        return load_temp_data()
 
     intents = json.loads(open(dataset_path).read())
     tokenizer = Tokenizer(num_words=2000)
@@ -157,6 +155,32 @@ def train(vector_model):
 
     print('Dataset preprocessing done')
 
+    model, early_stopping = prepare_ann_model(input_shape, vocabulary, 
+                                              output_length, embedding_dim, 
+                                              embedding_matrix)
+
+    train = model.fit(x_train, y_train, epochs=550, 
+    # train = model.fit(x_train, y_train, epochs=2, 
+                      validation_split=0.2,
+                      callbacks=[early_stopping]
+                      )
+
+    loss, accuracy = model.evaluate(x_test, y_test)
+    print(f'Test accuracy: {accuracy * 100:.2f}%, Test loss: {loss * 100:.2f}')
+
+    directory = "figure"
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
+    os.makedirs(directory)
+
+    plot_loss_graph(train)
+    plot_accuracy_graph(train)
+    plot_confusion_matrix(model, tags_encoder, x_test, y_test)
+    dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder)
+
+    return model, input_shape, tokenizer, responses
+
+def prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, embedding_matrix):
     model = Sequential()
     model.add(Embedding(vocabulary+1, embedding_dim, 
                         weights=[embedding_matrix], 
@@ -184,27 +208,8 @@ def train(vector_model):
     model.compile(loss='sparse_categorical_crossentropy', 
                   optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001), 
                   metrics=['accuracy'])
-
-    train = model.fit(x_train, y_train, epochs=550, 
-    # train = model.fit(x_train, y_train, epochs=2, 
-                      validation_split=0.2,
-                      callbacks=[early_stopping]
-                      )
-
-    loss, accuracy = model.evaluate(x_test, y_test)
-    print(f'Test accuracy: {accuracy * 100:.2f}%, Test loss: {loss * 100:.2f}')
-
-    directory = "figure"
-    if os.path.exists(directory):
-        shutil.rmtree(directory)
-    os.makedirs(directory)
-
-    plot_loss_graph(train)
-    plot_accuracy_graph(train)
-    plot_confusion_matrix(model, tags_encoder, x_test, y_test)
-    dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder)
-
-    return model, input_shape, tokenizer, responses
+                  
+    return model,early_stopping
 
 def load_temp_data():
     model = load_model('temp/model.keras')
