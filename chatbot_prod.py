@@ -162,8 +162,7 @@ def train(vector_model):
                                               output_length, embedding_dim, 
                                               embedding_matrix)
 
-    # train = model.fit(x_train, y_train, epochs=550, 
-    train = model.fit(x_train, y_train, epochs=2, 
+    train = model.fit(x_train, y_train, epochs=550,  
                       validation_split=0.2,
                       callbacks=[early_stopping]
                       )
