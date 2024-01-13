@@ -837,6 +837,64 @@
             "answers": [
                 "Restaurant have a distinct policy. Please visit our website (https://ocean-bay.streamlit.app) for more details."
             ]
-        }
+        },
+		{
+			"tag": "accessibility",
+			"questions": [
+				"Is your restaurant wheelchair accessible?",
+				"Do you have ramps or elevators for accessibility?",
+				"Are there designated parking spaces for people with disabilities?",
+				"Do you provide menu materials in accessible formats (Braille, large print, etc.)?",
+				"Are service animals allowed inside the restaurant?",
+				"Is your seating area spacious for easy maneuverability?",
+				"Do you have staff trained to assist customers with disabilities?",
+				"Are there visual or auditory aids for customers with sensory impairments?",
+				"Is the entrance easily identifiable for people with visual impairments?",
+				"Are there accessible restrooms in your restaurant?",
+				"Do you offer online accessibility features for reservations?",
+				"Is your website designed with accessibility in mind?",
+				"Are there accommodations for customers with allergies or dietary restrictions?",
+				"Do you provide assistance for customers with mobility challenges?",
+				"Is there a designated waiting area for customers with accessibility needs?",
+				"Do you have a policy for accommodating customers with different abilities?",
+				"Is there accessible public transportation near your restaurant?",
+				"Do you offer delivery services for customers with limited mobility?",
+				"Is your staff aware of emergency procedures for assisting customers with disabilities?",
+				"Do you welcome feedback on accessibility to continuously improve your services?",
+				"Are there handrails installed for customers to navigate safely?",
+				"Is the lighting in your restaurant suitable for customers with visual impairments?",
+				"Do you have a sign language interpreter available for deaf or hard-of-hearing customers?",
+				"Are there options for adjustable seating to accommodate various comfort needs?",
+				"Is the flooring in your restaurant even and slip-resistant?",
+				"Do you provide information in multiple languages for diverse customers?",
+				"Is there a lower counter available for wheelchair users?",
+				"Do you have a designated area for customers with sensory sensitivities?",
+				"Is your staff knowledgeable about accessibility features and services?",
+				"Are there grab bars in the restroom for added support?",
+				"Do you offer assistance with carrying trays or plates to tables?",
+				"Is the temperature in your restaurant comfortable for all customers?",
+				"Do you have an accessible entrance for customers using mobility devices?",
+				"Are there visual cues for customers with hearing impairments, such as flashing lights?",
+				"Do you provide information about accessibility on your menu?",
+				"Is there a quiet area for customers who need a calm environment?",
+				"Do you offer large-print or high-contrast menus?",
+				"Is there a Braille menu available for customers with visual impairments?",
+				"Do you have a policy for priority seating for customers with accessibility needs?",
+				"Is there a dedicated phone line or email for accessibility-related inquiries?",
+				"Do you have a system for customers to request assistance discreetly?",
+				"Is your staff trained on appropriate language and communication with customers with disabilities?",
+				"Are there clear and easy-to-follow signs throughout the restaurant?",
+				"Do you provide accessible payment options, such as mobile payment or assistance at the register?",
+				"Is there a system for customers to request assistance in an emergency evacuation?",
+				"Do you have a plan for evacuation that includes customers with disabilities?",
+				"Is your outdoor seating area accessible for all customers?",
+				"Do you offer alternatives for customers with dietary restrictions or allergies?",
+				"Is your restaurant designed to minimize noise for customers with sensory sensitivities?",
+				"Are there designated areas for customers with service animals to sit comfortably?"
+			],
+			"answers": [
+				"Restaurant have all kind of accessibility facility. Please visit our website (https://ocean-bay.streamlit.app) for more details."
+			]
+		}
     ]
 }
