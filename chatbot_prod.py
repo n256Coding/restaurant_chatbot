@@ -27,40 +27,6 @@ from PIL import Image
 spacy_model = "en_core_web_sm"
 dataset_path = 'data/intents.json'
 
-
-def load_spacy_model():
-    if not spacy.util.is_package(spacy_model):
-        spacy.cli.download(spacy_model)
-
-    return spacy.load(spacy_model)
-
-def get_lemmatized(model, sentence):
-    doc = model(sentence)
-
-    lemmatized = [token.lemma_ for token in doc]
-    return ' '.join(lemmatized)
-
-def best_match(question, answers, nlp_model):
-    question_words = set(question.lower().split())
-    lemma_answers = [get_lemmatized(nlp_model, answer) for answer in answers]
-    best_answer = None
-    max_matches = 0
-
-    for answer in lemma_answers:
-        answer_words = set(answer.lower().split())
-        matches = len(question_words & answer_words)
-
-        if matches > max_matches:
-            max_matches = matches
-            best_answer = answer
-
-    if best_answer:            
-        answer_index = lemma_answers.index(best_answer)
-        return answers[answer_index]
-    else:
-        # respond with the generic answer
-        return answers[0]
-
 class ChatBot:
 
     def __init__(self, vector_model, model = None, input_shape = None, tokenizer = None, responses = None) -> None:
@@ -105,21 +71,153 @@ class ChatBot:
 
 def train(vector_model):
 
+    # if temp directory exists means the model has already trained and stored. 
+    # So skip re-training and load the existing one
     if os.path.isdir('temp'):
         print('Loading the model from cache')
-        return load_temp_data()
+        return load_model_data()
 
-    intents = json.loads(open(dataset_path).read())
     tokenizer = Tokenizer(num_words=2000)
     tags_encoder = LabelEncoder()
     nlp = load_spacy_model()
-
     collection_list = []
     responses = {}
     question_list = []
 
-    print('Preprocessing the dataset ..')
+    print('Processing the dataset ..')
 
+    main_dataframe = load_and_preprocess(dataset_path, nlp, collection_list, responses, question_list)
+
+    X = get_input_feature_vectors(tokenizer, main_dataframe)
+    y = get_encoded_labels(tags_encoder, main_dataframe)
+
+    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    input_shape = x_train.shape[1]
+    vocabulary = len(tokenizer.word_index)
+    output_length = tags_encoder.classes_.shape[0]
+    word_index = tokenizer.word_index
+    vocab_size = len(word_index) + 1
+    embedding_dim = 300
+
+    weight_matrix = get_weight_matrix_from_fasttext(vector_model, word_index, vocab_size, embedding_dim)
+
+    print('Done processing the dataset')
+
+    model = prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, weight_matrix)
+
+    early_stopping = EarlyStopping(monitor='val_loss', patience=50)
+    train = model.fit(x_train, y_train, epochs=2,  
+                      validation_split=0.2,
+                      callbacks=[early_stopping]
+                      )
+
+    print('Evaluating with test dataset..')
+    test_loss, test_accuracy = model.evaluate(x_test, y_test)
+    print(f'Test accuracy: {test_accuracy * 100:.2f}%, Test loss: {test_loss * 100:.2f}')
+
+    # Plotting various figures
+    clean_old_figures()
+    plot_loss_variation_graph(train)
+    plot_accuracy_variation_graph(train)
+    plot_confusion_matrix(model, tags_encoder, x_test, y_test)
+    plot_train_test_loss(train, test_loss)
+    plot_train_test_accuracy(train, test_accuracy)
+    plot_wordcloud(question_list)
+
+    dump_model_data(model, tokenizer, input_shape, responses, tags_encoder)
+
+    return model, input_shape, tokenizer, responses
+
+def prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, weight_matrix):
+    model = Sequential()
+    model.add(Embedding(vocabulary+1, embedding_dim, weights=[weight_matrix], 
+                        input_length=input_shape, trainable=False))
+    
+    model.add(LSTM(170, activation="leaky_relu", 
+                   recurrent_activation="tanh", 
+                   return_sequences=True))
+    model.add(BatchNormalization())
+    model.add(LSTM(85, activation="relu", 
+                   recurrent_activation="sigmoid", 
+                   dropout=0.3,
+                   recurrent_dropout=0.2,
+                   ))
+    model.add(Flatten())
+    model.add(Dense(100, activation="relu"))
+    model.add(tf.keras.layers.Dropout(0.2))
+    model.add(BatchNormalization())
+    model.add(Dense(50, activation="leaky_relu"))
+    model.add(tf.keras.layers.Dropout(0.3))
+    model.add(BatchNormalization())
+    model.add(Dense(output_length, activation='softmax'))
+
+    model.compile(loss='sparse_categorical_crossentropy', 
+                  optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001), 
+                  metrics=['accuracy'])
+                  
+    return model
+
+def clean_old_figures():
+    directory = "figure"
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
+    os.makedirs(directory)
+
+def get_weight_matrix_from_fasttext(vector_model, word_index, vocab_size, embedding_dim):
+    embedding_matrix = np.zeros((vocab_size, embedding_dim))
+    for word, i in word_index.items():
+        if word in vector_model:
+            embedding_matrix[i] = vector_model[word]
+    return embedding_matrix
+
+def load_spacy_model():
+    if not spacy.util.is_package(spacy_model):
+        spacy.cli.download(spacy_model)
+
+    return spacy.load(spacy_model)
+
+def get_lemmatized(model, sentence):
+    doc = model(sentence)
+
+    lemmatized = [token.lemma_ for token in doc]
+    return ' '.join(lemmatized)
+
+def best_match(question, answers, nlp_model):
+    question_words = set(question.lower().split())
+    lemma_answers = [get_lemmatized(nlp_model, answer) for answer in answers]
+    best_answer = None
+    max_matches = 0
+
+    for answer in lemma_answers:
+        answer_words = set(answer.lower().split())
+        matches = len(question_words & answer_words)
+
+        if matches > max_matches:
+            max_matches = matches
+            best_answer = answer
+
+    if best_answer:            
+        answer_index = lemma_answers.index(best_answer)
+        return answers[answer_index]
+    else:
+        # respond with the generic answer
+        return answers[0]
+
+def get_encoded_labels(tags_encoder, main_dataframe):
+    tag_list = main_dataframe['tag'].unique().tolist()
+    tags_encoder.fit(tag_list)
+
+    return tags_encoder.transform(main_dataframe['tag'])
+
+def get_input_feature_vectors(tokenizer, main_dataframe):
+    tokenizer.fit_on_texts(main_dataframe['sentence'])
+    X = tokenizer.texts_to_sequences(main_dataframe['sentence'])
+
+    return pad_sequences(X)
+
+def load_and_preprocess(dataset_path, nlp, collection_list, responses, question_list):
+    intents = json.loads(open(dataset_path).read())
     intent_list = intents.get('intents')
     for intent in intent_list:
         questions = intent.get('questions')
@@ -135,58 +233,7 @@ def train(vector_model):
     main_dataframe['sentence'] = main_dataframe['sentence'].apply(lambda wrd: [ltrs.lower() for ltrs in wrd if ltrs not in string.punctuation])
     main_dataframe['sentence'] = main_dataframe['sentence'].apply(lambda wrd: ''.join(wrd))
 
-    tokenizer.fit_on_texts(main_dataframe['sentence'])
-    X = tokenizer.texts_to_sequences(main_dataframe['sentence'])
-    X = pad_sequences(X)
-
-    tag_list = main_dataframe['tag'].unique().tolist()
-    tags_encoder.fit(tag_list)
-    y = tags_encoder.transform(main_dataframe['tag'])
-
-    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-    input_shape = x_train.shape[1]
-    vocabulary = len(tokenizer.word_index)
-    output_length = tags_encoder.classes_.shape[0]
-
-    word_index = tokenizer.word_index
-    vocab_size = len(word_index) + 1
-    embedding_dim = 300
-
-    embedding_matrix = np.zeros((vocab_size, embedding_dim))
-    for word, i in word_index.items():
-        if word in vector_model:
-            embedding_matrix[i] = vector_model[word]
-
-    print('Dataset preprocessing done')
-
-    model, early_stopping = prepare_ann_model(input_shape, vocabulary, 
-                                              output_length, embedding_dim, 
-                                              embedding_matrix)
-
-    train = model.fit(x_train, y_train, epochs=2,  
-                      validation_split=0.2,
-                      callbacks=[early_stopping]
-                      )
-
-    test_loss, test_accuracy = model.evaluate(x_test, y_test)
-    print(f'Test accuracy: {test_accuracy * 100:.2f}%, Test loss: {test_loss * 100:.2f}')
-
-    directory = "figure"
-    if os.path.exists(directory):
-        shutil.rmtree(directory)
-    os.makedirs(directory)
-
-    plot_loss_variation_graph(train)
-    plot_accuracy_variation_graph(train)
-    plot_confusion_matrix(model, tags_encoder, x_test, y_test)
-    plot_train_test_loss(train, test_loss)
-    plot_train_test_accuracy(train, test_accuracy)
-    plot_wordcloud(question_list)
-
-    dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder)
-
-    return model, input_shape, tokenizer, responses
+    return main_dataframe
 
 def plot_wordcloud(question_list):
 
@@ -226,45 +273,15 @@ def plot_train_test_loss(train, test_loss):
     plt.savefig('figure/train_test_loss_diff.png')
     plt.close()
 
-def prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, embedding_matrix):
-    model = Sequential()
-    model.add(Embedding(vocabulary+1, embedding_dim, 
-                        weights=[embedding_matrix], 
-                        input_length=input_shape, trainable=False))
-    
-    model.add(LSTM(170, activation="leaky_relu", 
-                   recurrent_activation="tanh", 
-                   return_sequences=True))
-    model.add(BatchNormalization())
-    model.add(LSTM(85, activation="relu", 
-                   recurrent_activation="sigmoid", 
-                   dropout=0.3,
-                   recurrent_dropout=0.2,
-                   ))
-    model.add(Flatten())
-    model.add(Dense(100, activation="relu"))
-    model.add(tf.keras.layers.Dropout(0.2))
-    model.add(BatchNormalization())
-    model.add(Dense(50, activation="leaky_relu"))
-    model.add(tf.keras.layers.Dropout(0.3))
-    model.add(BatchNormalization())
-    model.add(Dense(output_length, activation='softmax'))
-    early_stopping = EarlyStopping(monitor='val_loss', patience=50)
-
-    model.compile(loss='sparse_categorical_crossentropy', 
-                  optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001), 
-                  metrics=['accuracy'])
-                  
-    return model,early_stopping
-
-def load_temp_data():
+def load_model_data():
     model = load_model('temp/model.keras')
     tokenizer = pickle.load(open('temp/tokenizer.pkl', 'rb'))
     input_shape = pickle.load(open('temp/input_shape.pkl', 'rb'))
     responses = pickle.load(open('temp/responses.pkl', 'rb'))
+
     return model,tokenizer,input_shape,responses
 
-def dump_temp_data(model, tokenizer, input_shape, responses, tags_encoder):
+def dump_model_data(model, tokenizer, input_shape, responses, tags_encoder):
     os.makedirs(os.path.dirname("temp/tags_encoder.pkl"), exist_ok=True)
     pickle.dump(tags_encoder, open("temp/tags_encoder.pkl", "wb"))
     pickle.dump(tokenizer, open('temp/tokenizer.pkl', 'wb'))
