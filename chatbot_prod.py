@@ -21,7 +21,8 @@ import string
 import pickle
 import os
 import shutil
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+from wordcloud import WordCloud
+from PIL import Image
 
 spacy_model = "en_core_web_sm"
 dataset_path = 'data/intents.json'
@@ -105,6 +106,7 @@ class ChatBot:
 def train(vector_model):
 
     if os.path.isdir('temp'):
+        print('Loading the model from cache')
         return load_temp_data()
 
     intents = json.loads(open(dataset_path).read())
@@ -162,7 +164,7 @@ def train(vector_model):
                                               output_length, embedding_dim, 
                                               embedding_matrix)
 
-    train = model.fit(x_train, y_train, epochs=550,  
+    train = model.fit(x_train, y_train, epochs=2,  
                       validation_split=0.2,
                       callbacks=[early_stopping]
                       )
@@ -187,9 +189,16 @@ def train(vector_model):
     return model, input_shape, tokenizer, responses
 
 def plot_wordcloud(question_list):
+
+    # wine_mask = np.array(Image.open("data/restaurent_icon-whitebg.png"))
+    image_mask = np.array(Image.open("data/restaurent_icon.png"))
+
     text = ' '.join(question_list)
-    wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate(text)
-    plt.figure(figsize=(10, 8))
+    wordcloud = WordCloud(background_color="white", max_words=2000, mask=image_mask, 
+                          contour_width=1, contour_color='green')
+    wordcloud.generate(text)
+
+    plt.figure(figsize=(40, 36))
     plt.imshow(wordcloud, interpolation="bilinear")
     plt.axis("off")
     plt.savefig('figure/wordcloud.png')
