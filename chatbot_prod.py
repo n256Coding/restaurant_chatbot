@@ -107,7 +107,7 @@ def train(vector_model):
     model = prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, weight_matrix)
 
     early_stopping = EarlyStopping(monitor='val_loss', patience=50)
-    train = model.fit(x_train, y_train, epochs=2,  
+    train = model.fit(x_train, y_train, epochs=550,  
                       validation_split=0.2,
                       callbacks=[early_stopping]
                       )
@@ -124,6 +124,7 @@ def train(vector_model):
     plot_train_test_loss(train, test_loss)
     plot_train_test_accuracy(train, test_accuracy)
     plot_wordcloud(question_list)
+    print(model.summary())
 
     dump_model_data(model, tokenizer, input_shape, responses, tags_encoder)
 
@@ -237,8 +238,7 @@ def load_and_preprocess(dataset_path, nlp, collection_list, responses, question_
 
 def plot_wordcloud(question_list):
 
-    # wine_mask = np.array(Image.open("data/restaurent_icon-whitebg.png"))
-    image_mask = np.array(Image.open("data/restaurent_icon.png"))
+    image_mask = np.array(Image.open("data/restaurent_icon-whitebg.png"))
 
     text = ' '.join(question_list)
     wordcloud = WordCloud(background_color="white", max_words=2000, mask=image_mask, 
