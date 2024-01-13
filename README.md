@@ -26,7 +26,7 @@ https://ocean-bay.streamlit.app
     cd restaurant_chatbot
     ```
 - Download the fasttext model from following location (Skip this step if you have already done)
-    https://ssu-my.sharepoint.com/:u:/g/personal/2senan77_solent_ac_uk/EdtaClmEOeFElK4Jb_qAC00BIFrjuF1JCK5kz8n-tEnLww?e=7v738K
+    https://ssu-my.sharepoint.com/:u:/g/personal/2senan77_solent_ac_uk/ESH4QmYhUVJOkZEBt8qYQsEBo8ACty-K0Zdzxa5gvuGORw?e=Zmiz2l
     and move to the `data` folder inside the project
 - Run the application
     ```

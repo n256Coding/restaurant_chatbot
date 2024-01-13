@@ -10,7 +10,7 @@ def init_training(_vector_model):
 
 @st.cache_data
 def load_vector_model():
-    return pickle.load(open('data/fasttext2.pkl', 'rb'))
+    return pickle.load(open('data/fasttext.pkl', 'rb'))
 
 vector_model = load_vector_model()
 model, input_shape, tokenizer, responses = init_training(vector_model)
@@ -36,7 +36,7 @@ if prompt := st.chat_input("How can I help you?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    response = chatbt.predict_class(prompt)
+    response = chatbt.chat_query(prompt)
 
     if response == "Sorry! I didn't catch that.":
         print(f'FAILURE QUESTION: {prompt}')

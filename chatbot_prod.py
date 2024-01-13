@@ -146,10 +146,8 @@ def prepare_ann_model(input_shape, vocabulary, output_length, embedding_dim, wei
                    ))
     model.add(Flatten())
     model.add(Dense(100, activation="relu"))
-    model.add(tf.keras.layers.Dropout(0.2))
     model.add(BatchNormalization())
     model.add(Dense(50, activation="leaky_relu"))
-    model.add(tf.keras.layers.Dropout(0.3))
     model.add(BatchNormalization())
     model.add(Dense(output_length, activation='softmax'))
 
@@ -238,7 +236,7 @@ def load_and_preprocess(dataset_path, nlp, collection_list, responses, question_
 
 def plot_wordcloud(question_list):
 
-    image_mask = np.array(Image.open("data/restaurent_icon-whitebg.png"))
+    image_mask = np.array(Image.open("data/restaurent_icon.png"))
 
     text = ' '.join(question_list)
     wordcloud = WordCloud(background_color="white", max_words=2000, mask=image_mask, 
@@ -279,7 +277,7 @@ def load_model_data():
     input_shape = pickle.load(open('temp/input_shape.pkl', 'rb'))
     responses = pickle.load(open('temp/responses.pkl', 'rb'))
 
-    return model,tokenizer,input_shape,responses
+    return model, input_shape, tokenizer, responses
 
 def dump_model_data(model, tokenizer, input_shape, responses, tags_encoder):
     os.makedirs(os.path.dirname("temp/tags_encoder.pkl"), exist_ok=True)
@@ -290,16 +288,22 @@ def dump_model_data(model, tokenizer, input_shape, responses, tags_encoder):
     model.save('temp/model.keras')
 
 def plot_loss_variation_graph(train):
-    plt.plot(train.history['loss'])
-    plt.plot(train.history['val_loss'])
-    plt.title('Loss difference')
+    plt.plot(train.history['loss'], label="Training Loss")
+    plt.plot(train.history['val_loss'], label="Validation Loss")
+    plt.legend()
+    plt.title('Training/Validation Loss Variation in Epochs')
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
     plt.savefig('figure/loss_plot.png')
     plt.close()
 
 def plot_accuracy_variation_graph(train):
-    plt.plot(train.history['accuracy'])
-    plt.plot(train.history['val_accuracy'])
-    plt.title('Accuracy difference')
+    plt.plot(train.history['accuracy'], label="Training Accuracy")
+    plt.plot(train.history['val_accuracy'], label="Validation Accuracy")
+    plt.legend()
+    plt.title('Training/Validation Accuracy Variation in Epochs')
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
     plt.savefig('figure/acc_plot.png')
     plt.close()
 
@@ -310,10 +314,11 @@ def plot_confusion_matrix(model, tags_encoder, x_test, y_test):
     # Generate the confusion matrix
     cm = confusion_matrix(y_true=y_test, y_pred=y_pred_classes)
 
-    plt.figure(figsize=(12, 14))
+    plt.figure(figsize=(12, 12))
     sns.heatmap(cm, annot=True, fmt='d', 
                 xticklabels=tags_encoder.classes_, 
                 yticklabels=tags_encoder.classes_)
+    plt.subplots_adjust(left=0.2, right=1, top=0.9, bottom=0.2)
     plt.xlabel('Predicted')
     plt.ylabel('True')
     plt.savefig('figure/confusion_matrix.png')
