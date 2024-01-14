@@ -97,7 +97,8 @@
                 "Can I speak to anyone?",
                 "Can I speak to a human instead of this?",
                 "Can you direct me to a human contact?",
-                "Can I talk to a person?"
+                "Can I talk to a person?",
+                "I want to complain about"
             ],
             "answers": [
                 "Feel free chat with me for any question about the restaurant. Further, you can reach us through our hotline: 023 8077 7777 and the website: https://ocean-bay.streamlit.app"
@@ -614,7 +615,9 @@
                 "What's the policy for last minute changes to a group reservation?",
                 "Can you accommodate groups with different dietary preferences?",
                 "Is there a special menu for children in group reservations?",
-                "Do you offer any group exclusive promotions or discounts?"
+                "Do you offer any group exclusive promotions or discounts?",
+                "Can I book ",
+                "How many people can you serve?"
             ],
             "answers": [
                 "Restaurant offer the facility for reservation, we recommend making reservations in advance to ensure we can accommodate everyone comfortably. Contact our reservation team to discuss the details and offers."
